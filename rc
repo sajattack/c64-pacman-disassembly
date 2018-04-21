@@ -1,0 +1,4505 @@
+# r2 rdb project file
+# flags
+fs *
+f pc 1 0x00000001 
+fs *
+f a 1 0x00000000 
+fs *
+f x 1 0x00000000 
+fs *
+f y 1 0x00000000 
+fs *
+f flags 1 0x00000000 
+fs *
+f var.sp 1 0x000000ff 
+fs functions
+f entrypoint 553 0x00008394 
+fs *
+f fcn.ioinit 1 0x0000fda3 
+fs functions
+f fcn.sta_and_inc_ptr_2 9 0x0000863f 
+f fcn.load_and_inc_ptr1 2 0x00008636 
+f fcn.inc_ptr_1 7 0x00008638 
+f fcn.set_volume_and_decay 16 0x0000910d 
+f fcn.color_init 41 0x0000913a 
+f fcn.screen_init 30 0x00009163 
+f fcn.screen_copy_to_ram_4400 30 0x00009181 
+f fcn.screen_copy_to_ram_4800 30 0x0000919f 
+f fcn.init_gfx_settings 27 0x000085bd 
+f fcn.write_null_1_up_0_score 27 0x000085d8 
+f fcn.write_1_up_to_game_screen 16 0x00008de3 
+f fcn.sety_12_setx_34 0 0x00008805 
+f fcn.sta_c0_inc_c1_sety_12_setx_34 9 0x00008801 
+f fcn.blink_power_ups 11 0x0000959f 
+f fcn.draw_bonus 112 0x0000967e 
+f fcn.ghost_position_related_maybe 55 0x000095e0 
+f fcn.buncha_randomness_and_lut_stuff_and_triangle 269 0x00009845 
+f fcn.more_sound_stuff 186 0x00008e84 
+f fcn.write_nulls_to_screen 11 0x00008da2 
+f fcn.restore_screen_from_ram_4400 249 0x00008a78 
+f loc.player_dead 7 0x00008d52 
+f fcn.write_2_up_to_game_screen 16 0x00008dcb 
+f fcn.write_nulls_to_ram 29 0x0000911d 
+f fcn.update_lives_display 52 0x00008d59 
+f fcn.copy_stuff 61 0x00008602 
+f fcn.draw_screen 1672 0x0000864f 
+f fcn.write_1_up_2_up_0_score 15 0x000085f3 
+f fcn.read_jiffy_and_write_to_screen 70 0x00008dad 
+f fcn.set_sprite_direction_2 154 0x000096ee 
+f fcn.calculate_score_maybe 132 0x000093e9 
+f fcn.blue_ghosts_mode_maybe 1540 0x00008f9b 
+f fcn.some_rom_music 42 0x000090e3 
+f fcn.math_and_voice_1 60 0x00008c0d 
+f fcn.read_jiffy_update_6b_die 19 0x00008c49 
+f fcn.update_pacman 455 0x000091bd 
+f fcn.pacman_pellet_collision 101 0x00009384 
+f fcn.timed_cmp 79 0x00009617 
+f fcn.voice_2_triangle 122 0x000094de 
+f fcn.random_sprite_movement 128 0x000099e9 
+f fcn.set_sprite_direction 49 0x000097f5 
+f fcn.update_screen_score_and_lives 113 0x0000946d 
+f fcn.sprite_colors_and_sound_2 130 0x0000908b 
+f fcn.sprite_movement_and_animation 151 0x00009952 
+f fcn.pacman_collision_draw_points 93 0x00008f3e 
+f fcn.draw_power_ups 54 0x000095aa 
+f fcn.cmp_game_screen_rows 34 0x00008b71 
+f fcn.check_col_and_stuff 69 0x00008df3 
+f fcn.ready 123 0x00008cd7 
+f fcn.sprite_movement_and_animation_loop 1527 0x00008d8d 
+f fcn.lives_related 28 0x00008e49 
+f fcn.sprite_direction_compare_loop 15 0x00008b93 
+f fcn.sprite_direction_compare 107 0x00008ba2 
+f fcn.copy_some_rom_data_to_0x87_x 18 0x00008e72 
+f fcn.init_lives_score_and_unknown_vars 17 0x00008e38 
+f fcn.zero_score_and_other_vars 13 0x00008e65 
+fs *
+f fcn.ramtas 1 0x0000fd50 
+fs *
+f fcn.restor 1 0x0000fd15 
+fs *
+f fcn.cint 1 0x0000ff5b 
+fs *
+f loop.83c5 1 0x000083c5 
+fs *
+f loop.83c5.end 1 0x00008401 
+fs *
+f fcn.ptr1_lo_shr_4 7 0x00008648 
+fs *
+f loop.8415 1 0x00008415 
+fs *
+f loop.8415.end 1 0x00008426 
+fs *
+f var.pr 1 0x00000001 
+fs *
+f var.sp0x.mirror 1 0x0000d100 
+fs *
+f var.bitmap_end 1 0x00002400 
+fs *
+f var.char_end 1 0x00002c00 
+fs *
+f var.bitmap_start 1000 0x00002000 
+fs *
+f var.char_start 1000 0x00002800 
+fs *
+f loop.screen.8436 1 0x00008436 
+fs *
+f loop.screen.8436.end 1 0x0000844b 
+fs *
+f sym.rom_data_arr_count_thing 1 0x00009dc6 
+fs *
+f var.cinv_lo 1 0x00000314 
+fs *
+f var.cinv_hi 1 0x00000315 
+fs *
+f fcn.interrupt 1 0x00008583 
+fs *
+f var.color_ram_start 1 0x0000d800 
+fs *
+f sym.VIC_SP_SP_COL 1 0x0000d01e 
+fs *
+f sym.VIC_SP_BG_COL 1 0x0000d01f 
+fs *
+f loc.start_game 1 0x0000854f 
+fs *
+f var.lstx 1 0x000000c5 
+fs *
+f loc.read_key_in_menu 1 0x0000851a 
+fs *
+f loc.set_num_players 1 0x0000855c 
+fs *
+f loc.set_difficulty 1 0x00008569 
+fs *
+f var.num_players 1 0x00000008 
+fs *
+f fcn.kernal_interrupt 1 0x0000ea7e 
+fs *
+f start_of_screen_in_menu 1 0x00000c00 
+fs *
+f var.start_of_screen_in_menu 1 0x00000c00 
+fs *
+f var.start_of_screen_in_game 1 0x00000400 
+fs *
+f loc.rts 1 0x00008c0c 
+fs functions
+f loc.update_all_the_things 3284 0x0000880a 
+fs *
+f loc.rts_2 1 0x000087f5 
+fs functions
+f var.sal 1 0x000000ac 
+fs *
+f var.lives 1 0x0000001a 
+fs *
+f sym.ghost_colors 4 0x00009c32 
+fs *
+f loc.rts_3 1 0x000093e8 
+fs *
+f loc.rts_4 1 0x00009383 
+fs *
+f var.direction 1 0x00000004 
+fs functions
+f fcn.sprite_direction_compare_2 167 0x00009a69 
+f fcn.voice_2_sawtooth 83 0x0000901e 
+f fcn.cmp_8a 24 0x00009666 
+f fcn.voice_2_sawtooth_2 156 0x00009071 
+f fcn.sprite_direction_down 36 0x000097d1 
+f fcn.sprite_direction_up_or_down 31 0x00009826 
+fs *
+f var.score 1 0x00000020 
+fs *
+f var.difficulty 1 0x0000000a 
+fs *
+f var.sprite_direction 1 0x0000004b 
+fs symbols
+f sym.VIC_SPR0_X 2 0x0000d000 
+f sym.VIC_SPR0_Y 2 0x0000d001 
+f sym.VIC_SPR1_X 2 0x0000d002 
+f sym.VIC_SPR1_Y 2 0x0000d003 
+f sym.VIC_SPR2_X 2 0x0000d004 
+f sym.VIC_SPR2_Y 2 0x0000d005 
+f sym.VIC_SPR3_X 2 0x0000d006 
+f sym.VIC_SPR3_Y 2 0x0000d007 
+f sym.VIC_SPR4_X 2 0x0000d008 
+f sym.VIC_SPR4_Y 2 0x0000d009 
+f sym.VIC_SPR5_X 2 0x0000d00a 
+f sym.VIC_SPR5_Y 2 0x0000d00b 
+f sym.VIC_SPR6_X 2 0x0000d00c 
+f sym.VIC_SPR6_Y 2 0x0000d00d 
+f sym.VIC_SPR7_X 2 0x0000d00e 
+f sym.VIC_SPR7_Y 2 0x0000d00f 
+f sym.VIC_SPR_HI_X 2 0x0000d010 
+f sym.VIC_SPR_ENA 2 0x0000d015 
+f sym.VIC_SPR_EXP_Y 2 0x0000d017 
+f sym.VIC_SPR_EXP_X 2 0x0000d01d 
+f sym.VIC_SPR_MCOLOR 2 0x0000d01c 
+f sym.VIC_SPR_BG_PRIO 2 0x0000d01b 
+f sym.VIC_SPR_MCOLOR0 2 0x0000d025 
+f sym.VIC_SPR_MCOLOR1 2 0x0000d026 
+f sym.VIC_SPR0_COLOR 2 0x0000d027 
+f sym.VIC_SPR1_COLOR 2 0x0000d028 
+f sym.VIC_SPR2_COLOR 2 0x0000d029 
+f sym.VIC_SPR3_COLOR 2 0x0000d02a 
+f sym.VIC_SPR4_COLOR 2 0x0000d02b 
+f sym.VIC_SPR5_COLOR 2 0x0000d02c 
+f sym.VIC_SPR6_COLOR 2 0x0000d02d 
+f sym.VIC_SPR7_COLOR 2 0x0000d02e 
+f sym.VIC_CTRL1 2 0x0000d011 
+f sym.VIC_CTRL2 2 0x0000d016 
+f sym.VIC_HLINE 2 0x0000d012 
+f sym.VIC_LPEN_X 2 0x0000d013 
+f sym.VIC_LPEN_Y 2 0x0000d014 
+f sym.VIC_VIDEO_ADR 2 0x0000d018 
+f sym.VIC_IRR 2 0x0000d019 
+f sym.VIC_IMR 2 0x0000d01a 
+f sym.VIC_BORDERCOLOR 2 0x0000d020 
+f sym.VIC_BG_COLOR0 2 0x0000d021 
+f sym.VIC_BG_COLOR1 2 0x0000d022 
+f sym.VIC_BG_COLOR2 2 0x0000d023 
+f sym.VIC_BG_COLOR3 2 0x0000d024 
+f sym.VIC_KBD_128 2 0x0000d02f 
+f sym.VIC_CLK_128 2 0x0000d030 
+f sym.SID_S1Lo 2 0x0000d400 
+f sym.SID_S1Hi 2 0x0000d401 
+f sym.SID_PB1Lo 2 0x0000d402 
+f sym.SID_PB1Hi 2 0x0000d403 
+f sym.SID_Ctl1 2 0x0000d404 
+f sym.SID_AD1 2 0x0000d405 
+f sym.SID_SUR1 2 0x0000d406 
+f sym.SID_S2Lo 2 0x0000d407 
+f sym.SID_S2Hi 2 0x0000d408 
+f sym.SID_PB2Lo 2 0x0000d409 
+f sym.SID_PB2Hi 2 0x0000d40a 
+f sym.SID_Ctl2 2 0x0000d40b 
+f sym.SID_AD2 2 0x0000d40c 
+f sym.SID_SUR2 2 0x0000d40d 
+f sym.SID_S3Lo 2 0x0000d40e 
+f sym.SID_S3Hi 2 0x0000d40f 
+f sym.SID_PB3Lo 2 0x0000d410 
+f sym.SID_PB3Hi 2 0x0000d411 
+f sym.SID_Ctl3 2 0x0000d412 
+f sym.SID_AD3 2 0x0000d413 
+f sym.SID_SUR3 2 0x0000d414 
+f sym.SID_FltLo 2 0x0000d415 
+f sym.SID_FltHi 2 0x0000d416 
+f sym.SID_FltCtl 2 0x0000d417 
+f sym.SID_Amp 2 0x0000d418 
+f sym.SID_ADConv1 2 0x0000d419 
+f sym.SID_ADConv2 2 0x0000d41a 
+f sym.SID_RANDOM 2 0x0000d41b 
+f sym.SID_Read3 2 0x0000d41c 
+f sym.VDC_INDEX 2 0x0000d600 
+f sym.VDC_DATA 2 0x0000d601 
+f sym.CIA1_PRA 2 0x0000dc00 
+f sym.CIA1_PRB 2 0x0000dc01 
+f sym.CIA1_DDRA 2 0x0000dc02 
+f sym.CIA1_DDRB 2 0x0000dc03 
+f sym.CIA1_TOD10 2 0x0000dc08 
+f sym.CIA1_TODSEC 2 0x0000dc09 
+f sym.CIA1_TODMIN 2 0x0000dc0a 
+f sym.CIA1_TODHR 2 0x0000dc0b 
+f sym.CIA1_ICR 2 0x0000dc0d 
+f sym.CIA1_CRA 2 0x0000dc0e 
+f sym.CIA1_CRB 2 0x0000dc0f 
+f sym.CIA2_PRA 2 0x0000dd00 
+f sym.CIA2_PRB 2 0x0000dd01 
+f sym.CIA2_DDRA 2 0x0000dd02 
+f sym.CIA2_DDRB 2 0x0000dd03 
+f sym.CIA2_TOD10 2 0x0000dd08 
+f sym.CIA2_TODSEC 2 0x0000dd09 
+f sym.CIA2_TODMIN 2 0x0000dd0a 
+f sym.CIA2_TODHR 2 0x0000dd0b 
+f sym.CIA2_ICR 2 0x0000dd0d 
+f sym.CIA2_CRA 2 0x0000dd0e 
+f sym.CIA2_CRB 2 0x0000dd0f 
+fs *
+f sym.JIFFY 1 0x000000a2 
+fs *
+f sym.sprite_bitmaps 1 0x00009b10 
+fs *
+f sym.3a 1 0x00009bdd 
+fs *
+f str.player_game 11 0x00009e58 
+fs *
+f str.press_f3_for 12 0x00009e37 
+fs *
+f str.change_difficulty 17 0x00009e63 
+fs *
+f str.press_f5_to 11 0x00009e43 
+fs *
+f str.play_game 9 0x00009e4f 
+fs *
+f str.press_f1_to 11 0x00009e2b 
+fs *
+f str.copyright_atari_1983 13 0x00009e1e 
+fs *
+f sym.map_data 415 0x000081f0 
+fs *
+f var.ptr1_lo 1 0x0000002a 
+fs *
+f var.ptr1_hi 1 0x0000002b 
+fs *
+f var.ptr2_lo 1 0x0000002c 
+fs *
+f var.ptr2_hi 1 0x0000002d 
+fs *
+f sym.level_symbols 12 0x00009d72 
+fs functions
+f fcn.sprite_direction_left_right_or_up 40 0x00009788 
+fs *
+f loc.left 1 0x000097a2 
+fs *
+f loc.up 1 0x000097a9 
+fs *
+f loc.sta_4b 1 0x000097ab 
+fs functions
+f fcn.sprite_direction_left_or_right 20 0x000097bd 
+fs *
+f sym.4c_ptrs 8 0x00009d32 
+fs *
+f sym.pac_man_bitmap_ptrs 10 0x00009bb5 
+fs *
+f var.pacman_position 1 0x0000003c 
+fs *
+f sym.pac_man_bitmap_ptrs.end 1 0x00009bbf 
+fs *
+f loc.right 1 0x0000979e 
+fs *
+f var.ghost_positions 1 0x0000006c 
+fs *
+f var.sp_sp_col 1 0x000000bf 
+# eval
+"e anal.a2f = false"
+"e anal.afterjmp = true"
+"e anal.arch = 6502"
+"e anal.armthumb = false"
+"e anal.autoname = true"
+"e anal.bb.align = 0x10"
+"e anal.bb.maxsize = 1024"
+"e anal.bb.split = true"
+"e anal.brokenrefs = false"
+"e anal.calls = false"
+"e anal.cjmpref = false"
+"e anal.cpp.abi = itanium"
+"e anal.cpu = x86"
+"e anal.datarefs = false"
+"e anal.depth = 64"
+"e anal.eobjmp = false"
+"e anal.esil = false"
+"e anal.fcnprefix = fcn"
+"e anal.from = 0xffffffffffffffff"
+"e anal.gp = 0"
+"e anal.gp2 = 0"
+"e anal.hasnext = false"
+"e anal.hpskip = false"
+"e anal.in = io.maps"
+"e anal.jmpabove = true"
+"e anal.jmpref = true"
+"e anal.jmptbl = false"
+"e anal.limits = false"
+"e anal.maxreflines = 0"
+"e anal.noncode = false"
+"e anal.nopskip = true"
+"e anal.prelude = "
+"e anal.ptrdepth = 3"
+"e anal.pushret = false"
+"e anal.recont = false"
+"e anal.refstr = false"
+"e anal.rnr = false"
+"e anal.sleep = 0"
+"e anal.split = true"
+"e anal.strings = false"
+"e anal.timeout = 0"
+"e anal.to = 0xffffffffffffffff"
+"e anal.vars = true"
+"e anal.vinfun = true"
+"e anal.vinfunrange = false"
+"e asm.anal = false"
+"e asm.arch = 6502"
+"e asm.armimm = 0"
+"e asm.assembler = "
+"e asm.bbline = false"
+"e asm.bits = 8"
+"e asm.bytes = true"
+"e asm.bytespace = false"
+"e asm.calls = false"
+"e asm.capitalize = false"
+"e asm.cmt.col = 70"
+"e asm.cmt.flgrefs = true"
+"e asm.cmt.fold = false"
+"e asm.cmt.off = nodup"
+"e asm.cmt.patch = false"
+"e asm.cmt.refs = false"
+"e asm.cmt.right = true"
+"e asm.comments = true"
+"e asm.cpu = x86"
+"e asm.cycles = false"
+"e asm.cyclespace = false"
+"e asm.decode = false"
+"e asm.decoff = false"
+"e asm.demangle = true"
+"e asm.describe = false"
+"e asm.dwarf = true"
+"e asm.dwarf.abspath = false"
+"e asm.dwarf.file = true"
+"e asm.emu = false"
+"e asm.esil = false"
+"e asm.family = false"
+"e asm.fcncalls = false"
+"e asm.fcnlines = false"
+"e asm.features = "
+"e asm.filter = true"
+"e asm.flags = true"
+"e asm.flagsinbytes = false"
+"e asm.flgoff = true"
+"e asm.functions = true"
+"e asm.hints = false"
+"e asm.immstr = false"
+"e asm.immtrim = false"
+"e asm.indent = false"
+"e asm.indentspace = 2"
+"e asm.invhex = false"
+"e asm.jmphints = true"
+"e asm.jmpsub = false"
+"e asm.lbytes = true"
+"e asm.leahints = false"
+"e asm.lines = false"
+"e asm.lines.call = false"
+"e asm.lines.ret = false"
+"e asm.linesout = true"
+"e asm.linesright = false"
+"e asm.lineswide = false"
+"e asm.lineswidth = 7"
+"e asm.marks = true"
+"e asm.maxrefs = 5"
+"e asm.meta = true"
+"e asm.midcursor = false"
+"e asm.middle = false"
+"e asm.midflags = 2"
+"e asm.minicols = false"
+"e asm.minvalsub = 256"
+"e asm.nbytes = 10"
+"e asm.nodup = false"
+"e asm.noisy = true"
+"e asm.offset = true"
+"e asm.os = linux"
+"e asm.parser = 6502.pseudo"
+"e asm.payloads = false"
+"e asm.pcalign = 0"
+"e asm.pseudo = false"
+"e asm.reloff = false"
+"e asm.reloff.flags = false"
+"e asm.relsub = true"
+"e asm.section = false"
+"e asm.section.col = 20"
+"e asm.section.sub = false"
+"e asm.seggrn = 4"
+"e asm.segoff = false"
+"e asm.shortcut = 1"
+"e asm.size = false"
+"e asm.slow = true"
+"e asm.stackptr = false"
+"e asm.strenc = guess"
+"e asm.strip = "
+"e asm.symbol = false"
+"e asm.symbol.col = 40"
+"e asm.syntax = intel"
+"e asm.tabs = 0"
+"e asm.tabsoff = 5"
+"e asm.tabsonce = true"
+"e asm.trace = false"
+"e asm.tracespace = false"
+"e asm.ucase = false"
+"e asm.vars = true"
+"e asm.varsub = true"
+"e asm.varsub_only = true"
+"e asm.varsum = 0"
+"e asm.varxs = false"
+"e asm.xrefs = false"
+"e bin.b64str = false"
+"e bin.baddr = 0"
+"e bin.classes = true"
+"e bin.dbginfo = true"
+"e bin.debase64 = false"
+"e bin.demangle = true"
+"e bin.demanglecmd = false"
+"e bin.filter = true"
+"e bin.force = "
+"e bin.laddr = 32688"
+"e bin.lang = "
+"e bin.libs = false"
+"e bin.maxstr = 0"
+"e bin.maxstrbuf = 0x00a00000"
+"e bin.minstr = 0"
+"e bin.prefix = "
+"e bin.rawstr = false"
+"e bin.relocs = true"
+"e bin.strfilter = "
+"e bin.strings = false"
+"e bin.strpurge = "
+"e bin.useldr = true"
+"e bin.usextr = true"
+"e bin.verbose = true"
+"e cfg.bigendian = false"
+"e cfg.debug = false"
+"e cfg.editor = vim"
+"e cfg.fortunes = true"
+"e cfg.fortunes.clippy = false"
+"e cfg.fortunes.tts = false"
+"e cfg.fortunes.type = tips,fun"
+"e cfg.hashlimit = 0x00a00000"
+"e cfg.log = false"
+"e cfg.newtab = false"
+"e cfg.plugins = true"
+"e cfg.prefixdump = dump"
+"e cfg.sandbox = false"
+"e cfg.user = pid18300"
+"e cfg.wseek = false"
+"e cmd.bp = "
+"e cmd.cprompt = "
+"e cmd.depth = 10"
+"e cmd.esil.intr = "
+"e cmd.esil.ioer = "
+"e cmd.esil.mdev = "
+"e cmd.esil.todo = "
+"e cmd.esil.trap = "
+"e cmd.fcn.delete = "
+"e cmd.fcn.new = "
+"e cmd.fcn.rename = "
+"e cmd.gprompt = "
+"e cmd.graph = ag $$>a.dot;!dot -Tgif -oa.gif a.dot;!/usr/bin/xdg-open a.gif"
+"e cmd.hit = "
+"e cmd.hitinfo = 1"
+"e cmd.log = "
+"e cmd.open = "
+"e cmd.pdc = "
+"e cmd.prompt = "
+"e cmd.repeat = false"
+"e cmd.stack = "
+"e cmd.times = "
+"e cmd.visual = "
+"e cmd.vprompt = "
+"e cmd.xterm = xterm -bg black -fg gray -e"
+"e dbg.aftersyscall = true"
+"e dbg.args = "
+"e dbg.backend = native"
+"e dbg.bep = loader"
+"e dbg.bpinmaps = true"
+"e dbg.bpsize = 1"
+"e dbg.bpsysign = false"
+"e dbg.btalgo = fuzzy"
+"e dbg.btdepth = 128"
+"e dbg.clone = false"
+"e dbg.consbreak = false"
+"e dbg.exe.path = "
+"e dbg.execs = false"
+"e dbg.exitkills = true"
+"e dbg.follow = 64"
+"e dbg.follow.child = false"
+"e dbg.forks = false"
+"e dbg.funcarg = false"
+"e dbg.gdb.page_size = 0x00001000"
+"e dbg.gdb.retries = 10"
+"e dbg.hwbp = 0"
+"e dbg.libs = "
+"e dbg.malloc = glibc"
+"e dbg.profile = "
+"e dbg.slow = false"
+"e dbg.status = false"
+"e dbg.swstep = false"
+"e dbg.threads = false"
+"e dbg.trace = false"
+"e dbg.trace.inrange = false"
+"e dbg.trace.libs = true"
+"e dbg.trace.tag = 0"
+"e dbg.unlibs = "
+"e diff.bare = false"
+"e diff.from = 0"
+"e diff.levenstein = false"
+"e diff.sort = addr"
+"e diff.to = 0"
+"e dir.dbgsnap = ."
+"e dir.magic = /usr//share/radare2/2.4.0-git/magic"
+"e dir.plugins = /usr/lib/radare2/2.4.0-git/"
+"e dir.prefix = /usr"
+"e dir.projects = ~/.config/radare2/projects"
+"e dir.source = "
+"e dir.types = /usr/include"
+"e dir.zigns = ~/.config/radare2/zigns"
+"e emu.pre = false"
+"e emu.skip = ds"
+"e emu.stack = false"
+"e emu.str = false"
+"e emu.strflag = true"
+"e emu.strinv = true"
+"e emu.stroff = false"
+"e emu.write = false"
+"e esil.addr.size = 64"
+"e esil.exectrap = false"
+"e esil.fillstack = "
+"e esil.gotolimit = 0x00001000"
+"e esil.iotrap = true"
+"e esil.mdev.range = "
+"e esil.nonull = false"
+"e esil.prestep = true"
+"e esil.romem = false"
+"e esil.stack.addr = 0x00100000"
+"e esil.stack.depth = 32"
+"e esil.stack.pattern = 0"
+"e esil.stack.size = 0x000f0000"
+"e esil.stats = false"
+"e esil.verbose = 0"
+"e file.desc = "
+"e file.info = true"
+"e file.lastpath = "
+"e file.loadalign = 0x00000400"
+"e file.location = "
+"e file.md5 = e45489ea7069e9a3bcee1b97a14e26d7"
+"e file.nowarn = true"
+"e file.offset = 32688"
+"e file.openmany = 1"
+"e file.path = "
+"e file.sha1 = 416442f4eccc112c802219c7c2ee838752fd1fd4"
+"e file.type = "
+"e fs.view = normal"
+"e graph.cmtright = false"
+"e graph.comments = true"
+"e graph.edges = 2"
+"e graph.font = Courier"
+"e graph.format = dot"
+"e graph.from = 0xffffffffffffffff"
+"e graph.gv.current = true"
+"e graph.gv.edge = "
+"e graph.gv.graph = "
+"e graph.gv.node = "
+"e graph.gv.spline = "
+"e graph.invscroll = false"
+"e graph.layout = 0"
+"e graph.linemode = 1"
+"e graph.nodejmps = true"
+"e graph.offset = false"
+"e graph.refs = false"
+"e graph.scroll = 5"
+"e graph.title = "
+"e graph.to = 0xffffffffffffffff"
+"e graph.web = false"
+"e hex.cols = 16"
+"e hex.comments = true"
+"e hex.compact = false"
+"e hex.depth = 5"
+"e hex.flagsz = 0"
+"e hex.header = true"
+"e hex.onechar = false"
+"e hex.pairs = false"
+"e hex.pcols = 40"
+"e hex.stride = 0"
+"e http.allow = "
+"e http.bind = localhost"
+"e http.browser = xdg-open"
+"e http.cors = true"
+"e http.dietime = 0"
+"e http.dirlist = false"
+"e http.homeroot = ~/.config/radare2/www"
+"e http.log = true"
+"e http.logfile = "
+"e http.maxport = 9999"
+"e http.maxsize = 0"
+"e http.port = 9090"
+"e http.referer = "
+"e http.root = /usr/share/radare2/2.4.0-git/www"
+"e http.sandbox = false"
+"e http.timeout = 3"
+"e http.ui = m"
+"e http.upget = false"
+"e http.upload = false"
+"e http.uproot = /tmp"
+"e http.uri = "
+"e http.verbose = true"
+"e hud.path = "
+"e io.0xff = 255"
+"e io.aslr = false"
+"e io.autofd = true"
+"e io.buffer = false"
+"e io.buffer.from = 0"
+"e io.buffer.to = 0"
+"e io.cache = false"
+"e io.cache.auto = false"
+"e io.cache.read = false"
+"e io.cache.write = false"
+"e io.exec = true"
+"e io.ff = true"
+"e io.pcache = false"
+"e io.pcache.read = false"
+"e io.pcache.write = false"
+"e io.va = true"
+"e key.S = "
+"e key.f1 = "
+"e key.f10 = "
+"e key.f11 = "
+"e key.f12 = "
+"e key.f2 = "
+"e key.f3 = "
+"e key.f4 = "
+"e key.f5 = "
+"e key.f6 = "
+"e key.f7 = "
+"e key.f8 = "
+"e key.f9 = "
+"e key.s = "
+"e lines.abs = false"
+"e lines.from = 0"
+"e lines.to = $s"
+"e magic.depth = 100"
+"e pdb.autoload = 0"
+"e pdb.extract = 1"
+"e pdb.server = https://msdl.microsoft.com/download/symbols"
+"e pdb.symstore = /home/paul/.config/radare2/pdb"
+"e pdb.useragent = Microsoft-Symbol-Server/6.11.0001.402"
+"e prj.files = false"
+"e prj.git = true"
+"e prj.gpg = false"
+"e prj.name = c64-pacman"
+"e prj.simple = false"
+"e prj.zip = false"
+"e rap.loop = true"
+"e rop.comments = false"
+"e rop.conditional = false"
+"e rop.db = true"
+"e rop.len = 5"
+"e rop.nx = false"
+"e rop.sdb = false"
+"e rop.subchains = false"
+"e scr.atport = false"
+"e scr.breaklines = false"
+"e scr.breakword = "
+"e scr.color = 0"
+"e scr.color.bytes = true"
+"e scr.color.grep = false"
+"e scr.color.ops = true"
+"e scr.columns = 0"
+"e scr.echo = false"
+"e scr.feedback = 1"
+"e scr.fgets = false"
+"e scr.fix.columns = 0"
+"e scr.fix.rows = 0"
+"e scr.flush = false"
+"e scr.fps = false"
+"e scr.highlight = "
+"e scr.histsave = true"
+"e scr.html = false"
+"e scr.interactive = false"
+"e scr.linesleep = 0"
+"e scr.nkey = flag"
+"e scr.null = false"
+"e scr.pager = "
+"e scr.pagesize = 1"
+"e scr.pipecolor = false"
+"e scr.prompt = true"
+"e scr.prompt.file = false"
+"e scr.prompt.flag = false"
+"e scr.prompt.sect = false"
+"e scr.rainbow = false"
+"e scr.randpal = false"
+"e scr.responsive = false"
+"e scr.rows = 0"
+"e scr.seek = "
+"e scr.slow = true"
+"e scr.strconv = asciiesc"
+"e scr.tee = "
+"e scr.tts = false"
+"e scr.utf8 = false"
+"e scr.utf8.curvy = false"
+"e scr.wheel = false"
+"e scr.wheel.nkey = false"
+"e scr.wheel.speed = 4"
+"e scr.zoneflags = true"
+"e search.align = 0"
+"e search.chunk = 0"
+"e search.contiguous = true"
+"e search.distance = 0"
+"e search.esilcombo = 8"
+"e search.flags = false"
+"e search.from = 0xffffffffffffffff"
+"e search.in = io.maps"
+"e search.kwidx = 0"
+"e search.maxhits = 0"
+"e search.overlap = false"
+"e search.prefix = hit"
+"e search.show = true"
+"e search.to = 0xffffffffffffffff"
+"e stack.anotated = false"
+"e stack.bytes = false"
+"e stack.delta = 0"
+"e stack.size = 114"
+"e str.escbslash = false"
+"e tcp.islocal = false"
+"e time.fmt = %Y-%m-%d %H:%M:%S %z"
+"e time.zone = 0"
+"e zign.autoload = false"
+"e zign.bytes = true"
+"e zign.graph = true"
+"e zign.maxsz = 500"
+"e zign.mincc = 10"
+"e zign.minsz = 16"
+"e zign.offset = true"
+"e zign.prefix = sign"
+"e zign.refs = true"
+"e zoom.byte = h"
+"e zoom.from = 0"
+"e zoom.in = io.map"
+"e zoom.maxsz = 512"
+"e zoom.to = 0"
+ofs c64/pac-man.crt r-x
+om 3 0x7fb0 0x2050 0x0 r-x
+ofs malloc://983040 rw-
+om 4 0x100000 0xf0000 0x0 rw- mem.0x100000_0xf0000
+# sections
+# meta
+CCu base64:aW5pdGlhbGl6ZSB2aWM= @ 0x0000839d
+CCu base64:MTk0 @ 0x000083a2
+CCu base64:emVybyBvdXQgJDAwMDItJDAwYzQ= @ 0x000083a4
+CCu base64:emVybyBvdXQgJDAzZmYtJDA0YzE= @ 0x000083a6
+CCu base64:bGR4IHdpdGggamlmZnkgY2xvY2s= @ 0x000083ae
+CCu base64:c3RvcmUgamlmZnkgY2xvY2sgLTEgaW4gJDAwMGI= @ 0x000083b1
+CCu base64:c2V0IDJjIGFuZCAyZCBhcyBwdHIgdG8gcmFtICQ0MDAw @ 0x000083b9
+CCu base64:c2V0IDJhIGFuZCAyYiBhcyBhIHBvaW50ZXIgdG8gc3RhcnQgb2YgbWFwIGRhdGEgJDgxZWY= @ 0x000083bb
+CCu base64:bGRhIHdpdGggdmFsdWUgaW4gYDAwMmEreWAgeSBzdGFydHMgYXQgMC4= @ 0x000083c5
+CCu base64:c3RvcmUgdGhpcyB2YWx1ZSBpbiAkMDAxOA== @ 0x000083c7
+CCu base64:aWYgbmVnYXRpdmUsIHNraXAgMSBpbnN0cnVjdGlvbg== @ 0x000083c9
+CCu base64:aWYgcG9zaXRpdmUsIHJ1biB0aGUgc3Vicm91dGluZSBhdCAkODYzZg== @ 0x000083cb
+CCu base64:Y29tcGFyZSB0byAyNTU= @ 0x000083cd
+CCu base64:aWYgYml0IDYgb2YgJDE4IGlzIHNldCwgYnJhbmNoIHRvICQ4M2U2 @ 0x000083d3
+CCu base64:Y2xlYXIgaGlnaGVzdCBiaXQ= @ 0x000083d5
+CCu base64:Y2xlYXIgdHdvIGhpZ2ggYml0cw== @ 0x000083e6
+CCu base64:Y2xlYXIgdXBwZXIgbmliYmxl @ 0x000083f6
+CCu base64:cHRyIDEgdG8gJDlmMGU= @ 0x00008401
+CCu base64:cHRyIDIgdG8gJDRjMDA= @ 0x0000840f
+CCu base64:Y2xlYXIgdXBwZXIgbmliYmxl @ 0x0000841e
+CCu base64:c3RvcCB0aW1lciBB @ 0x0000842b
+CCu base64:cHIgcmVnaXN0ZXI= @ 0x0000842e
+CCu base64:ZW5hYmxlIGNoYXJhY3RlciByb20= @ 0x00008430
+CCu base64:c3ByaXRlIDAgaG9yaXpvbnRhbCBwb3NpdGlvbg== @ 0x00008436
+CCu base64:Yml0bWFwX2VuZCBwbHVzIDI1Ng== @ 0x00008442
+CCu base64:Y2hhcl9yb21fZW5kIHBsdXMgMjU2 @ 0x00008445
+CCu base64:ZGlzYWJsZSBjaGFyYWN0ZXIgcm9t @ 0x0000844f
+CCu base64:c3RhcnQgdGltZXIgQQ== @ 0x00008456
+CCu base64:cHRyXzEgdG8gJDgwMTE= @ 0x0000845d
+CCu base64:cHRyXzIgdG8gJDIwMDA= @ 0x00008465
+CCu base64:ZG9uJ3QgcmVhbGx5IGtub3cgd2hhdCB0aGlzIGlzIGZvciB5ZXQgYnV0IGl0J3MgYWxsIGNvbW1lbnRlZA== @ 0x00008469
+CCu base64:cHRyXzEgdG8gJDllODI= @ 0x00008470
+CCu base64:cHRyXzIgdG8gJDI4MDg= @ 0x00008478
+CCu base64:Y2FsbCB0aGUgd2VpcmQgZnVuY3Rpb24gYWdhaW4= @ 0x0000847c
+CCu base64:eCA9IDMx @ 0x0000847f
+CCu base64:Y29weSBkYXRhIGZyb20gcm9tIHRvIGNoYXJhY3RlciBtZW1vcnk= @ 0x00008484
+CCu base64:aWYgcG9zaXRpdmUsIGNvbnRpbnVlIGNvcHlpbmc= @ 0x00008488
+CCu base64:c2V0IHNpZCB2b2ljZSAzIGZyZXF1ZW5jeQ== @ 0x0000848d
+CCu base64:c2VsZWN0IG5vaXNlIHdhdmVmb3Jt @ 0x00008492
+CCu base64:c2V0IHNpZCB2b2ljZSAxIHRvIG1heCB2b2x1bWU= @ 0x00008497
+CCu base64:c2V0IHNpZCB2b2ljZSAyIHRvIG1heCB2b2x1bWU= @ 0x0000849a
+CCu base64:eCA9IDE2MQ== @ 0x0000849d
+CCu base64:Y29weSBiaXRtYXAgdG8gY2hhcj8= @ 0x000084a2
+CCu base64:ZGlzYWJsZSBpbnRlcnJ1cHRz @ 0x000084a8
+CCu base64:c2V0IGludGVycnVwdCB2ZWN0b3IgdG8gJDg1ODM= @ 0x000084b0
+CCu base64:ZW5hYmxlIHJhc3RlciBpcnE= @ 0x000084b5
+CCu base64:c2V0IGEgYnVuY2ggb2Ygc3R1ZmYgcmVsYXRlZCB0byB2ZXJ0aWNhbCBzY3JvbGxpbmc= @ 0x000084ba
+CCu base64:NTA= @ 0x000084bd
+CCu base64:d3JpdGUgbGluZSB0byBjb21wYXJlIGZvciByYXN0ZXIgaXJx @ 0x000084bf
+CCu base64:cmUtZW5hYmxlIGludGVycnVwdHM= @ 0x000084c2
+CCu base64:d3JpdGUgMzEgemVyb3MgdG8gMHgwZSt4 @ 0x000084c7
+CCu base64:dHJhbnNmZXIgeCB0byBzdGFjayBwb2ludGVy @ 0x000084cc
+CCu base64:c2V0IGJvcmRlciBjb2xvciB0byBibGFjaw== @ 0x000084d0
+CCu base64:c2V0IGJhY2tncm91bmQgY29sb3VyIHRvIGJsYWNr @ 0x000084d3
+CCu base64:c2V0IG90aGVyIGJhY2tncm91bmQgY29sb3IgdG8gbGlnaHQgYmx1ZQ== @ 0x000084d8
+CCu base64:ZGVsYXkgYSBqaWZmeQ== @ 0x000084ef
+CCu base64:c2V0IGNoYXJhY3RlciBtZW1vcnkgYW5kIHZpZGVvIG1hdHJpeCBhZGRyZXNzZXM= @ 0x000084f3
+CCu base64:c2VsZWN0IDQwIGNvbHVtbiBtdWx0aWNvbG9yIG1vZGU= @ 0x000084f8
+CCu base64:ZW5hYmxlIHNwcml0ZXMgMC00 @ 0x000084fd
+CCu base64:c2V0IHNwcml0ZXMgdG8gZG91YmxlIHdpZHRo @ 0x00008500
+CCu base64:YnJhbmNoIGlmIDQgIT0gMC4uLiB3ZWlyZA== @ 0x00008528
+CCu base64:YnJhbmNoIGlmIGpveXN0aWNrIDEgZmlyZSBidXR0b24gcHJlc3NlZA== @ 0x0000852f
+CCu base64:bWF0cml4IGNvb3JkaW5hdGUgb2Yga2V5IHByZXNzZWQ= @ 0x00008531
+CCu base64:bm8ga2V5IHByZXNzZWQgSSB0aGluaw== @ 0x00008533
+CCu base64:bWF0cml4IGNvb3JkaW5hdGUgb2Yga2V5IHByZXNzZWQ= @ 0x00008537
+CCu base64:Y29tcGFyZSB0byBsYXN0IGtleSBwcmVzc2VkLCBsb29wIHVudGlsIGl0IGNoYW5nZXM= @ 0x00008539
+CCu base64:ZjEgSSB0aGluaw== @ 0x0000853b
+CCu base64:KDB4MDcpIC0gMyA+PSAweDEwMA== @ 0x00008543
+CCu base64:ZjU= @ 0x00008545
+CCu base64:ZjM= @ 0x00008549
+CCu base64:anVtcCBpZiByYXN0ZXIgaXMgbm90IHNvdXJjZSBvZiBpcnE= @ 0x00008588
+CCu base64:c2V0IGxpbmUgNTAgKHN0YXJ0IG9mIHZpc2libGUgZGlzcGxheSkgdG8gdHJpZ2dlciByYXN0ZXIgaXJx @ 0x0000858e
+CCu base64:c2V0IHJhc3RlciBjb21wYXJlIGFuZCBhbnkgdmljLWlpIGNoaXAgdG8gdHJpZ2dlciB2aWNpcnEsIGRpc2FibGluZyBjb2xsaXNpb24gYW5kIGxpZ2h0IHBlbiB0cmlnZ2Vycw== @ 0x00008593
+CCu base64:c2V0IHBvcnQgQSBmb3Igb3V0cHV0 @ 0x000085a4
+CCu base64:aWdub3JlIGFsbCBjb2x1bW5zIGV4Y2VwdCB6ZXJv @ 0x000085a8
+CCu base64:cmVhZCBhIGtleXByZXNz @ 0x000085ab
+CCu base64:bG9vcCB1bnRpbCBrZXkgY2hhbmdlcw== @ 0x000085b1
+CCu base64:c3RvcmUgdGhlIGtleSBpbiBvdXIgcmVndWxhciByZWdpc3Rlcg== @ 0x000085b3
+CCu base64:c2V0IHBvcnQgQSBmb3IgaW5wdXQ= @ 0x000085b7
+CCu base64:bm90IHN1cmUgd2hhdCB0aGlzIGxvY2F0aW9uIGlzIGZvcg== @ 0x000085c1
+CCu base64:c2V0IGNoYXJhY3RlciBhbmQgZ2Z4IGRhdGEgbG9jYXRpb25z @ 0x000085c9
+CCu base64:c2V0IDQwIGNvbHVtbiBtb2Rl @ 0x000085ce
+CCu base64:ZGlzYWJsZSBzcHJpdGVz @ 0x000085d4
+CCu base64:YmxhbmsgY2hhcmFjdGVy @ 0x000085da
+CCu base64:emVybyBjaGFyYWN0ZXI= @ 0x000085ea
+CCu base64:MA== @ 0x000085f8
+CCu base64:d3JpdGUgdG8gc2NyZWVuIDUgdGltZXM= @ 0x000085fa
+CCu base64:bWFzayBvZmYgYWxsIGJ1dCB0d28gaGlnaCBiaXRz @ 0x00008606
+CCu base64:c3RvcCBsb29waW5nIGlmIG5vbi16ZXJv @ 0x00008608
+CCu base64:bG9vcCBiYWNrIHRvIHN0YXJ0IG9mIGZ1bmN0aW9u @ 0x00008616
+CCu base64:JDE4ID0gYWNjID4+IDY= @ 0x0000861f
+CCu base64:cmV0dXJuIGlmIHZhbHVlIHBvaW50ZWQgdG8gYnkgcHRyMSBlcXVhbHMgMjU1 @ 0x00008625
+CCu base64:bWFzayBvZmYgdHdvIGhpZ2ggYml0cw== @ 0x00008627
+CCu base64:aWYgcG9zaXRpdmUsIHN0YSBhbmQgaW5jIHB0cl8x @ 0x00008632
+CCu base64:aWYgbmVnYXRpdmUsIGluYyBwdHJfMg== @ 0x00008634
+CCu base64:YmxhbmsgY2hhcmFjdGVy @ 0x00008663
+CCu base64:ZW5kIG9mIHNjcmVlbiBpbiBtZW51IC0yNTU= @ 0x0000866e
+CCu base64:cm93IDIxIG9mIHRoZSBpbi1nYW1lIHNjcmVlbiByZWdpb24= @ 0x00008671
+CCu base64:Y29weSBtZW51IHN0cmluZ3MgZnJvbSByb20gdG8gc2NyZWVu @ 0x00008679
+CCu base64:ZHJhdyBwYWMtbWFuIGxvZ28gdG8gbWVudSBzY3JlZW4= @ 0x00008687
+CCu base64:amlmZnkgY2xvY2s= @ 0x0000869e
+CCu base64:bnVtIHBsYXllcnM= @ 0x000086a4
+CCu base64:bnVtIHBsYXllcnM= @ 0x000086ad
+CCu base64:MiAocGxheWVyIGdhbWUp @ 0x000086b8
+CCu base64:MSAocGxheWVyIGdhbWUp @ 0x000086c3
+CCu base64:c2V0IHNwcml0ZSBwb3NpdGlvbnM= @ 0x00008720
+CCu base64:cmVhZCBqb3lzdGljayAyIGZpcmUgcHJlc3NlZCwgcGF1c2UgYnV0dG9uPw== @ 0x000087b6
+CCu base64:cmVhZCBqaWZmeQ== @ 0x0000880a
+CCu base64:bG93IHR3byBiaXRzIG9ubHk= @ 0x0000880c
+CCu base64:bG9hZCBmcm9tIHJvbQ== @ 0x00008816
+CCu base64:d3JpdGUgdG8gc2lk @ 0x00008819
+CCu base64:c3RhcnQgYXR0YWNrL2RlY2F5L3N1c3RhaW4gc2VsZWN0IHNhd3Rvb3RoIHdhdmVmb3Jt @ 0x00008824
+CCu base64:c2NyZWVuIG1hbmFnZW1lbnQgcm91dGluZXMgdGVtcG9yYXJpbHkgdXNlIHRoaXMgYWRkcmVzcyBhcyBhIHdvcmsgcG9pbnRlcg== @ 0x00008861
+CCu base64:d2UgcHJldmlvdXNseSBzdG9yZWQgdGhlIHJlc3VsdCBvZiBTUF9TUF9DT0wgaGVyZQ== @ 0x00008892
+CCu base64:MHgyYy0weDM5IHJlYWRzIEdBTUUgT1ZFUg== @ 0x00008b3a
+CCu base64:c3ByaXRlIGRpcmVjdGlvbg== @ 0x00008bce
+CCu base64:Y29tcGFyZSB0byByaWdodA== @ 0x00008bd0
+CCu base64:c3ByaXRlIGRpcmVjdGlvbiA= @ 0x00008bf8
+CCu base64:Y29tcGFyZSB0byBsZWZ0 @ 0x00008bfa
+CCu base64:MHgyMi0weDJjIHJlYWRzIFJFQURZ @ 0x00008cd7
+CCu base64:cHRyIHRvICQwN2Uy @ 0x00008d08
+CCu base64:ZW5kIG9mIGxldmVsIGNvdW50ZXI/ @ 0x00008d0f
+CCu base64:JDlkOGEgLSAoMHgxOCkgcHRy @ 0x00008d3b
+CCu base64:c3RhcnQgb2YgbGV2ZWwgY291bnRlcj8= @ 0x00008d41
+CCu base64:YnJhbmNoIGlmIGFjYyBub3QgZXF1YWwgdG8gMw== @ 0x00008d63
+CCu base64:cmVhZCBqaWZmeSBjbG9jaw== @ 0x00008dad
+CCu base64:bG93IG5pYmJsZSBvbmx5 @ 0x00008daf
+CCu base64:cnRz @ 0x00008db1
+CCu base64:MiBjaGFyYWN0ZXI= @ 0x00008dcb
+CCu base64:MSBjaGFyYWN0ZXI= @ 0x00008de3
+CCu base64:MTM4 @ 0x00008df6
+CCu base64:bG9hZCBkYXRhIGZyb20gcm9t @ 0x00008e0b
+CCu base64:dXNlIGl0IGFzIGFuIGluZGV4 @ 0x00008e0e
+CCu base64:bG9hZCBkYXRhIGZyb20gcmFt @ 0x00008e0f
+CCu base64:Y29weSBpdCB0byB6ZXJvIHBhZ2U= @ 0x00008e12
+CCu base64:bG9hZCBkYXRhIGZyb20gcm9t @ 0x00008e14
+CCu base64:dXNlIGl0IGFzIGFuIGluZGV4 @ 0x00008e17
+CCu base64:bW9yZSBjb3B5aW5nIG9mIHJhbSB0byB6ZXJvIHBhZ2U= @ 0x00008e1d
+CCu base64:bG9vcCAzIHRpbWVz @ 0x00008e20
+CCu base64:Y29weSByb20gdG8gemVybyBwYWdl @ 0x00008e24
+CCu base64:bG9vcCAxOSB0aW1lcw== @ 0x00008e2a
+CCu base64:Y2hlY2sgZm9yIHNwcml0ZSB0byBzcHJpdGUgY29sbGlzaW9u @ 0x00008e31
+CCu base64:Y2hlY2sgZm9yIHNwcml0ZSB0byBmb3JlZ3JvdW5kIGNvbGxpc2lvbg== @ 0x00008e34
+CCu base64:Y29weSAoMHgwOSkgdG8gMHgxZSBhbmQgMHgxZg== @ 0x00008e40
+CCu base64:eCA9IDE= @ 0x00008e44
+CCu base64:cmVhZCBqaWZmeQ== @ 0x00008e56
+CCu base64:d3JpdGUgemVyb3M= @ 0x00008e6b
+CCu base64:YnJhbmNoIGlmIHkgPCAz @ 0x00008e74
+CCu base64:Y29weSBkYXRhIGZyb20gcm9tIHRvIHplcm8gcGFnZQ== @ 0x00008e7a
+CCu base64:c29tZSBraW5kIG9mIGxvb2t1cCB0YWJsZQ== @ 0x00008f68
+CCu base64:ZW5kIG9mIHBhY21hbg== @ 0x00008f6d
+CCu base64:dXB3YXJkIGZhY2luZyBwYWNtYW4= @ 0x00008f77
+CCu base64:c3RhcnQgb2YgbnVtYmVycw== @ 0x00008f85
+CCu base64:c2V0IHNwcml0ZSBjb2xvcg== @ 0x00008fcb
+CCu base64:Ymx1ZQ== @ 0x0000900a
+CCu base64:d2hpdGU= @ 0x0000900e
+CCu base64:c2V0IHNwcml0ZSBjb2xvcg== @ 0x00009017
+CCu base64:dm9pY2UgMiBzYXd0b290aCB3YXZlZm9ybSBzdGFydCA= @ 0x0000906d
+CCu base64:c2V0IHZvaWNlIDIgZnJlcXVlbmN5 @ 0x00009084
+CCu base64:c2F3dG9vdGggc3RhcnQ= @ 0x00009109
+CCu base64:c2V0IHZvbHVtZSB0byA4LCBkaXNjb25uZWN0IHZvaWNlIDM= @ 0x0000910f
+CCu base64:c2V0IHZvaWNlIDEgY29udHJvbCB0byAw @ 0x00009114
+CCu base64:c2V0IHZvaWNlIDIgY29udHJvbCB0byAw @ 0x00009117
+CCu base64:bGlnaHQgZ3JleQ== @ 0x0000913c
+CCu base64:Nzk= @ 0x0000914d
+CCu base64:d2hpdGU= @ 0x0000914f
+CCu base64:NyBzcHJpdGVz @ 0x00009157
+CCu base64:bG9hZCBjb2xvcnMgZnJvbSBjYXJ0cmlkZ2Ugcm9t @ 0x00009159
+CCu base64:c3RhcnQgb2Ygc3ByaXRlIGNvbG9yIHJhbQ== @ 0x0000915c
+CCu base64:bGluZSAzIGNvbHVtbiAw @ 0x00009168
+CCu base64:bGluZSA3IGNvbHVtbiAw @ 0x0000916e
+CCu base64:bGluZSAxMSBjb2x1bW4gMA== @ 0x00009174
+CCu base64:bGluZSAxNSBjb2x1bW4gMA== @ 0x0000917a
+CCu base64:cmVhZCBsb3cgbmliYmxlIG9mIGNpYXByYSwgam95c3RpY2sgMiB1cCwgZG93biwgbGVmdCwgcmlnaHQ= @ 0x000091e8
+CCu base64:ZW5kIG9mIHBhYy1tYW4gYml0bWFwcw== @ 0x00009326
+CCu base64:cHRyIHRvICQ1ODAw @ 0x00009359
+CCu base64:cHRyIHRvICQ1MzQ1 @ 0x00009361
+CCu base64:Y29tcGFyZSB0byBwZWxsZXQ= @ 0x000093a4
+CCu base64:Y29tcGFyZSB0byBwb3dlciB1cCAoYmx1ZSBnaG9zdCB0aGluZ3kp @ 0x000093a8
+CCu base64:c3ByaXRlIGRpcmVjdGlvbg== @ 0x0000945f
+CCu base64:c2V0IHNwcml0ZV9kaXJlY3Rpb24= @ 0x00009465
+CCu base64:MTAgdGhvdXNhbmRzIGRpZ2l0IG9mIHNjb3JlIGRpc3BsYXk= @ 0x000094c8
+CCu base64:aWYgbm9uLXplcm8sIGV4dHJhIGxpZmUh @ 0x000094cb
+CCu base64:ZXh0cmEgbGlmZSE= @ 0x000094d9
+CCu base64:dHJpYW5nbGUgd2F2ZWZvcm0sIHN0YXJ0IGF0dGFjaywgZGVjYXksIHN1c3RhaW4= @ 0x0000959b
+CCu base64:JDAyIGlzIHRoZSBjaGFyYWN0ZXIgY29kZSBmb3IgdGhlIGNpcmNsZSB0aGF0IGxldCdzIHBhYy1tYW4gZWF0IGdob3N0cw== @ 0x000095aa
+CCu base64:JDAwIGlzIGJsYW5rLCBtYWtlIGl0IGZsYXNo @ 0x000095d1
+CCu base64:cmVhZCBqaWZmeQ== @ 0x00009617
+CCu base64:bG93IDMgYml0cw== @ 0x00009619
+CCu base64:c3ByaXRlIGRpcmVjdGlvbg== @ 0x00009710
+CCu base64:Y29tcGFyZSB0byB1cA== @ 0x00009712
+CCu base64:c2V0IHNwcml0ZSBkaXJlY3Rpb24gbGVmdA== @ 0x00009718
+CCu base64:cmVhZCBqaWZmeQ== @ 0x00009767
+CCu base64:aGlnaCBiaXQgb25seQ== @ 0x00009796
+CCu base64:c2V0IHRoZSAyIGJpdA== @ 0x00009798
+CCu base64:cmlnaHQ= @ 0x0000979e
+CCu base64:bGVmdA== @ 0x000097a2
+CCu base64:c3ByaXRlIGRpcmVjdGlvbg== @ 0x000097a4
+CCu base64:dXA= @ 0x000097a9
+CCu base64:Y2xlYXIgaGlnaCBuaWJibGU= @ 0x000097b2
+CCu base64:c2V0IGRpcmVjdGlvbiB0byByaWdodA== @ 0x000097c3
+CCu base64:c2V0IGRpcmVjdGlvbiB0byBsZWZ0 @ 0x000097cd
+CCu base64:c2V0IGRpcmVjdGlvbiBkb3du @ 0x000097e1
+CCu base64:Y2xlYXIgaGlnaGVzdCBiaXQ= @ 0x000097f9
+CCu base64:c3ByaXRlIGRpcmVjdGlvbg== @ 0x00009826
+CCu base64:Y29tcGFyZSB0byB1cA== @ 0x00009828
+CCu base64:c2V0IHNwcml0ZSBkaXJlY3Rpb24gdG8gdXA= @ 0x0000983e
+CCu base64:bG93IG5pYmJsZSBvbmx5 @ 0x000098ac
+CCu base64:c2V0IHNwcml0ZSBkaXJlY3Rpb24= @ 0x000098c3
+CCu base64:dXAgZGlyZWN0aW9u @ 0x00009952
+CCu base64:ZG93biBkaXJlY3Rpb24= @ 0x00009962
+CCu base64:bGVmdA== @ 0x00009972
+CCu base64:cmlnaHQ= @ 0x00009980
+CCu base64:JDU4MTAgcHRy @ 0x000099ca
+CCu base64:YXQgJDU4MTAgdGhlcmUgaXMgdGhlIGN1cnJlbnQgcGFjbWFuIGJpdG1hcA== @ 0x000099cc
+CCu base64:JDU0eHggcHRy @ 0x000099d5
+CCu base64:YXQgJDU0MDAtNTdmZiB0aGVyZSBhcmUgc3ByaXRlIGJpdG1hcHMgbW92aW5nIGFjcm9zcyByYW0= @ 0x000099d7
+CCu base64:cmVhZCBkaXJlY3Rpb24= @ 0x00009a89
+CCu base64:Y29tcGFyZSB0byByaWdodA== @ 0x00009a8b
+CCu base64:c3ByaXRlIGRpcmVjdGlvbg== @ 0x00009ace
+CCu base64:Y29tcGFyZSB0byB1cA== @ 0x00009ad0
+CCu base64:c3ByaXRlIGRpcmVjdGlvbg== @ 0x00009ae7
+CCu base64:Y29tcGFyZSB0byBkb3du @ 0x00009ae9
+CCu base64:cmVhZCBqaWZmeQ== @ 0x00009b03
+CCu base64:Y29kZSBzZWdtZW50IGVuZD8= @ 0x00009b0f
+"f fcn.init_gfx_settings 27 0x000085bd"
+"af+ 0x000085bd fcn.init_gfx_settings f n"
+afc (null) @ 0x000085bd
+afb+ 0x000085bd 0x000085bd 4 0x000085c1 0xffffffffffffffff b
+afb+ 0x000085bd 0x000085c1 6 0x000085c1 0x000085c7 n
+afb+ 0x000085bd 0x000085c7 17 0xffffffffffffffff 0xffffffffffffffff n
+afS 2 @ 0x85bd
+"f fcn.write_null_1_up_0_score 27 0x000085d8"
+"af+ 0x000085d8 fcn.write_null_1_up_0_score f n"
+afc (null) @ 0x000085d8
+afb+ 0x000085d8 0x000085d8 4 0x000085dc 0xffffffffffffffff b
+afb+ 0x000085d8 0x000085dc 9 0x000085dc 0x000085e5 n
+afb+ 0x000085d8 0x000085e5 7 0x000085ec 0xffffffffffffffff b
+afb+ 0x000085d8 0x000085ec 6 0x000085ec 0x000085f2 n
+afb+ 0x000085d8 0x000085f2 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 2 @ 0x85d8
+"f fcn.write_1_up_2_up_0_score 15 0x000085f3"
+"af+ 0x000085f3 fcn.write_1_up_2_up_0_score f n"
+afc (null) @ 0x000085f3
+afb+ 0x000085f3 0x000085e5 7 0x000085ec 0xffffffffffffffff b
+afb+ 0x000085f3 0x000085ec 6 0x000085ec 0x000085f2 n
+afb+ 0x000085f3 0x000085f2 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x000085f3 0x000085f3 7 0x000085fa 0xffffffffffffffff b
+afb+ 0x000085f3 0x000085fa 6 0x000085fa 0x00008600 n
+afb+ 0x000085f3 0x00008600 2 0x000085e5 0x00008602 n
+afS 4 @ 0x85f3
+"f fcn.copy_stuff 61 0x00008602"
+"af+ 0x00008602 fcn.copy_stuff f n"
+afc (null) @ 0x00008602
+afb+ 0x00008602 0x00008602 8 0x00008619 0x0000860a n
+afb+ 0x00008602 0x0000860a 9 0x00008613 0xffffffffffffffff n
+afb+ 0x00008602 0x00008613 6 0x00008602 0xffffffffffffffff n
+afb+ 0x00008602 0x00008619 14 0x0000863e 0x00008627 n
+afb+ 0x00008602 0x00008627 6 0x0000862d 0xffffffffffffffff b
+afb+ 0x00008602 0x0000862d 7 0x0000862d 0x00008634 n
+afb+ 0x00008602 0x00008634 2 0x00008613 0x00008636 n
+afb+ 0x00008602 0x0000863e 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 6 @ 0x8602
+"f fcn.load_and_inc_ptr1 2 0x00008636"
+"af+ 0x00008636 fcn.load_and_inc_ptr1 f n"
+afc (null) @ 0x00008636
+afb+ 0x00008636 0x00008636 2 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8636
+"f fcn.inc_ptr_1 7 0x00008638"
+"af+ 0x00008638 fcn.inc_ptr_1 f n"
+afc (null) @ 0x00008638
+afb+ 0x00008638 0x00008638 4 0x0000863e 0x0000863c n
+afb+ 0x00008638 0x0000863c 2 0x0000863e 0xffffffffffffffff n
+afb+ 0x00008638 0x0000863e 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8638
+"f fcn.sta_and_inc_ptr_2 9 0x0000863f"
+"af+ 0x0000863f fcn.sta_and_inc_ptr_2 f n"
+afc (null) @ 0x0000863f
+afb+ 0x0000863f 0x0000863f 6 0x00008647 0x00008645 n
+afb+ 0x0000863f 0x00008645 2 0x00008647 0xffffffffffffffff n
+afb+ 0x0000863f 0x00008647 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x863f
+"f fcn.ptr1_lo_shr_4 7 0x00008648"
+"af+ 0x00008648 fcn.ptr1_lo_shr_4 f n"
+afc (null) @ 0x00008648
+afb+ 0x00008648 0x00008648 7 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8648
+"f fcn.draw_screen 1672 0x0000864f"
+"af+ 0x0000864f fcn.draw_screen f n"
+afc (null) @ 0x0000864f
+afb+ 0x0000864f 0x0000864f 4 0x00008656 0x00008653 n
+afb+ 0x0000864f 0x00008653 3 0x00008715 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008656 4 0x00008698 0x0000865a n
+afb+ 0x0000864f 0x0000865a 11 0x00008665 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008665 18 0x00008665 0x00008677 n
+afb+ 0x0000864f 0x00008677 2 0x00008679 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008679 9 0x00008679 0x00008682 n
+afb+ 0x0000864f 0x00008682 1 0x00008683 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008683 18 0x00008683 0x00008695 n
+afb+ 0x0000864f 0x00008695 2 0x00008697 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008697 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008698 4 0x000086a4 0x0000869c n
+afb+ 0x0000864f 0x0000869c 6 0x00008697 0x000086a2 n
+afb+ 0x0000864f 0x000086a2 2 0x00008695 0x000086a4 n
+afb+ 0x0000864f 0x000086a4 13 0x000086bc 0x000086b1 n
+afb+ 0x0000864f 0x000086b1 4 0x000086b8 0x000086b5 n
+afb+ 0x0000864f 0x000086b5 3 0x000086b8 0xffffffffffffffff n
+afb+ 0x0000864f 0x000086b8 4 0x000086c5 0x000086bc n
+afb+ 0x0000864f 0x000086bc 4 0x000086c3 0x000086c0 n
+afb+ 0x0000864f 0x000086c0 3 0x000086c3 0xffffffffffffffff n
+afb+ 0x0000864f 0x000086c3 2 0x000086c5 0xffffffffffffffff b
+afb+ 0x0000864f 0x000086c5 5 0x000086ca 0xffffffffffffffff b
+afb+ 0x0000864f 0x000086ca 12 0x000086ca 0x000086d6 n
+afb+ 0x0000864f 0x000086d6 5 0x000086db 0xffffffffffffffff b
+afb+ 0x0000864f 0x000086db 21 0x000086db 0x000086f0 n
+afb+ 0x0000864f 0x000086f0 16 0x00008700 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008700 9 0x00008700 0x00008709 n
+afb+ 0x0000864f 0x00008709 2 0x0000870b 0xffffffffffffffff b
+afb+ 0x0000864f 0x0000870b 9 0x0000870b 0x00008714 n
+afb+ 0x0000864f 0x00008714 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008715 4 0x00008719 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008719 15 0x0000872d 0x00008728 n
+afb+ 0x0000864f 0x00008728 5 0x00008730 0x0000872d n
+afb+ 0x0000864f 0x0000872d 3 0x00008730 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008730 16 0x00008719 0x00008740 n
+afb+ 0x0000864f 0x00008740 4 0x00008744 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008744 9 0x00008744 0x0000874d n
+afb+ 0x0000864f 0x0000874d 11 0x00008758 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008758 13 0x00008758 0x00008765 n
+afb+ 0x0000864f 0x00008765 5 0x0000876a 0xffffffffffffffff b
+afb+ 0x0000864f 0x0000876a 13 0x0000876a 0x00008777 n
+afb+ 0x0000864f 0x00008777 5 0x0000877c 0xffffffffffffffff b
+afb+ 0x0000864f 0x0000877c 13 0x0000877c 0x00008789 n
+afb+ 0x0000864f 0x00008789 5 0x0000878e 0xffffffffffffffff b
+afb+ 0x0000864f 0x0000878e 13 0x0000878e 0x0000879b n
+afb+ 0x0000864f 0x0000879b 5 0x000087a0 0xffffffffffffffff b
+afb+ 0x0000864f 0x000087a0 13 0x000087a0 0x000087ad n
+afb+ 0x0000864f 0x000087ad 6 0x000087c6 0x000087b3 n
+afb+ 0x0000864f 0x000087b3 7 0x000087c0 0x000087ba n
+afb+ 0x0000864f 0x000087ba 6 0x000087c0 0xffffffffffffffff n
+afb+ 0x0000864f 0x000087c0 4 0x000087c6 0x000087c4 n
+afb+ 0x0000864f 0x000087c4 2 0x000087c6 0xffffffffffffffff n
+afb+ 0x0000864f 0x000087c6 4 0x000087cd 0x000087ca n
+afb+ 0x0000864f 0x000087ca 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x000087cd 7 0x000087d8 0x000087d4 n
+afb+ 0x0000864f 0x000087d4 4 0x000087f6 0x000087d8 n
+afb+ 0x0000864f 0x000087d8 4 0x000087e6 0x000087dc n
+afb+ 0x0000864f 0x000087dc 4 0x000087e3 0x000087e0 n
+afb+ 0x0000864f 0x000087e0 3 0x000087e3 0xffffffffffffffff n
+afb+ 0x0000864f 0x000087e3 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x000087e6 4 0x000087ed 0x000087ea n
+afb+ 0x0000864f 0x000087ea 3 0x00008c5c 0xffffffffffffffff n
+afb+ 0x0000864f 0x000087ed 4 0x00008837 0x000087f1 n
+afb+ 0x0000864f 0x000087f1 4 0x0000880a 0x000087f5 n
+afb+ 0x0000864f 0x000087f5 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x000087f6 11 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x0000880a 6 0x000087f5 0x00008810 n
+afb+ 0x0000864f 0x00008810 6 0x00008830 0x00008816 n
+afb+ 0x0000864f 0x00008816 23 0x000087f5 0x0000882d n
+afb+ 0x0000864f 0x0000882d 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008830 2 0x00008832 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008832 5 0x00008837 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008837 4 0x0000885e 0x0000883b n
+afb+ 0x0000864f 0x0000883b 4 0x00008851 0x0000883f n
+afb+ 0x0000864f 0x0000883f 7 0x000087f5 0x00008846 n
+afb+ 0x0000864f 0x00008846 4 0x000087f5 0x0000884a n
+afb+ 0x0000864f 0x0000884a 7 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008851 4 0x00008858 0x00008855 n
+afb+ 0x0000864f 0x00008855 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008858 6 0x00008832 0x0000885e n
+afb+ 0x0000864f 0x0000885e 7 0x0000886b 0x00008865 n
+afb+ 0x0000864f 0x00008865 6 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x0000886b 7 0x00008875 0x00008872 n
+afb+ 0x0000864f 0x00008872 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008875 10 0x000088c6 0x0000887f n
+afb+ 0x0000864f 0x0000887f 9 0x000088c6 0x00008888 n
+afb+ 0x0000864f 0x00008888 4 0x0000888c 0xffffffffffffffff b
+afb+ 0x0000864f 0x0000888c 5 0x000088be 0x00008891 n
+afb+ 0x0000864f 0x00008891 5 0x000088be 0x00008896 n
+afb+ 0x0000864f 0x00008896 6 0x000088a4 0x0000889c n
+afb+ 0x0000864f 0x0000889c 8 0x000088a6 0xffffffffffffffff n
+afb+ 0x0000864f 0x000088a4 2 0x000088a6 0xffffffffffffffff b
+afb+ 0x0000864f 0x000088a6 4 0x000088be 0x000088aa n
+afb+ 0x0000864f 0x000088aa 6 0x000088b8 0x000088b0 n
+afb+ 0x0000864f 0x000088b0 8 0x000088ba 0xffffffffffffffff n
+afb+ 0x0000864f 0x000088b8 2 0x000088ba 0xffffffffffffffff b
+afb+ 0x0000864f 0x000088ba 4 0x000088c9 0x000088be n
+afb+ 0x0000864f 0x000088be 8 0x0000888c 0x000088c6 n
+afb+ 0x0000864f 0x000088c6 3 0x0000897b 0xffffffffffffffff n
+afb+ 0x0000864f 0x000088c9 4 0x000088d0 0x000088cd n
+afb+ 0x0000864f 0x000088cd 3 0x00008968 0xffffffffffffffff n
+afb+ 0x0000864f 0x000088d0 19 0x000088e3 0xffffffffffffffff b
+afb+ 0x0000864f 0x000088e3 8 0x000088e3 0x000088eb n
+afb+ 0x0000864f 0x000088eb 19 0x00008909 0x000088fe n
+afb+ 0x0000864f 0x000088fe 2 0x00008904 0x00008900 n
+afb+ 0x0000864f 0x00008900 4 0x00008906 0x00008904 n
+afb+ 0x0000864f 0x00008904 2 0x00008906 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008906 3 0x00008909 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008909 33 0x0000892a 0xffffffffffffffff b
+afb+ 0x0000864f 0x0000892a 12 0x0000892a 0x00008936 n
+afb+ 0x0000864f 0x00008936 19 0x0000894d 0x00008949 n
+afb+ 0x0000864f 0x00008949 4 0x00008963 0x0000894d n
+afb+ 0x0000864f 0x0000894d 4 0x00008955 0x00008951 n
+afb+ 0x0000864f 0x00008951 4 0x00008963 0x00008955 n
+afb+ 0x0000864f 0x00008955 4 0x0000895d 0x00008959 n
+afb+ 0x0000864f 0x00008959 4 0x00008963 0x0000895d n
+afb+ 0x0000864f 0x0000895d 6 0x00008963 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008963 5 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008968 19 0x0000897b 0xffffffffffffffff n
+afb+ 0x0000864f 0x0000897b 4 0x000089da 0x0000897f n
+afb+ 0x0000864f 0x0000897f 6 0x000089da 0x00008985 n
+afb+ 0x0000864f 0x00008985 6 0x000089da 0x0000898b n
+afb+ 0x0000864f 0x0000898b 8 0x00008995 0x00008993 n
+afb+ 0x0000864f 0x00008993 2 0x00008995 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008995 7 0x0000899c 0xffffffffffffffff b
+afb+ 0x0000864f 0x0000899c 12 0x0000899c 0x000089a8 n
+afb+ 0x0000864f 0x000089a8 32 0x000089ca 0x000089c8 n
+afb+ 0x0000864f 0x000089c8 2 0x000089ca 0xffffffffffffffff n
+afb+ 0x0000864f 0x000089ca 16 0x000089da 0xffffffffffffffff n
+afb+ 0x0000864f 0x000089da 4 0x000089df 0x000089de n
+afb+ 0x0000864f 0x000089de 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x000089df 7 0x000089de 0x000089e6 n
+afb+ 0x0000864f 0x000089e6 13 0x000089f7 0x000089f3 n
+afb+ 0x0000864f 0x000089f3 4 0x00008a00 0x000089f7 n
+afb+ 0x0000864f 0x000089f7 4 0x00008a00 0x000089fb n
+afb+ 0x0000864f 0x000089fb 5 0x00008a00 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008a00 22 0x00008a19 0x00008a16 n
+afb+ 0x0000864f 0x00008a16 3 0x00008a19 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008a19 7 0x00008a77 0x00008a20 n
+afb+ 0x0000864f 0x00008a20 2 0x00008a22 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008a22 6 0x00008a74 0x00008a28 n
+afb+ 0x0000864f 0x00008a28 6 0x00008a34 0x00008a2e n
+afb+ 0x0000864f 0x00008a2e 4 0x00008a34 0x00008a32 n
+afb+ 0x0000864f 0x00008a32 2 0x00008a34 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008a34 6 0x00008a74 0x00008a3a n
+afb+ 0x0000864f 0x00008a3a 5 0x00008a74 0x00008a3f n
+afb+ 0x0000864f 0x00008a3f 6 0x00008a4f 0x00008a45 n
+afb+ 0x0000864f 0x00008a45 6 0x00008a53 0x00008a4b n
+afb+ 0x0000864f 0x00008a4b 4 0x00008a53 0x00008a4f n
+afb+ 0x0000864f 0x00008a4f 4 0x00008a6a 0x00008a53 n
+afb+ 0x0000864f 0x00008a53 7 0x00008a74 0x00008a5a n
+afb+ 0x0000864f 0x00008a5a 6 0x00008a64 0x00008a60 n
+afb+ 0x0000864f 0x00008a60 4 0x00008a71 0x00008a64 n
+afb+ 0x0000864f 0x00008a64 6 0x00008a74 0x00008a6a n
+afb+ 0x0000864f 0x00008a6a 7 0x00008a74 0x00008a71 n
+afb+ 0x0000864f 0x00008a71 3 0x00008a74 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008a74 3 0x00008a22 0x00008a77 n
+afb+ 0x0000864f 0x00008a77 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008c5c 4 0x00008c6d 0x00008c60 n
+afb+ 0x0000864f 0x00008c60 8 0x00008c68 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008c68 2 0x00008c6a 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008c6a 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008c6d 4 0x00008c8f 0x00008c71 n
+afb+ 0x0000864f 0x00008c71 4 0x00008c8c 0x00008c75 n
+afb+ 0x0000864f 0x00008c75 4 0x00008c79 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008c79 6 0x00008c79 0x00008c7f n
+afb+ 0x0000864f 0x00008c7f 13 0x00008c68 0x00008c8c n
+afb+ 0x0000864f 0x00008c8c 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008c8f 4 0x00008caf 0x00008c93 n
+afb+ 0x0000864f 0x00008c93 4 0x00008c8c 0x00008c97 n
+afb+ 0x0000864f 0x00008c97 4 0x00008c6a 0x00008c9b n
+afb+ 0x0000864f 0x00008c9b 6 0x00008ca5 0x00008ca1 n
+afb+ 0x0000864f 0x00008ca1 4 0x00008ca7 0x00008ca5 n
+afb+ 0x0000864f 0x00008ca5 2 0x00008ca7 0xffffffffffffffff b
+afb+ 0x0000864f 0x00008ca7 8 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008caf 4 0x00008cb9 0x00008cb3 n
+afb+ 0x0000864f 0x00008cb3 6 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000864f 0x00008cb9 30 0xffffffffffffffff 0xffffffffffffffff n
+afS 53 @ 0x864f
+"f fcn.sta_c0_inc_c1_sety_12_setx_34 9 0x00008801"
+"af+ 0x00008801 fcn.sta_c0_inc_c1_sety_12_setx_34 f n"
+afc (null) @ 0x00008801
+afb+ 0x00008801 0x00008801 4 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008801 0x00008805 5 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8801
+"f fcn.sety_12_setx_34 0 0x00008805"
+"af+ 0x00008805 fcn.sety_12_setx_34 f n"
+afc (null) @ 0x00008805
+afS 0 @ 0x8805
+"f fcn.restore_screen_from_ram_4400 249 0x00008a78"
+"af+ 0x00008a78 fcn.restore_screen_from_ram_4400 f n"
+afc (null) @ 0x00008a78
+afb+ 0x00008a78 0x00008a78 7 0x00008ae8 0x00008a7f n
+afb+ 0x00008a78 0x00008a7f 4 0x00008a86 0x00008a83 n
+afb+ 0x00008a78 0x00008a83 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008a78 0x00008a86 4 0x00008ab0 0x00008a8a n
+afb+ 0x00008a78 0x00008a8a 2 0x00008a8c 0xffffffffffffffff b
+afb+ 0x00008a78 0x00008a8c 27 0x00008a8c 0x00008aa7 n
+afb+ 0x00008a78 0x00008aa7 9 0x00008ae3 0x00008ab0 n
+afb+ 0x00008a78 0x00008ab0 4 0x00008ada 0x00008ab4 n
+afb+ 0x00008a78 0x00008ab4 2 0x00008ab6 0xffffffffffffffff b
+afb+ 0x00008a78 0x00008ab6 27 0x00008ab6 0x00008ad1 n
+afb+ 0x00008a78 0x00008ad1 9 0x00008ae3 0x00008ada n
+afb+ 0x00008a78 0x00008ada 9 0x00008b2b 0x00008ae3 n
+afb+ 0x00008a78 0x00008ae3 2 0x00008ae5 0xffffffffffffffff n
+afb+ 0x00008a78 0x00008ae5 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008a78 0x00008ae8 4 0x00008b2b 0x00008aec n
+afb+ 0x00008a78 0x00008aec 4 0x00008b0d 0x00008af0 n
+afb+ 0x00008a78 0x00008af0 4 0x00008b2b 0x00008af4 n
+afb+ 0x00008a78 0x00008af4 4 0x00008b02 0x00008af8 n
+afb+ 0x00008a78 0x00008af8 10 0x00008b3a 0x00008b02 n
+afb+ 0x00008a78 0x00008b02 11 0x00008ae5 0x00008b0d n
+afb+ 0x00008a78 0x00008b0d 4 0x00008b2b 0x00008b11 n
+afb+ 0x00008a78 0x00008b11 4 0x00008b1f 0x00008b15 n
+afb+ 0x00008a78 0x00008b15 10 0x00008b3a 0x00008b1f n
+afb+ 0x00008a78 0x00008b1f 11 0x00008b2a 0xffffffffffffffff n
+afb+ 0x00008a78 0x00008b2a 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008a78 0x00008b2b 6 0x00008b3a 0x00008b31 n
+afb+ 0x00008a78 0x00008b31 9 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008a78 0x00008b3a 4 0x00008b3e 0xffffffffffffffff b
+afb+ 0x00008a78 0x00008b3e 11 0x00008b3e 0x00008b49 n
+afb+ 0x00008a78 0x00008b49 12 0x00008b2a 0x00008b55 n
+afb+ 0x00008a78 0x00008b55 28 0xffffffffffffffff 0xffffffffffffffff n
+afS 8 @ 0x8a78
+"f fcn.cmp_game_screen_rows 34 0x00008b71"
+"af+ 0x00008b71 fcn.cmp_game_screen_rows f n"
+afc (null) @ 0x00008b71
+afb+ 0x00008b71 0x00008b71 2 0x00008b73 0xffffffffffffffff b
+afb+ 0x00008b71 0x00008b73 8 0x00008b7f 0x00008b7b n
+afb+ 0x00008b71 0x00008b7b 2 0x00008b92 0x00008b7d n
+afb+ 0x00008b71 0x00008b7d 2 0x00008b86 0x00008b7f n
+afb+ 0x00008b71 0x00008b7f 6 0x00008b73 0x00008b85 n
+afb+ 0x00008b71 0x00008b85 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008b71 0x00008b86 12 0x00008b86 0x00008b92 n
+afb+ 0x00008b71 0x00008b92 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8b71
+"f fcn.sprite_direction_compare_loop 15 0x00008b93"
+"af+ 0x00008b93 fcn.sprite_direction_compare_loop f n"
+afc (null) @ 0x00008b93
+afb+ 0x00008b93 0x00008b93 2 0x00008b95 0xffffffffffffffff b
+afb+ 0x00008b93 0x00008b95 6 0x00008b9e 0x00008b9b n
+afb+ 0x00008b93 0x00008b9b 3 0x00008b9e 0xffffffffffffffff n
+afb+ 0x00008b93 0x00008b9e 3 0x00008b95 0x00008ba1 n
+afb+ 0x00008b93 0x00008ba1 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8b93
+"f fcn.sprite_direction_compare 107 0x00008ba2"
+"af+ 0x00008ba2 fcn.sprite_direction_compare f n"
+afc (null) @ 0x00008ba2
+afb+ 0x00008ba2 0x00008ba2 7 0x00008bab 0x00008ba9 n
+afb+ 0x00008ba2 0x00008ba9 2 0x00008bab 0xffffffffffffffff n
+afb+ 0x00008ba2 0x00008bab 17 0x00008be2 0x00008bbc n
+afb+ 0x00008ba2 0x00008bbc 2 0x00008bbe 0xffffffffffffffff b
+afb+ 0x00008ba2 0x00008bbe 4 0x00008c0c 0x00008bc2 n
+afb+ 0x00008ba2 0x00008bc2 6 0x00008bbe 0x00008bc8 n
+afb+ 0x00008ba2 0x00008bc8 6 0x00008c0c 0x00008bce n
+afb+ 0x00008ba2 0x00008bce 6 0x00008c0c 0x00008bd4 n
+afb+ 0x00008ba2 0x00008bd4 8 0x00008c0c 0x00008bdc n
+afb+ 0x00008ba2 0x00008bdc 6 0x00008c0a 0x00008be2 n
+afb+ 0x00008ba2 0x00008be2 4 0x00008c0c 0x00008be6 n
+afb+ 0x00008ba2 0x00008be6 6 0x00008c0c 0x00008bec n
+afb+ 0x00008ba2 0x00008bec 6 0x00008be6 0x00008bf2 n
+afb+ 0x00008ba2 0x00008bf2 6 0x00008c0c 0x00008bf8 n
+afb+ 0x00008ba2 0x00008bf8 6 0x00008c0c 0x00008bfe n
+afb+ 0x00008ba2 0x00008bfe 8 0x00008c0c 0x00008c06 n
+afb+ 0x00008ba2 0x00008c06 4 0x00008c0a 0xffffffffffffffff b
+afb+ 0x00008ba2 0x00008c0a 2 0x00008c0c 0xffffffffffffffff n
+afb+ 0x00008ba2 0x00008c0c 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8ba2
+"f fcn.math_and_voice_1 60 0x00008c0d"
+"af+ 0x00008c0d fcn.math_and_voice_1 f n"
+afc (null) @ 0x00008c0d
+afb+ 0x00008c0d 0x00008c0d 4 0x00008c48 0x00008c11 n
+afb+ 0x00008c0d 0x00008c11 8 0x00008c28 0x00008c19 n
+afb+ 0x00008c0d 0x00008c19 4 0x00008c22 0x00008c1d n
+afb+ 0x00008c0d 0x00008c1d 5 0x00008c40 0x00008c22 n
+afb+ 0x00008c0d 0x00008c22 6 0x00008c40 0x00008c28 n
+afb+ 0x00008c0d 0x00008c28 4 0x00008c30 0x00008c2c n
+afb+ 0x00008c0d 0x00008c2c 4 0x00008c32 0x00008c30 n
+afb+ 0x00008c0d 0x00008c30 2 0x00008c32 0xffffffffffffffff b
+afb+ 0x00008c0d 0x00008c32 5 0x00008c3e 0x00008c37 n
+afb+ 0x00008c0d 0x00008c37 7 0x00008c40 0x00008c3e n
+afb+ 0x00008c0d 0x00008c3e 2 0x00008c40 0xffffffffffffffff b
+afb+ 0x00008c0d 0x00008c40 8 0x00008c48 0xffffffffffffffff n
+afb+ 0x00008c0d 0x00008c48 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8c0d
+"f fcn.read_jiffy_update_6b_die 19 0x00008c49"
+"af+ 0x00008c49 fcn.read_jiffy_update_6b_die f n"
+afc (null) @ 0x00008c49
+afb+ 0x00008c49 0x00008c49 6 0x00008c5b 0x00008c4f n
+afb+ 0x00008c49 0x00008c4f 4 0x00008c59 0x00008c53 n
+afb+ 0x00008c49 0x00008c53 6 0x00008c5b 0x00008c59 n
+afb+ 0x00008c49 0x00008c59 2 0x00008c5b 0xffffffffffffffff n
+afb+ 0x00008c49 0x00008c5b 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8c49
+"f fcn.ready 123 0x00008cd7"
+"af+ 0x00008cd7 fcn.ready f n"
+afc (null) @ 0x00008cd7
+afb+ 0x00008cd7 0x00008cd7 4 0x00008cdb 0xffffffffffffffff b
+afb+ 0x00008cd7 0x00008cdb 11 0x00008cdb 0x00008ce6 n
+afb+ 0x00008cd7 0x00008ce6 8 0x00008cf6 0x00008cee n
+afb+ 0x00008cd7 0x00008cee 4 0x00008cf6 0x00008cf2 n
+afb+ 0x00008cd7 0x00008cf2 4 0x00008cf8 0x00008cf6 n
+afb+ 0x00008cd7 0x00008cf6 2 0x00008cf8 0xffffffffffffffff b
+afb+ 0x00008cd7 0x00008cf8 8 0x00008d25 0x00008d00 n
+afb+ 0x00008cd7 0x00008d00 12 0x00008d0c 0xffffffffffffffff b
+afb+ 0x00008cd7 0x00008d0c 16 0x00008d51 0x00008d1c n
+afb+ 0x00008cd7 0x00008d1c 9 0x00008d0c 0x00008d25 n
+afb+ 0x00008cd7 0x00008d25 4 0x00008d2b 0x00008d29 n
+afb+ 0x00008cd7 0x00008d29 2 0x00008d2b 0xffffffffffffffff n
+afb+ 0x00008cd7 0x00008d2b 20 0x00008d3f 0xffffffffffffffff b
+afb+ 0x00008cd7 0x00008d3f 18 0x00008d3f 0x00008d51 n
+afb+ 0x00008cd7 0x00008d51 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8cd7
+"f loc.player_dead 7 0x00008d52"
+"af+ 0x00008d52 loc.player_dead l n"
+afc (null) @ 0x00008d52
+afb+ 0x00008d52 0x00008d52 7 0xffffffffffffffff 0xffffffffffffffff n
+afS 2 @ 0x8d52
+"f fcn.update_lives_display 52 0x00008d59"
+"af+ 0x00008d59 fcn.update_lives_display f n"
+afc (null) @ 0x00008d59
+afb+ 0x00008d59 0x00008d59 12 0x00008d6f 0x00008d65 n
+afb+ 0x00008d59 0x00008d65 3 0x00008d68 0xffffffffffffffff n
+afb+ 0x00008d59 0x00008d68 3 0x00008d6b 0xffffffffffffffff n
+afb+ 0x00008d59 0x00008d6b 4 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008d59 0x00008d6f 4 0x00008d79 0x00008d73 n
+afb+ 0x00008d59 0x00008d73 6 0x00008d68 0xffffffffffffffff n
+afb+ 0x00008d59 0x00008d79 4 0x00008d83 0x00008d7d n
+afb+ 0x00008d59 0x00008d7d 6 0x00008d6b 0xffffffffffffffff n
+afb+ 0x00008d59 0x00008d83 10 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8d59
+"f fcn.sprite_movement_and_animation_loop 1527 0x00008d8d"
+"af+ 0x00008d8d fcn.sprite_movement_and_animation_loop f n"
+afc (null) @ 0x00008d8d
+afb+ 0x00008d8d 0x00008d8d 6 0x00008d93 0xffffffffffffffff b
+afb+ 0x00008d8d 0x00008d93 8 0x00008d93 0x00008d9b n
+afb+ 0x00008d8d 0x00008d9b 7 0x00009318 0xffffffffffffffff n
+afb+ 0x00008d8d 0x00009318 5 0x00009333 0x0000931d n
+afb+ 0x00008d8d 0x0000931d 4 0x00009325 0x00009321 n
+afb+ 0x00008d8d 0x00009321 4 0x00009318 0x00009325 n
+afb+ 0x00008d8d 0x00009325 8 0x00009331 0x0000932d n
+afb+ 0x00008d8d 0x0000932d 4 0x00009331 0xffffffffffffffff n
+afb+ 0x00008d8d 0x00009331 2 0x00009333 0xffffffffffffffff n
+afb+ 0x00008d8d 0x00009333 26 0x0000934d 0xffffffffffffffff b
+afb+ 0x00008d8d 0x0000934d 8 0x0000934d 0x00009355 n
+afb+ 0x00008d8d 0x00009355 39 0x0000937c 0xffffffffffffffff b
+afb+ 0x00008d8d 0x0000937c 7 0x0000937c 0x00009383 n
+afb+ 0x00008d8d 0x00009383 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 2 @ 0x8d8d
+"f fcn.write_nulls_to_screen 11 0x00008da2"
+"af+ 0x00008da2 fcn.write_nulls_to_screen f n"
+afc (null) @ 0x00008da2
+afb+ 0x00008da2 0x00008da2 4 0x00008da6 0xffffffffffffffff b
+afb+ 0x00008da2 0x00008da6 6 0x00008da6 0x00008dac n
+afb+ 0x00008da2 0x00008dac 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8da2
+"f fcn.read_jiffy_and_write_to_screen 70 0x00008dad"
+"af+ 0x00008dad fcn.read_jiffy_and_write_to_screen f n"
+afc (null) @ 0x00008dad
+afb+ 0x00008dad 0x00008dad 6 0x00008df2 0x00008db3 n
+afb+ 0x00008dad 0x00008db3 4 0x00008dbb 0x00008db7 n
+afb+ 0x00008dad 0x00008db7 4 0x00008dbf 0x00008dbb n
+afb+ 0x00008dad 0x00008dbb 4 0x00008dbf 0xffffffffffffffff b
+afb+ 0x00008dad 0x00008dbf 4 0x00008ddb 0x00008dc3 n
+afb+ 0x00008dad 0x00008dc3 4 0x00008dcb 0x00008dc7 n
+afb+ 0x00008dad 0x00008dc7 4 0x00008dd1 0x00008dcb n
+afb+ 0x00008dad 0x00008dd1 10 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008dad 0x00008ddb 4 0x00008de3 0x00008ddf n
+afb+ 0x00008dad 0x00008ddf 4 0x00008de9 0x00008de3 n
+afb+ 0x00008dad 0x00008de9 9 0x00008df2 0xffffffffffffffff n
+afb+ 0x00008dad 0x00008df2 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8dad
+"f fcn.write_2_up_to_game_screen 16 0x00008dcb"
+"af+ 0x00008dcb fcn.write_2_up_to_game_screen f n"
+afc (null) @ 0x00008dcb
+afb+ 0x00008dcb 0x00008dcb 16 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8dcb
+"f fcn.write_1_up_to_game_screen 16 0x00008de3"
+"af+ 0x00008de3 fcn.write_1_up_to_game_screen f n"
+afc (null) @ 0x00008de3
+afb+ 0x00008de3 0x00008de3 16 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8de3
+"f fcn.check_col_and_stuff 69 0x00008df3"
+"af+ 0x00008df3 fcn.check_col_and_stuff f n"
+afc (null) @ 0x00008df3
+afb+ 0x00008df3 0x00008df3 5 0x00008df8 0xffffffffffffffff b
+afb+ 0x00008df3 0x00008df8 5 0x00008df8 0x00008dfd n
+afb+ 0x00008df3 0x00008dfd 11 0x00008e0a 0x00008e08 n
+afb+ 0x00008df3 0x00008e08 2 0x00008e0a 0xffffffffffffffff n
+afb+ 0x00008df3 0x00008e0a 16 0x00008e1a 0xffffffffffffffff b
+afb+ 0x00008df3 0x00008e1a 8 0x00008e1a 0x00008e22 n
+afb+ 0x00008df3 0x00008e22 2 0x00008e24 0xffffffffffffffff b
+afb+ 0x00008df3 0x00008e24 8 0x00008e24 0x00008e2c n
+afb+ 0x00008df3 0x00008e2c 12 0xffffffffffffffff 0xffffffffffffffff n
+afS 6 @ 0x8df3
+"f fcn.init_lives_score_and_unknown_vars 17 0x00008e38"
+"af+ 0x00008e38 fcn.init_lives_score_and_unknown_vars f n"
+afc (null) @ 0x00008e38
+afb+ 0x00008e38 0x00008e38 17 0xffffffffffffffff 0xffffffffffffffff n
+afS 8 @ 0x8e38
+"f fcn.lives_related 28 0x00008e49"
+"af+ 0x00008e49 fcn.lives_related f n"
+afc (null) @ 0x00008e49
+afb+ 0x00008e49 0x00008e49 13 0x00008e60 0x00008e56 n
+afb+ 0x00008e49 0x00008e56 4 0x00008e60 0x00008e5a n
+afb+ 0x00008e49 0x00008e5a 6 0x00008e63 0xffffffffffffffff n
+afb+ 0x00008e49 0x00008e60 3 0x00008e5a 0x00008e63 n
+afb+ 0x00008e49 0x00008e63 2 0xffffffffffffffff 0xffffffffffffffff n
+afS 6 @ 0x8e49
+"f fcn.zero_score_and_other_vars 13 0x00008e65"
+"af+ 0x00008e65 fcn.zero_score_and_other_vars f n"
+afc (null) @ 0x00008e65
+afb+ 0x00008e65 0x00008e65 13 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8e65
+"f fcn.copy_some_rom_data_to_0x87,x 18 0x00008e72"
+"af+ 0x00008e72 fcn.copy_some_rom_data_to_0x87,x f n"
+afc (null) @ 0x00008e72
+afb+ 0x00008e72 0x00008e72 4 0x00008e78 0x00008e76 n
+afb+ 0x00008e72 0x00008e76 2 0x00008e78 0xffffffffffffffff n
+afb+ 0x00008e72 0x00008e78 2 0x00008e7a 0xffffffffffffffff b
+afb+ 0x00008e72 0x00008e7a 9 0x00008e7a 0x00008e83 n
+afb+ 0x00008e72 0x00008e83 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8e72
+"f fcn.more_sound_stuff 186 0x00008e84"
+"af+ 0x00008e84 fcn.more_sound_stuff f n"
+afc (null) @ 0x00008e84
+afb+ 0x00008e84 0x00008e84 6 0x00008ea2 0x00008e8a n
+afb+ 0x00008e84 0x00008e8a 4 0x00008e9e 0x00008e8e n
+afb+ 0x00008e84 0x00008e8e 5 0x00008e93 0xffffffffffffffff b
+afb+ 0x00008e84 0x00008e93 8 0x00008e93 0x00008e9b n
+afb+ 0x00008e84 0x00008e9b 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008e84 0x00008e9e 4 0x00008ea2 0xffffffffffffffff n
+afb+ 0x00008e84 0x00008ea2 4 0x00008ec9 0x00008ea6 n
+afb+ 0x00008e84 0x00008ea6 4 0x00008eaa 0xffffffffffffffff b
+afb+ 0x00008e84 0x00008eaa 6 0x00008eaa 0x00008eb0 n
+afb+ 0x00008e84 0x00008eb0 25 0x00008ed9 0x00008ec9 n
+afb+ 0x00008e84 0x00008ec9 4 0x00008ed9 0x00008ecd n
+afb+ 0x00008e84 0x00008ecd 4 0x00008ef2 0x00008ed1 n
+afb+ 0x00008e84 0x00008ed1 4 0x00008f17 0x00008ed5 n
+afb+ 0x00008e84 0x00008ed5 4 0x00008f34 0x00008ed9 n
+afb+ 0x00008e84 0x00008ed9 23 0x00008f33 0x00008ef0 n
+afb+ 0x00008e84 0x00008ef0 2 0x00008f14 0x00008ef2 n
+afb+ 0x00008e84 0x00008ef2 19 0x00008f33 0x00008f05 n
+afb+ 0x00008e84 0x00008f05 6 0x00008f31 0x00008f0b n
+afb+ 0x00008e84 0x00008f0b 9 0x00008f14 0xffffffffffffffff n
+afb+ 0x00008e84 0x00008f14 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008e84 0x00008f17 19 0x00008f33 0x00008f2a n
+afb+ 0x00008e84 0x00008f2a 7 0x00008f31 0xffffffffffffffff n
+afb+ 0x00008e84 0x00008f31 2 0x00008f33 0xffffffffffffffff n
+afb+ 0x00008e84 0x00008f33 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008e84 0x00008f34 4 0x00008f3b 0x00008f38 n
+afb+ 0x00008e84 0x00008f38 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008e84 0x00008f3b 3 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8e84
+"f fcn.pacman_collision_draw_points 93 0x00008f3e"
+"af+ 0x00008f3e fcn.pacman_collision_draw_points f n"
+afc (null) @ 0x00008f3e
+afb+ 0x00008f3e 0x00008f3e 4 0x00008f9a 0x00008f42 n
+afb+ 0x00008f3e 0x00008f42 12 0x00008f52 0x00008f4e n
+afb+ 0x00008f3e 0x00008f4e 4 0x00008f5e 0x00008f52 n
+afb+ 0x00008f3e 0x00008f52 6 0x00008f8f 0x00008f58 n
+afb+ 0x00008f3e 0x00008f58 6 0x00008f5e 0xffffffffffffffff b
+afb+ 0x00008f3e 0x00008f5e 4 0x00008f73 0x00008f62 n
+afb+ 0x00008f3e 0x00008f62 4 0x00008f81 0x00008f66 n
+afb+ 0x00008f3e 0x00008f66 13 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008f3e 0x00008f73 4 0x00008f77 0xffffffffffffffff b
+afb+ 0x00008f3e 0x00008f77 9 0x00008f77 0x00008f80 n
+afb+ 0x00008f3e 0x00008f80 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008f3e 0x00008f81 4 0x00008f85 0xffffffffffffffff b
+afb+ 0x00008f3e 0x00008f85 9 0x00008f85 0x00008f8e n
+afb+ 0x00008f3e 0x00008f8e 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008f3e 0x00008f8f 4 0x00008f93 0xffffffffffffffff b
+afb+ 0x00008f3e 0x00008f93 5 0x00008f93 0x00008f98 n
+afb+ 0x00008f3e 0x00008f98 2 0x00008f9a 0xffffffffffffffff n
+afb+ 0x00008f3e 0x00008f9a 1 0xffffffffffffffff 0xffffffffffffffff n
+afvs 257 arg_101h int @ 0x8f3e
+afS 0 @ 0x8f3e
+"f fcn.blue_ghosts_mode_maybe 1540 0x00008f9b"
+"af+ 0x00008f9b fcn.blue_ghosts_mode_maybe f n"
+afc (null) @ 0x00008f9b
+afb+ 0x00008f9b 0x00008f9a 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008f9b 0x00008f9b 4 0x00008faf 0x00008f9f n
+afb+ 0x00008f9b 0x00008f9f 4 0x00008fa6 0x00008fa3 n
+afb+ 0x00008f9b 0x00008fa3 3 0x00008fa6 0xffffffffffffffff n
+afb+ 0x00008f9b 0x00008fa6 4 0x00008fb6 0x00008faa n
+afb+ 0x00008f9b 0x00008faa 5 0x00009005 0xffffffffffffffff n
+afb+ 0x00008f9b 0x00008faf 4 0x00008f9a 0x00008fb3 n
+afb+ 0x00008f9b 0x00008fb3 3 0x00009558 0xffffffffffffffff n
+afb+ 0x00008f9b 0x00008fb6 12 0x00008ff9 0x00008fc2 n
+afb+ 0x00008f9b 0x00008fc2 2 0x00008fc4 0xffffffffffffffff b
+afb+ 0x00008f9b 0x00008fc4 4 0x00008fce 0x00008fc8 n
+afb+ 0x00008f9b 0x00008fc8 6 0x00008fce 0xffffffffffffffff n
+afb+ 0x00008f9b 0x00008fce 3 0x00008fc4 0x00008fd1 n
+afb+ 0x00008f9b 0x00008fd1 2 0x00008fd3 0xffffffffffffffff b
+afb+ 0x00008f9b 0x00008fd3 4 0x00008fe9 0x00008fd7 n
+afb+ 0x00008f9b 0x00008fd7 4 0x00008fe1 0x00008fdb n
+afb+ 0x00008f9b 0x00008fdb 4 0x00008fe9 0x00008fdf n
+afb+ 0x00008f9b 0x00008fdf 2 0x00008fe5 0x00008fe1 n
+afb+ 0x00008f9b 0x00008fe1 4 0x00008fe7 0x00008fe5 n
+afb+ 0x00008f9b 0x00008fe5 2 0x00008fe7 0xffffffffffffffff n
+afb+ 0x00008f9b 0x00008fe7 2 0x00008fe9 0xffffffffffffffff n
+afb+ 0x00008f9b 0x00008fe9 3 0x00008fd3 0x00008fec n
+afb+ 0x00008f9b 0x00008fec 13 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008f9b 0x00008ff9 4 0x00009003 0x00008ffd n
+afb+ 0x00008f9b 0x00008ffd 6 0x00009003 0xffffffffffffffff n
+afb+ 0x00008f9b 0x00009003 2 0x00009005 0xffffffffffffffff b
+afb+ 0x00008f9b 0x00009005 5 0x0000900e 0x0000900a n
+afb+ 0x00008f9b 0x0000900a 4 0x00009010 0x0000900e n
+afb+ 0x00008f9b 0x0000900e 2 0x00009010 0xffffffffffffffff b
+afb+ 0x00008f9b 0x00009010 2 0x00009012 0xffffffffffffffff b
+afb+ 0x00008f9b 0x00009012 4 0x0000901a 0x00009016 n
+afb+ 0x00008f9b 0x00009016 4 0x0000901a 0xffffffffffffffff n
+afb+ 0x00008f9b 0x0000901a 3 0x00009012 0x0000901d n
+afb+ 0x00008f9b 0x0000901d 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00008f9b 0x00009558 8 0x0000956a 0x00009560 n
+afb+ 0x00008f9b 0x00009560 10 0x0000956a 0xffffffffffffffff n
+afb+ 0x00008f9b 0x0000956a 6 0x00009583 0x00009570 n
+afb+ 0x00008f9b 0x00009570 6 0x0000957c 0x00009576 n
+afb+ 0x00008f9b 0x00009576 6 0x0000958f 0x0000957c n
+afb+ 0x00008f9b 0x0000957c 7 0x00009594 0x00009583 n
+afb+ 0x00008f9b 0x00009583 6 0x0000958f 0x00009589 n
+afb+ 0x00008f9b 0x00009589 6 0x0000957c 0x0000958f n
+afb+ 0x00008f9b 0x0000958f 5 0x00009594 0xffffffffffffffff b
+afb+ 0x00008f9b 0x00009594 11 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x8f9b
+"f fcn.voice_2_sawtooth 83 0x0000901e"
+"af+ 0x0000901e fcn.voice_2_sawtooth f n"
+afc (null) @ 0x0000901e
+afb+ 0x0000901e 0x0000901e 4 0x00009030 0x00009022 n
+afb+ 0x0000901e 0x00009022 14 0x00009030 0xffffffffffffffff n
+afb+ 0x0000901e 0x00009030 6 0x00009055 0x00009036 n
+afb+ 0x0000901e 0x00009036 6 0x0000904e 0x0000903c n
+afb+ 0x0000901e 0x0000903c 6 0x00009046 0x00009042 n
+afb+ 0x0000901e 0x00009042 4 0x00009046 0xffffffffffffffff n
+afb+ 0x0000901e 0x00009046 8 0x00009061 0x0000904e n
+afb+ 0x0000901e 0x0000904e 7 0x00009066 0x00009055 n
+afb+ 0x0000901e 0x00009055 6 0x00009061 0x0000905b n
+afb+ 0x0000901e 0x0000905b 6 0x0000904e 0x00009061 n
+afb+ 0x0000901e 0x00009061 5 0x00009066 0xffffffffffffffff b
+afb+ 0x0000901e 0x00009066 11 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x901e
+"f fcn.voice_2_sawtooth_2 156 0x00009071"
+"af+ 0x00009071 fcn.voice_2_sawtooth_2 f n"
+afc (null) @ 0x00009071
+afb+ 0x00009071 0x0000906d 4 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009071 0x00009071 4 0x00009079 0x00009075 n
+afb+ 0x00009071 0x00009075 4 0x0000907f 0x00009079 n
+afb+ 0x00009071 0x00009079 4 0x0000907f 0x0000907d n
+afb+ 0x00009071 0x0000907d 2 0x0000907f 0xffffffffffffffff n
+afb+ 0x00009071 0x0000907f 12 0x0000906d 0x0000908b n
+afb+ 0x00009071 0x0000908b 4 0x000090a4 0x0000908f n
+afb+ 0x00009071 0x0000908f 11 0x000090bc 0x0000909a n
+afb+ 0x00009071 0x0000909a 10 0x000090b7 0x000090a4 n
+afb+ 0x00009071 0x000090a4 19 0x000090b7 0xffffffffffffffff b
+afb+ 0x00009071 0x000090b7 5 0x00009109 0x000090bc n
+afb+ 0x00009071 0x000090bc 16 0x000090cc 0xffffffffffffffff b
+afb+ 0x00009071 0x000090cc 7 0x000090d7 0x000090d3 n
+afb+ 0x00009071 0x000090d3 3 0x000090cc 0x000090d6 n
+afb+ 0x00009071 0x000090d6 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009071 0x000090d7 12 0x00009384 0xffffffffffffffff n
+afb+ 0x00009071 0x00009109 4 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x9071
+"f fcn.some_rom_music 42 0x000090e3"
+"af+ 0x000090e3 fcn.some_rom_music f n"
+afc (null) @ 0x000090e3
+afb+ 0x000090e3 0x000090e3 4 0x0000910c 0x000090e7 n
+afb+ 0x000090e3 0x000090e7 6 0x000090f5 0x000090ed n
+afb+ 0x000090e3 0x000090ed 8 0x00009109 0x000090f5 n
+afb+ 0x000090e3 0x000090f5 4 0x000090ff 0x000090f9 n
+afb+ 0x000090e3 0x000090f9 6 0x00009102 0xffffffffffffffff n
+afb+ 0x000090e3 0x000090ff 3 0x00009102 0xffffffffffffffff b
+afb+ 0x000090e3 0x00009102 7 0x00009109 0xffffffffffffffff b
+afb+ 0x000090e3 0x00009109 3 0x0000910c 0xffffffffffffffff n
+afb+ 0x000090e3 0x0000910c 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x90e3
+"f fcn.set_volume_and_decay 16 0x0000910d"
+"af+ 0x0000910d fcn.set_volume_and_decay f n"
+afc (null) @ 0x0000910d
+afb+ 0x0000910d 0x0000910d 16 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x910d
+"f fcn.write_nulls_to_ram 29 0x0000911d"
+"af+ 0x0000911d fcn.write_nulls_to_ram f n"
+afc (null) @ 0x0000911d
+afb+ 0x0000911d 0x0000911d 3 0x00009120 0xffffffffffffffff b
+afb+ 0x0000911d 0x00009120 24 0x00009120 0x00009138 n
+afb+ 0x0000911d 0x00009138 2 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x911d
+"f fcn.color_init 41 0x0000913a"
+"af+ 0x0000913a fcn.color_init f n"
+afc (null) @ 0x0000913a
+afb+ 0x0000913a 0x0000913a 4 0x0000913e 0xffffffffffffffff b
+afb+ 0x0000913a 0x0000913e 15 0x0000913e 0x0000914d n
+afb+ 0x0000913a 0x0000914d 4 0x00009151 0xffffffffffffffff b
+afb+ 0x0000913a 0x00009151 6 0x00009151 0x00009157 n
+afb+ 0x0000913a 0x00009157 2 0x00009159 0xffffffffffffffff b
+afb+ 0x0000913a 0x00009159 9 0x00009159 0x00009162 n
+afb+ 0x0000913a 0x00009162 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x913a
+"f fcn.screen_init 30 0x00009163"
+"af+ 0x00009163 fcn.screen_init f n"
+afc (null) @ 0x00009163
+afb+ 0x00009163 0x00009163 2 0x00009165 0xffffffffffffffff b
+afb+ 0x00009163 0x00009165 27 0x00009165 0x00009180 n
+afb+ 0x00009163 0x00009180 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x9163
+"f fcn.screen_copy_to_ram_4400 30 0x00009181"
+"af+ 0x00009181 fcn.screen_copy_to_ram_4400 f n"
+afc (null) @ 0x00009181
+afb+ 0x00009181 0x00009181 2 0x00009183 0xffffffffffffffff b
+afb+ 0x00009181 0x00009183 27 0x00009183 0x0000919e n
+afb+ 0x00009181 0x0000919e 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x9181
+"f fcn.screen_copy_to_ram_4800 30 0x0000919f"
+"af+ 0x0000919f fcn.screen_copy_to_ram_4800 f n"
+afc (null) @ 0x0000919f
+afb+ 0x0000919f 0x0000919f 2 0x000091a1 0xffffffffffffffff b
+afb+ 0x0000919f 0x000091a1 27 0x000091a1 0x000091bc n
+afb+ 0x0000919f 0x000091bc 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x919f
+"f fcn.update_pacman 455 0x000091bd"
+"af+ 0x000091bd fcn.update_pacman f n"
+afc (null) @ 0x000091bd
+afb+ 0x000091bd 0x000091bc 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x000091bd 0x000091bd 4 0x000091bc 0x000091c1 n
+afb+ 0x000091bd 0x000091c1 12 0x000091e3 0x000091cd n
+afb+ 0x000091bd 0x000091cd 4 0x000091df 0x000091d1 n
+afb+ 0x000091bd 0x000091d1 7 0x000091df 0x000091d8 n
+afb+ 0x000091bd 0x000091d8 5 0x000091df 0x000091dd n
+afb+ 0x000091bd 0x000091dd 2 0x000091df 0xffffffffffffffff n
+afb+ 0x000091bd 0x000091df 4 0x000091e3 0xffffffffffffffff n
+afb+ 0x000091bd 0x000091e3 11 0x0000920a 0x000091ee n
+afb+ 0x000091bd 0x000091ee 5 0x000091f3 0xffffffffffffffff b
+afb+ 0x000091bd 0x000091f3 4 0x000091f8 0x000091f7 n
+afb+ 0x000091bd 0x000091f7 1 0x000091f8 0xffffffffffffffff n
+afb+ 0x000091bd 0x000091f8 3 0x000091f3 0x000091fb n
+afb+ 0x000091bd 0x000091fb 5 0x0000920a 0x00009200 n
+afb+ 0x000091bd 0x00009200 8 0x0000920a 0x00009208 n
+afb+ 0x000091bd 0x00009208 2 0x0000920a 0xffffffffffffffff n
+afb+ 0x000091bd 0x0000920a 6 0x00009213 0x00009210 n
+afb+ 0x000091bd 0x00009210 3 0x000092f4 0xffffffffffffffff n
+afb+ 0x000091bd 0x00009213 4 0x00009229 0x00009217 n
+afb+ 0x000091bd 0x00009217 4 0x00009257 0x0000921b n
+afb+ 0x000091bd 0x0000921b 4 0x00009222 0x0000921f n
+afb+ 0x000091bd 0x0000921f 3 0x000092b9 0xffffffffffffffff n
+afb+ 0x000091bd 0x00009222 4 0x00009285 0x00009226 n
+afb+ 0x000091bd 0x00009226 3 0x00009318 0xffffffffffffffff n
+afb+ 0x000091bd 0x00009229 4 0x00009252 0x0000922d n
+afb+ 0x000091bd 0x0000922d 8 0x0000923b 0x00009235 n
+afb+ 0x000091bd 0x00009235 6 0x00009252 0x0000923b n
+afb+ 0x000091bd 0x0000923b 4 0x00009252 0x0000923f n
+afb+ 0x000091bd 0x0000923f 6 0x00009252 0x00009245 n
+afb+ 0x000091bd 0x00009245 13 0x00009252 0xffffffffffffffff n
+afb+ 0x000091bd 0x00009252 5 0x0000931d 0xffffffffffffffff n
+afb+ 0x000091bd 0x00009257 4 0x00009280 0x0000925b n
+afb+ 0x000091bd 0x0000925b 10 0x0000927e 0x00009265 n
+afb+ 0x000091bd 0x00009265 10 0x00009280 0x0000926f n
+afb+ 0x000091bd 0x0000926f 15 0x00009280 0x0000927e n
+afb+ 0x000091bd 0x0000927e 2 0x00009280 0xffffffffffffffff n
+afb+ 0x000091bd 0x00009280 5 0x0000931d 0xffffffffffffffff n
+afb+ 0x000091bd 0x00009285 4 0x000092b5 0x00009289 n
+afb+ 0x000091bd 0x00009289 6 0x00009299 0x0000928f n
+afb+ 0x000091bd 0x0000928f 10 0x00009299 0xffffffffffffffff n
+afb+ 0x000091bd 0x00009299 8 0x000092b3 0x000092a1 n
+afb+ 0x000091bd 0x000092a1 10 0x000092b5 0x000092ab n
+afb+ 0x000091bd 0x000092ab 4 0x000092b5 0x000092af n
+afb+ 0x000091bd 0x000092af 4 0x000092b5 0x000092b3 n
+afb+ 0x000091bd 0x000092b3 2 0x000092b5 0xffffffffffffffff n
+afb+ 0x000091bd 0x000092b5 4 0x0000931d 0x000092b9 n
+afb+ 0x000091bd 0x000092b9 4 0x000092f0 0x000092bd n
+afb+ 0x000091bd 0x000092bd 6 0x000092cd 0x000092c3 n
+afb+ 0x000091bd 0x000092c3 10 0x000092cd 0xffffffffffffffff n
+afb+ 0x000091bd 0x000092cd 6 0x000092d9 0x000092d3 n
+afb+ 0x000091bd 0x000092d3 6 0x000092f0 0x000092d9 n
+afb+ 0x000091bd 0x000092d9 4 0x000092f0 0x000092dd n
+afb+ 0x000091bd 0x000092dd 6 0x000092f0 0x000092e3 n
+afb+ 0x000091bd 0x000092e3 13 0x000092f0 0xffffffffffffffff n
+afb+ 0x000091bd 0x000092f0 4 0x0000931d 0x000092f4 n
+afb+ 0x000091bd 0x000092f4 6 0x000092fe 0x000092fa n
+afb+ 0x000091bd 0x000092fa 4 0x00009314 0x000092fe n
+afb+ 0x000091bd 0x000092fe 4 0x00009306 0x00009302 n
+afb+ 0x000091bd 0x00009302 4 0x00009314 0x00009306 n
+afb+ 0x000091bd 0x00009306 4 0x0000930e 0x0000930a n
+afb+ 0x000091bd 0x0000930a 4 0x00009314 0x0000930e n
+afb+ 0x000091bd 0x0000930e 4 0x00009318 0x00009312 n
+afb+ 0x000091bd 0x00009312 2 0x00009314 0xffffffffffffffff b
+afb+ 0x000091bd 0x00009314 4 0x00009333 0x00009318 n
+afb+ 0x000091bd 0x00009318 5 0x00009333 0x0000931d n
+afb+ 0x000091bd 0x0000931d 4 0x00009325 0x00009321 n
+afb+ 0x000091bd 0x00009321 4 0x00009318 0x00009325 n
+afb+ 0x000091bd 0x00009325 8 0x00009331 0x0000932d n
+afb+ 0x000091bd 0x0000932d 4 0x00009331 0xffffffffffffffff n
+afb+ 0x000091bd 0x00009331 2 0x00009333 0xffffffffffffffff b
+afb+ 0x000091bd 0x00009333 26 0x0000934d 0xffffffffffffffff b
+afb+ 0x000091bd 0x0000934d 8 0x0000934d 0x00009355 n
+afb+ 0x000091bd 0x00009355 39 0x0000937c 0xffffffffffffffff b
+afb+ 0x000091bd 0x0000937c 7 0x0000937c 0x00009383 n
+afb+ 0x000091bd 0x00009383 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x91bd
+"f fcn.pacman_pellet_collision 101 0x00009384"
+"af+ 0x00009384 fcn.pacman_pellet_collision f n"
+afc (null) @ 0x00009384
+afb+ 0x00009384 0x00009383 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009384 0x00009384 4 0x000093e8 0x00009388 n
+afb+ 0x00009384 0x00009388 4 0x000093e8 0x0000938c n
+afb+ 0x00009384 0x0000938c 6 0x00009398 0x00009392 n
+afb+ 0x00009384 0x00009392 6 0x00009383 0x00009398 n
+afb+ 0x00009384 0x00009398 16 0x000093b0 0x000093a8 n
+afb+ 0x00009384 0x000093a8 4 0x000093e8 0x000093ac n
+afb+ 0x00009384 0x000093ac 4 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009384 0x000093b0 19 0x000093c7 0x000093c3 n
+afb+ 0x00009384 0x000093c3 4 0x000093c9 0x000093c7 n
+afb+ 0x00009384 0x000093c7 2 0x000093c9 0xffffffffffffffff b
+afb+ 0x00009384 0x000093c9 13 0x000093d8 0x000093d6 n
+afb+ 0x00009384 0x000093d6 2 0x000093d8 0xffffffffffffffff n
+afb+ 0x00009384 0x000093d8 6 0x000093e8 0x000093de n
+afb+ 0x00009384 0x000093de 6 0x000093e8 0x000093e4 n
+afb+ 0x00009384 0x000093e4 4 0x000093e8 0xffffffffffffffff n
+afb+ 0x00009384 0x000093e8 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x9384
+"f fcn.calculate_score_maybe 132 0x000093e9"
+"af+ 0x000093e9 fcn.calculate_score_maybe f n"
+afc (null) @ 0x000093e9
+afb+ 0x000093e9 0x000093d0 6 0x000093d8 0x000093d6 n
+afb+ 0x000093e9 0x000093d6 2 0x000093d8 0xffffffffffffffff n
+afb+ 0x000093e9 0x000093d8 6 0x000093e8 0x000093de n
+afb+ 0x000093e9 0x000093de 6 0x000093e8 0x000093e4 n
+afb+ 0x000093e9 0x000093e4 4 0x000093e8 0xffffffffffffffff n
+afb+ 0x000093e9 0x000093e8 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x000093e9 0x000093e9 16 0x00009401 0x000093f9 n
+afb+ 0x000093e9 0x000093f9 4 0x00009401 0x000093fd n
+afb+ 0x000093e9 0x000093fd 4 0x00009428 0x00009401 n
+afb+ 0x000093e9 0x00009401 5 0x0000940e 0x00009406 n
+afb+ 0x000093e9 0x00009406 4 0x0000940e 0x0000940a n
+afb+ 0x000093e9 0x0000940a 4 0x00009428 0x0000940e n
+afb+ 0x000093e9 0x0000940e 5 0x0000941b 0x00009413 n
+afb+ 0x000093e9 0x00009413 4 0x0000941b 0x00009417 n
+afb+ 0x000093e9 0x00009417 4 0x00009428 0x0000941b n
+afb+ 0x000093e9 0x0000941b 5 0x000093e8 0x00009420 n
+afb+ 0x000093e9 0x00009420 4 0x000093e8 0x00009424 n
+afb+ 0x000093e9 0x00009424 4 0x000093e8 0x00009428 n
+afb+ 0x000093e9 0x00009428 35 0x0000944b 0xffffffffffffffff b
+afb+ 0x000093e9 0x0000944b 5 0x00009467 0x00009450 n
+afb+ 0x000093e9 0x00009450 11 0x00009467 0x0000945b n
+afb+ 0x000093e9 0x0000945b 4 0x00009467 0x0000945f n
+afb+ 0x000093e9 0x0000945f 8 0x00009467 0xffffffffffffffff n
+afb+ 0x000093e9 0x00009467 3 0x0000944b 0x0000946a n
+afb+ 0x000093e9 0x0000946a 3 0x000093d0 0xffffffffffffffff n
+afvs 255 arg_ffh int @ 0x93e9
+afvs 257 arg_101h int @ 0x93e9
+afS 0 @ 0x93e9
+"f fcn.update_screen_score_and_lives 113 0x0000946d"
+"af+ 0x0000946d fcn.update_screen_score_and_lives f n"
+afc (null) @ 0x0000946d
+afb+ 0x0000946d 0x00008d59 12 0x00008d6f 0x00008d65 n
+afb+ 0x0000946d 0x00008d65 3 0x00008d68 0xffffffffffffffff n
+afb+ 0x0000946d 0x00008d68 3 0x00008d6b 0xffffffffffffffff n
+afb+ 0x0000946d 0x00008d6b 4 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000946d 0x00008d6f 4 0x00008d79 0x00008d73 n
+afb+ 0x0000946d 0x00008d73 6 0x00008d68 0xffffffffffffffff n
+afb+ 0x0000946d 0x00008d79 4 0x00008d83 0x00008d7d n
+afb+ 0x0000946d 0x00008d7d 6 0x00008d6b 0xffffffffffffffff n
+afb+ 0x0000946d 0x00008d83 10 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000946d 0x0000946d 9 0x0000947a 0x00009476 n
+afb+ 0x0000946d 0x00009476 4 0x0000947c 0x0000947a n
+afb+ 0x0000946d 0x0000947a 2 0x0000947c 0xffffffffffffffff b
+afb+ 0x0000946d 0x0000947c 2 0x0000947e 0xffffffffffffffff b
+afb+ 0x0000946d 0x0000947e 16 0x00009490 0x0000948e n
+afb+ 0x0000946d 0x0000948e 2 0x00009490 0xffffffffffffffff n
+afb+ 0x0000946d 0x00009490 9 0x000094ab 0x00009499 n
+afb+ 0x0000946d 0x00009499 4 0x000094a0 0x0000949d n
+afb+ 0x0000946d 0x0000949d 3 0x000094ab 0x000094a0 n
+afb+ 0x0000946d 0x000094a0 5 0x000094a9 0x000094a5 n
+afb+ 0x0000946d 0x000094a5 4 0x000094ab 0x000094a9 n
+afb+ 0x0000946d 0x000094a9 2 0x000094ab 0xffffffffffffffff n
+afb+ 0x0000946d 0x000094ab 9 0x0000947e 0x000094b4 n
+afb+ 0x0000946d 0x000094b4 5 0x000094b9 0xffffffffffffffff b
+afb+ 0x0000946d 0x000094b9 5 0x000094b9 0x000094be n
+afb+ 0x0000946d 0x000094be 6 0x000094cf 0x000094c4 n
+afb+ 0x0000946d 0x000094c4 4 0x000094d0 0x000094c8 n
+afb+ 0x0000946d 0x000094c8 7 0x000094d7 0x000094cf n
+afb+ 0x0000946d 0x000094cf 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000946d 0x000094d0 7 0x000094cf 0x000094d7 n
+afb+ 0x0000946d 0x000094d7 7 0x00008d59 0xffffffffffffffff n
+afS 1 @ 0x946d
+"f fcn.voice_2_triangle 122 0x000094de"
+"af+ 0x000094de fcn.voice_2_triangle f n"
+afc (null) @ 0x000094de
+afb+ 0x000094de 0x000094de 10 0x000094e8 0xffffffffffffffff b
+afb+ 0x000094de 0x000094e8 5 0x000094fc 0x000094ed n
+afb+ 0x000094de 0x000094ed 3 0x000094e8 0x000094f0 n
+afb+ 0x000094de 0x000094f0 4 0x000094f4 0xffffffffffffffff b
+afb+ 0x000094de 0x000094f4 5 0x0000950d 0x000094f9 n
+afb+ 0x000094de 0x000094f9 3 0x000094f4 0x000094fc n
+afb+ 0x000094de 0x000094fc 4 0x00009500 0xffffffffffffffff b
+afb+ 0x000094de 0x00009500 5 0x00009512 0x00009505 n
+afb+ 0x000094de 0x00009505 3 0x00009500 0x00009508 n
+afb+ 0x000094de 0x00009508 5 0x00009523 0x0000950d n
+afb+ 0x000094de 0x0000950d 5 0x00009523 0x00009512 n
+afb+ 0x000094de 0x00009512 17 0x00009523 0xffffffffffffffff b
+afb+ 0x000094de 0x00009523 9 0x00009554 0x0000952c n
+afb+ 0x000094de 0x0000952c 16 0x00009554 0x0000953c n
+afb+ 0x000094de 0x0000953c 6 0x00009546 0x00009542 n
+afb+ 0x000094de 0x00009542 4 0x00009554 0x00009546 n
+afb+ 0x000094de 0x00009546 4 0x00009550 0x0000954a n
+afb+ 0x000094de 0x0000954a 6 0x00009552 0x00009550 n
+afb+ 0x000094de 0x00009550 2 0x00009552 0xffffffffffffffff b
+afb+ 0x000094de 0x00009552 2 0x00009554 0xffffffffffffffff n
+afb+ 0x000094de 0x00009554 4 0xffffffffffffffff 0xffffffffffffffff n
+afS 1 @ 0x94de
+"f fcn.blink_power_ups 11 0x0000959f"
+"af+ 0x0000959f fcn.blink_power_ups f n"
+afc (null) @ 0x0000959f
+afb+ 0x0000959f 0x0000959f 6 0xffffffffffffffff 0x000095a5 n
+afb+ 0x0000959f 0x000095a5 4 0xffffffffffffffff 0x000095a9 n
+afb+ 0x0000959f 0x000095a9 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x959f
+"f fcn.draw_power_ups 54 0x000095aa"
+"af+ 0x000095aa fcn.draw_power_ups f n"
+afc (null) @ 0x000095aa
+afb+ 0x000095aa 0x000095aa 14 0x000095bb 0x000095b8 n
+afb+ 0x000095aa 0x000095b8 3 0x000095bb 0xffffffffffffffff n
+afb+ 0x000095aa 0x000095bb 5 0x000095c3 0x000095c0 n
+afb+ 0x000095aa 0x000095c0 3 0x000095c3 0xffffffffffffffff n
+afb+ 0x000095aa 0x000095c3 5 0x000095cb 0x000095c8 n
+afb+ 0x000095aa 0x000095c8 3 0x000095cb 0xffffffffffffffff n
+afb+ 0x000095aa 0x000095cb 5 0x000095dc 0x000095d0 n
+afb+ 0x000095aa 0x000095d0 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x000095aa 0x000095dc 4 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x95aa
+"f fcn.ghost_position_related_maybe 55 0x000095e0"
+"af+ 0x000095e0 fcn.ghost_position_related_maybe f n"
+afc (null) @ 0x000095e0
+afb+ 0x000095e0 0x000095e0 4 0x000095e7 0x000095e4 n
+afb+ 0x000095e0 0x000095e4 3 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x000095e0 0x000095e7 6 0x000095f1 0x000095ed n
+afb+ 0x000095e0 0x000095ed 4 0x000095f1 0xffffffffffffffff n
+afb+ 0x000095e0 0x000095f1 11 0x000095fe 0x000095fc n
+afb+ 0x000095e0 0x000095fc 2 0x000095fe 0xffffffffffffffff n
+afb+ 0x000095e0 0x000095fe 5 0x00009608 0x00009603 n
+afb+ 0x000095e0 0x00009603 5 0x0000960b 0x00009608 n
+afb+ 0x000095e0 0x00009608 3 0x0000960b 0xffffffffffffffff b
+afb+ 0x000095e0 0x0000960b 12 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x95e0
+"f fcn.timed_cmp 79 0x00009617"
+"af+ 0x00009617 fcn.timed_cmp f n"
+afc (null) @ 0x00009617
+afb+ 0x00009617 0x00009617 6 0x00009623 0x0000961d n
+afb+ 0x00009617 0x0000961d 4 0x00009623 0x00009621 n
+afb+ 0x00009617 0x00009621 2 0x00009623 0xffffffffffffffff n
+afb+ 0x00009617 0x00009623 6 0x00009632 0x00009629 n
+afb+ 0x00009617 0x00009629 9 0x0000964f 0x00009632 n
+afb+ 0x00009617 0x00009632 6 0x00009629 0x00009638 n
+afb+ 0x00009617 0x00009638 4 0x00009645 0x0000963c n
+afb+ 0x00009617 0x0000963c 9 0x0000964f 0x00009645 n
+afb+ 0x00009617 0x00009645 4 0x0000964d 0x00009649 n
+afb+ 0x00009617 0x00009649 4 0x0000964f 0x0000964d n
+afb+ 0x00009617 0x0000964d 2 0x0000964f 0xffffffffffffffff n
+afb+ 0x00009617 0x0000964f 4 0x00009653 0xffffffffffffffff b
+afb+ 0x00009617 0x00009653 6 0x0000965f 0x00009659 n
+afb+ 0x00009617 0x00009659 4 0x0000965f 0x0000965d n
+afb+ 0x00009617 0x0000965d 2 0x00009662 0x0000965f n
+afb+ 0x00009617 0x0000965f 3 0x00009662 0xffffffffffffffff b
+afb+ 0x00009617 0x00009662 3 0x00009653 0x00009665 n
+afb+ 0x00009617 0x00009665 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 4 @ 0x9617
+"f fcn.cmp_8a 24 0x00009666"
+"af+ 0x00009666 fcn.cmp_8a f n"
+afc (null) @ 0x00009666
+afb+ 0x00009666 0x00009666 6 0x00009674 0x0000966c n
+afb+ 0x00009666 0x0000966c 4 0x00009674 0x00009670 n
+afb+ 0x00009666 0x00009670 4 0x00009678 0x00009674 n
+afb+ 0x00009666 0x00009674 4 0x00009678 0xffffffffffffffff b
+afb+ 0x00009666 0x00009678 3 0x00009666 0x0000967b n
+afb+ 0x00009666 0x0000967b 3 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x9666
+"f fcn.draw_bonus 112 0x0000967e"
+"af+ 0x0000967e fcn.draw_bonus f n"
+afc (null) @ 0x0000967e
+afb+ 0x0000967e 0x0000967e 4 0x00009696 0x00009682 n
+afb+ 0x0000967e 0x00009682 4 0x00009693 0x00009686 n
+afb+ 0x0000967e 0x00009686 6 0x0000968c 0xffffffffffffffff b
+afb+ 0x0000967e 0x0000968c 6 0x0000968c 0x00009692 n
+afb+ 0x0000967e 0x00009692 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000967e 0x00009693 2 0x00009695 0xffffffffffffffff n
+afb+ 0x0000967e 0x00009695 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000967e 0x00009696 4 0x000096d4 0x0000969a n
+afb+ 0x0000967e 0x0000969a 9 0x000096a8 0x000096a3 n
+afb+ 0x0000967e 0x000096a3 4 0x000096ac 0x000096a7 n
+afb+ 0x0000967e 0x000096a7 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000967e 0x000096a8 4 0x000096b0 0x000096ac n
+afb+ 0x0000967e 0x000096ac 4 0x00009695 0x000096b0 n
+afb+ 0x0000967e 0x000096b0 8 0x000096ba 0x000096b8 n
+afb+ 0x0000967e 0x000096b8 2 0x000096ba 0xffffffffffffffff n
+afb+ 0x0000967e 0x000096ba 26 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000967e 0x000096d4 4 0x000096e7 0x000096d8 n
+afb+ 0x0000967e 0x000096d8 4 0x000096e7 0x000096dc n
+afb+ 0x0000967e 0x000096dc 11 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x0000967e 0x000096e7 4 0x000096ed 0x000096eb n
+afb+ 0x0000967e 0x000096eb 2 0x000096ed 0xffffffffffffffff n
+afb+ 0x0000967e 0x000096ed 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x967e
+"f fcn.set_sprite_direction_2 154 0x000096ee"
+"af+ 0x000096ee fcn.set_sprite_direction_2 f n"
+afc (null) @ 0x000096ee
+afb+ 0x000096ee 0x000096ee 6 0x000096f4 0xffffffffffffffff b
+afb+ 0x000096ee 0x000096f4 6 0x0000973e 0x000096fa n
+afb+ 0x000096ee 0x000096fa 3 0x0000973e 0x000096fd n
+afb+ 0x000096ee 0x000096fd 4 0x0000973e 0x00009701 n
+afb+ 0x000096ee 0x00009701 11 0x00009728 0x0000970c n
+afb+ 0x000096ee 0x0000970c 4 0x00009728 0x00009710 n
+afb+ 0x000096ee 0x00009710 6 0x0000971e 0x00009716 n
+afb+ 0x000096ee 0x00009716 8 0x00009728 0x0000971e n
+afb+ 0x000096ee 0x0000971e 10 0x0000973e 0x00009728 n
+afb+ 0x000096ee 0x00009728 5 0x00009739 0x0000972d n
+afb+ 0x000096ee 0x0000972d 12 0x00009739 0xffffffffffffffff n
+afb+ 0x000096ee 0x00009739 5 0x0000973e 0xffffffffffffffff n
+afb+ 0x000096ee 0x0000973e 3 0x000096f4 0x00009741 n
+afb+ 0x000096ee 0x00009741 4 0x0000974b 0x00009745 n
+afb+ 0x000096ee 0x00009745 6 0x00009752 0x0000974b n
+afb+ 0x000096ee 0x0000974b 4 0x00009752 0x0000974f n
+afb+ 0x000096ee 0x0000974f 3 0x00009752 0xffffffffffffffff n
+afb+ 0x000096ee 0x00009752 2 0x00009754 0xffffffffffffffff b
+afb+ 0x000096ee 0x00009754 8 0x00009784 0x0000975c n
+afb+ 0x000096ee 0x0000975c 5 0x00009767 0x00009761 n
+afb+ 0x000096ee 0x00009761 6 0x00009784 0xffffffffffffffff n
+afb+ 0x000096ee 0x00009767 6 0x00009784 0x0000976d n
+afb+ 0x000096ee 0x0000976d 4 0x00009777 0x00009771 n
+afb+ 0x000096ee 0x00009771 6 0x00009784 0xffffffffffffffff n
+afb+ 0x000096ee 0x00009777 4 0x00009781 0x0000977b n
+afb+ 0x000096ee 0x0000977b 6 0x00009784 0xffffffffffffffff n
+afb+ 0x000096ee 0x00009781 3 0x00009784 0xffffffffffffffff n
+afb+ 0x000096ee 0x00009784 3 0x00009754 0x00009787 n
+afb+ 0x000096ee 0x00009787 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 16 @ 0x96ee
+"f fcn.sprite_direction_left_right_or_up 40 0x00009788"
+"af+ 0x00009788 fcn.sprite_direction_left_right_or_up f n"
+afc (null) @ 0x00009788
+afb+ 0x00009788 0x00009788 6 0x000097a9 0x0000978e n
+afb+ 0x00009788 0x0000978e 4 0x00009796 0x00009792 n
+afb+ 0x00009788 0x00009792 4 0x000097a2 0x00009796 n
+afb+ 0x00009788 0x00009796 6 0x000097a2 0x0000979c n
+afb+ 0x00009788 0x0000979c 6 0x000097a4 0x000097a2 n
+afb+ 0x00009788 0x000097a2 2 0x000097a4 0xffffffffffffffff b
+afb+ 0x00009788 0x000097a4 5 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009788 0x000097a9 7 0x00009952 0xffffffffffffffff n
+afvs 257 arg_101h int @ 0x9788
+afxc 0x97ad 0x9952
+afS 0 @ 0x9788
+"f fcn.sprite_direction_left_or_right 20 0x000097bd"
+"af+ 0x000097bd fcn.sprite_direction_left_or_right f n"
+afc (null) @ 0x000097bd
+afb+ 0x000097bd 0x000097ab 5 0x00009952 0xffffffffffffffff n
+afb+ 0x000097bd 0x000097bd 6 0x00009788 0x000097c3 n
+afb+ 0x000097bd 0x000097c3 4 0x000097ab 0x000097c7 n
+afb+ 0x000097bd 0x000097c7 6 0x00009788 0x000097cd n
+afb+ 0x000097bd 0x000097cd 4 0x000097ab 0x000097d1 n
+afxc 0x97ad 0x9952
+afS 0 @ 0x97bd
+"f fcn.sprite_direction_down 36 0x000097d1"
+"af+ 0x000097d1 fcn.sprite_direction_down f n"
+afc (null) @ 0x000097d1
+afb+ 0x000097d1 0x000097ab 5 0x00009952 0xffffffffffffffff n
+afb+ 0x000097d1 0x000097b0 13 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x000097d1 0x000097c3 4 0x000097ab 0x000097c7 n
+afb+ 0x000097d1 0x000097c7 6 0x00009788 0x000097cd n
+afb+ 0x000097d1 0x000097cd 4 0x000097ab 0x000097d1 n
+afb+ 0x000097d1 0x000097d1 6 0x000097e1 0x000097d7 n
+afb+ 0x000097d1 0x000097d7 4 0x000097e5 0x000097db n
+afb+ 0x000097d1 0x000097db 4 0x000097ed 0x000097df n
+afb+ 0x000097d1 0x000097df 2 0x000097b0 0x000097e1 n
+afb+ 0x000097d1 0x000097e1 4 0x000097ab 0x000097e5 n
+afb+ 0x000097d1 0x000097e5 6 0x000097cd 0x000097eb n
+afb+ 0x000097d1 0x000097eb 2 0x000097b0 0x000097ed n
+afb+ 0x000097d1 0x000097ed 6 0x000097c3 0x000097f3 n
+afb+ 0x000097d1 0x000097f3 2 0x000097b0 0x000097f5 n
+afvs 257 arg_101h int @ 0x97d1
+afxc 0x97ad 0x9952
+afS 0 @ 0x97d1
+"f fcn.set_sprite_direction 49 0x000097f5"
+"af+ 0x000097f5 fcn.set_sprite_direction f n"
+afc (null) @ 0x000097f5
+afb+ 0x000097f5 0x000097f5 2 0x000097f7 0xffffffffffffffff b
+afb+ 0x000097f5 0x000097f7 6 0x00009820 0x000097fd n
+afb+ 0x000097f5 0x000097fd 4 0x00009809 0x00009801 n
+afb+ 0x000097f5 0x00009801 8 0x00009820 0xffffffffffffffff n
+afb+ 0x000097f5 0x00009809 4 0x00009813 0x0000980d n
+afb+ 0x000097f5 0x0000980d 6 0x00009820 0xffffffffffffffff n
+afb+ 0x000097f5 0x00009813 4 0x0000981d 0x00009817 n
+afb+ 0x000097f5 0x00009817 6 0x00009820 0xffffffffffffffff n
+afb+ 0x000097f5 0x0000981d 3 0x00009820 0xffffffffffffffff n
+afb+ 0x000097f5 0x00009820 5 0x000097f7 0x00009825 n
+afb+ 0x000097f5 0x00009825 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 6 @ 0x97f5
+"f fcn.sprite_direction_up_or_down 31 0x00009826"
+"af+ 0x00009826 fcn.sprite_direction_up_or_down f n"
+afc (null) @ 0x00009826
+afb+ 0x00009826 0x00009826 6 0x00009836 0x0000982c n
+afb+ 0x00009826 0x0000982c 6 0x00009840 0x00009832 n
+afb+ 0x00009826 0x00009832 4 0x0000983e 0x00009836 n
+afb+ 0x00009826 0x00009836 6 0x00009840 0x0000983c n
+afb+ 0x00009826 0x0000983c 2 0x0000983e 0xffffffffffffffff b
+afb+ 0x00009826 0x0000983e 2 0x00009840 0xffffffffffffffff n
+afb+ 0x00009826 0x00009840 5 0x00009952 0xffffffffffffffff n
+afS 0 @ 0x9826
+"f fcn.buncha_randomness_and_lut_stuff_and_triangle 269 0x00009845"
+"af+ 0x00009845 fcn.buncha_randomness_and_lut_stuff_and_triangle f n"
+afc (null) @ 0x00009845
+afb+ 0x00009845 0x00009845 4 0x0000984f 0x00009849 n
+afb+ 0x00009845 0x00009849 5 0x0000985e 0x0000984e n
+afb+ 0x00009845 0x0000984e 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009845 0x0000984f 4 0x00009877 0x00009853 n
+afb+ 0x00009845 0x00009853 4 0x00009861 0x00009857 n
+afb+ 0x00009845 0x00009857 4 0x0000985e 0x0000985b n
+afb+ 0x00009845 0x0000985b 3 0x00009915 0xffffffffffffffff n
+afb+ 0x00009845 0x0000985e 3 0x0000993f 0xffffffffffffffff n
+afb+ 0x00009845 0x00009861 4 0x00009868 0x00009865 n
+afb+ 0x00009845 0x00009865 3 0x000098c8 0xffffffffffffffff n
+afb+ 0x00009845 0x00009868 4 0x0000986f 0x0000986c n
+afb+ 0x00009845 0x0000986c 3 0x000098ea 0xffffffffffffffff n
+afb+ 0x00009845 0x0000986f 4 0x00009876 0x00009873 n
+afb+ 0x00009845 0x00009873 3 0x00009915 0xffffffffffffffff n
+afb+ 0x00009845 0x00009876 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009845 0x00009877 5 0x0000987f 0x0000987c n
+afb+ 0x00009845 0x0000987c 3 0x0000987f 0xffffffffffffffff n
+afb+ 0x00009845 0x0000987f 23 0x000098c3 0x00009896 n
+afb+ 0x00009845 0x00009896 4 0x000098a1 0x0000989a n
+afb+ 0x00009845 0x0000989a 7 0x0000993b 0xffffffffffffffff n
+afb+ 0x00009845 0x000098a1 34 0x000098c8 0x000098c3 n
+afb+ 0x00009845 0x000098c3 5 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009845 0x000098c8 4 0x000098cf 0x000098cc n
+afb+ 0x00009845 0x000098cc 3 0x00009915 0xffffffffffffffff n
+afb+ 0x00009845 0x000098cf 5 0x000098d7 0x000098d4 n
+afb+ 0x00009845 0x000098d4 3 0x00009950 0xffffffffffffffff n
+afb+ 0x00009845 0x000098d7 8 0x000098d4 0x000098df n
+afb+ 0x00009845 0x000098df 4 0x000098d4 0x000098e3 n
+afb+ 0x00009845 0x000098e3 7 0x000098f6 0x000098ea n
+afb+ 0x00009845 0x000098ea 4 0x00009915 0x000098ee n
+afb+ 0x00009845 0x000098ee 5 0x000098f6 0x000098f3 n
+afb+ 0x00009845 0x000098f3 3 0x000098f6 0xffffffffffffffff n
+afb+ 0x00009845 0x000098f6 14 0x00009910 0x00009904 n
+afb+ 0x00009845 0x00009904 12 0x00009910 0xffffffffffffffff n
+afb+ 0x00009845 0x00009910 5 0x00009950 0xffffffffffffffff n
+afb+ 0x00009845 0x00009915 23 0x00009950 0x0000992c n
+afb+ 0x00009845 0x0000992c 8 0x00009950 0x00009934 n
+afb+ 0x00009845 0x00009934 4 0x00009950 0x00009938 n
+afb+ 0x00009845 0x00009938 3 0x000098a1 0xffffffffffffffff n
+afb+ 0x00009845 0x0000993b 4 0x0000993f 0xffffffffffffffff b
+afb+ 0x00009845 0x0000993f 13 0x00009950 0x0000994c n
+afb+ 0x00009845 0x0000994c 4 0x00009950 0xffffffffffffffff n
+afb+ 0x00009845 0x00009950 2 0xffffffffffffffff 0xffffffffffffffff n
+afS 12 @ 0x9845
+"f fcn.sprite_movement_and_animation 151 0x00009952"
+"af+ 0x00009952 fcn.sprite_movement_and_animation f n"
+afc (null) @ 0x00009952
+afb+ 0x00009952 0x00009952 4 0x00009962 0x00009956 n
+afb+ 0x00009952 0x00009956 4 0x0000995e 0x0000995a n
+afb+ 0x00009952 0x0000995a 4 0x0000995e 0xffffffffffffffff n
+afb+ 0x00009952 0x0000995e 4 0x0000998f 0x00009962 n
+afb+ 0x00009952 0x00009962 4 0x00009972 0x00009966 n
+afb+ 0x00009952 0x00009966 4 0x0000996e 0x0000996a n
+afb+ 0x00009952 0x0000996a 4 0x0000996e 0xffffffffffffffff n
+afb+ 0x00009952 0x0000996e 4 0x0000998f 0x00009972 n
+afb+ 0x00009952 0x00009972 4 0x00009980 0x00009976 n
+afb+ 0x00009952 0x00009976 4 0x0000997c 0x0000997a n
+afb+ 0x00009952 0x0000997a 2 0x0000997c 0xffffffffffffffff n
+afb+ 0x00009952 0x0000997c 4 0x0000998f 0x00009980 n
+afb+ 0x00009952 0x00009980 4 0x0000998e 0x00009984 n
+afb+ 0x00009952 0x00009984 4 0x0000998a 0x00009988 n
+afb+ 0x00009952 0x00009988 2 0x0000998a 0xffffffffffffffff n
+afb+ 0x00009952 0x0000998a 4 0x0000998f 0x0000998e n
+afb+ 0x00009952 0x0000998e 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009952 0x0000998f 4 0x00009995 0x00009993 n
+afb+ 0x00009952 0x00009993 2 0x00009995 0xffffffffffffffff n
+afb+ 0x00009952 0x00009995 6 0x000099a8 0x0000999b n
+afb+ 0x00009952 0x0000999b 5 0x000099a4 0x000099a0 n
+afb+ 0x00009952 0x000099a0 4 0x000099ac 0x000099a4 n
+afb+ 0x00009952 0x000099a4 4 0x000099ac 0x000099a8 n
+afb+ 0x00009952 0x000099a8 4 0x000099ac 0xffffffffffffffff b
+afb+ 0x00009952 0x000099ac 16 0x000099bc 0xffffffffffffffff b
+afb+ 0x00009952 0x000099bc 8 0x000099bc 0x000099c4 n
+afb+ 0x00009952 0x000099c4 29 0x000099e1 0xffffffffffffffff b
+afb+ 0x00009952 0x000099e1 7 0x000099e1 0x000099e8 n
+afb+ 0x00009952 0x000099e8 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x9952
+"f fcn.random_sprite_movement 128 0x000099e9"
+"af+ 0x000099e9 fcn.random_sprite_movement f n"
+afc (null) @ 0x000099e9
+afb+ 0x000099e9 0x000099e9 6 0x00009a01 0x000099ef n
+afb+ 0x000099e9 0x000099ef 2 0x000099f9 0x000099f1 n
+afb+ 0x000099e9 0x000099f1 4 0x000099fd 0x000099f5 n
+afb+ 0x000099e9 0x000099f5 4 0x00009a03 0x000099f9 n
+afb+ 0x000099e9 0x000099f9 4 0x000099f5 0x000099fd n
+afb+ 0x000099e9 0x000099fd 4 0x00009a03 0x00009a01 n
+afb+ 0x000099e9 0x00009a01 2 0x00009a03 0xffffffffffffffff b
+afb+ 0x000099e9 0x00009a03 8 0x00009a1d 0x00009a0b n
+afb+ 0x000099e9 0x00009a0b 2 0x00009a15 0x00009a0d n
+afb+ 0x000099e9 0x00009a0d 4 0x00009a19 0x00009a11 n
+afb+ 0x000099e9 0x00009a11 4 0x00009a1f 0x00009a15 n
+afb+ 0x000099e9 0x00009a15 4 0x00009a11 0x00009a19 n
+afb+ 0x000099e9 0x00009a19 4 0x00009a1f 0x00009a1d n
+afb+ 0x000099e9 0x00009a1d 2 0x00009a1f 0xffffffffffffffff b
+afb+ 0x000099e9 0x00009a1f 6 0x00009a3e 0x00009a25 n
+afb+ 0x000099e9 0x00009a25 4 0x00009a3e 0x00009a29 n
+afb+ 0x000099e9 0x00009a29 4 0x00009a36 0x00009a2d n
+afb+ 0x000099e9 0x00009a2d 4 0x00009a36 0x00009a31 n
+afb+ 0x000099e9 0x00009a31 5 0x00009a3a 0x00009a36 n
+afb+ 0x000099e9 0x00009a36 4 0x00009a64 0x00009a3a n
+afb+ 0x000099e9 0x00009a3a 4 0x00009a64 0x00009a3e n
+afb+ 0x000099e9 0x00009a3e 6 0x00009a3a 0x00009a44 n
+afb+ 0x000099e9 0x00009a44 7 0x00009a4d 0x00009a4b n
+afb+ 0x000099e9 0x00009a4b 2 0x00009a4d 0xffffffffffffffff n
+afb+ 0x000099e9 0x00009a4d 3 0x00009a54 0x00009a50 n
+afb+ 0x000099e9 0x00009a50 4 0x00009a64 0x00009a54 n
+afb+ 0x000099e9 0x00009a54 3 0x00009a5b 0x00009a57 n
+afb+ 0x000099e9 0x00009a57 4 0x00009a64 0x00009a5b n
+afb+ 0x000099e9 0x00009a5b 3 0x00009a62 0x00009a5e n
+afb+ 0x000099e9 0x00009a5e 4 0x00009a64 0x00009a62 n
+afb+ 0x000099e9 0x00009a62 2 0x00009a64 0xffffffffffffffff n
+afb+ 0x000099e9 0x00009a64 5 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x99e9
+"f fcn.sprite_direction_compare_2 167 0x00009a69"
+"af+ 0x00009a69 fcn.sprite_direction_compare_2 f n"
+afc (null) @ 0x00009a69
+afb+ 0x00009a69 0x00009a69 6 0x00009a76 0x00009a6f n
+afb+ 0x00009a69 0x00009a6f 6 0x00009abb 0x00009a75 n
+afb+ 0x00009a69 0x00009a75 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009a69 0x00009a76 2 0x00009a78 0xffffffffffffffff b
+afb+ 0x00009a69 0x00009a78 7 0x00009a83 0x00009a7f n
+afb+ 0x00009a69 0x00009a7f 3 0x00009a78 0x00009a82 n
+afb+ 0x00009a69 0x00009a82 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009a69 0x00009a83 6 0x00009aa2 0x00009a89 n
+afb+ 0x00009a69 0x00009a89 6 0x00009a82 0x00009a8f n
+afb+ 0x00009a69 0x00009a8f 7 0x00009aff 0x00009a96 n
+afb+ 0x00009a69 0x00009a96 4 0x00009a9d 0x00009a9a n
+afb+ 0x00009a69 0x00009a9a 3 0x00009a8f 0x00009a9d n
+afb+ 0x00009a69 0x00009a9d 4 0x00009aff 0x00009aa1 n
+afb+ 0x00009a69 0x00009aa1 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009a69 0x00009aa2 6 0x00009a82 0x00009aa8 n
+afb+ 0x00009a69 0x00009aa8 7 0x00009aff 0x00009aaf n
+afb+ 0x00009a69 0x00009aaf 4 0x00009ab6 0x00009ab3 n
+afb+ 0x00009a69 0x00009ab3 3 0x00009aa8 0x00009ab6 n
+afb+ 0x00009a69 0x00009ab6 4 0x00009aff 0x00009aba n
+afb+ 0x00009a69 0x00009aba 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009a69 0x00009abb 2 0x00009abd 0xffffffffffffffff b
+afb+ 0x00009a69 0x00009abd 7 0x00009ac8 0x00009ac4 n
+afb+ 0x00009a69 0x00009ac4 3 0x00009abd 0x00009ac7 n
+afb+ 0x00009a69 0x00009ac7 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009a69 0x00009ac8 6 0x00009ae7 0x00009ace n
+afb+ 0x00009a69 0x00009ace 6 0x00009ac7 0x00009ad4 n
+afb+ 0x00009a69 0x00009ad4 7 0x00009aff 0x00009adb n
+afb+ 0x00009a69 0x00009adb 4 0x00009ae2 0x00009adf n
+afb+ 0x00009a69 0x00009adf 3 0x00009ad4 0x00009ae2 n
+afb+ 0x00009a69 0x00009ae2 4 0x00009aff 0x00009ae6 n
+afb+ 0x00009a69 0x00009ae6 1 0xffffffffffffffff 0xffffffffffffffff n
+afb+ 0x00009a69 0x00009ae7 6 0x00009ac7 0x00009aed n
+afb+ 0x00009a69 0x00009aed 7 0x00009aff 0x00009af4 n
+afb+ 0x00009a69 0x00009af4 4 0x00009afb 0x00009af8 n
+afb+ 0x00009a69 0x00009af8 3 0x00009aed 0x00009afb n
+afb+ 0x00009a69 0x00009afb 4 0x00009b0f 0x00009aff n
+afb+ 0x00009a69 0x00009aff 4 0x00009b07 0x00009b03 n
+afb+ 0x00009a69 0x00009b03 4 0x00009b0f 0x00009b07 n
+afb+ 0x00009a69 0x00009b07 8 0x00009b0f 0xffffffffffffffff b
+afb+ 0x00009a69 0x00009b0f 1 0xffffffffffffffff 0xffffffffffffffff n
+afS 0 @ 0x9a69
+
+# types
+tk func.sinl.ret=long double
+tk func.tolower.ret=int
+tk func.strcoll.ret=int
+tk func.wcstoumax.args=3
+tk func.cosl.arg.0=long double,x
+tk func.unlink.ret=int
+tk func.frexpf.args=2
+tk imaxdiv=func
+tk func.maskrune.args=2
+tk func.wmemcpy.args=3
+tk llrint=func
+tk func.sinh.ret=floating_point
+tk func.remquol.ret=long double
+tk func.ioctl.ret=int
+tk func.mbrlen.args=3
+tk func.atoll.args=1
+tk func.tanl.arg.0=long double,x
+tk ceil=func
+tk func._exit.ret=void
+tk func.tan.args=1
+tk func.ungetwc.arg.0=wint_t,c
+tk func.log2f.ret=float
+tk func.isblank.ret=int
+tk func.ungetwc.arg.1=FILE,*stream
+tk func.coshf.ret=float
+tk uint32_t=type
+tk func.read.ret=ssize_t
+tk func.remquof.args=3
+tk func.vsscanf.arg.1=,const char*
+tk func.swscanf.arg.0=const wchar_t,*s
+tk fsetpos=func
+tk func.vsscanf.arg.0=const char *,s
+tk func.swscanf.arg.1=const wchar_t,*format
+tk func.atof.arg.0=const char *,str
+tk func.wcrtomb.args=3
+tk func.vwprintf.ret=int
+tk func.close.ret=int
+tk func.vsscanf.arg.2=,va_list
+tk func.iswgraph.arg.0=wint_t,wc
+tk func.clock.ret=clock_t
+tk func.umask.arg.0=int,m
+tk func.sqrtl.ret=long double
+tk func.fegetenv.ret=int
+tk atanhf=func
+tk func.warn.ret=void
+tk func.fesetround.arg.0=int,round
+tk llabs=func
+tk func.rintl.ret=long double
+tk func.snprintf.args=4
+tk func.roundl.ret=long double
+tk func.lround.ret=long
+tk feholdexcept=func
+tk func.setlocale.args=2
+tk func.tmpnam.args=1
+tk func.wcslen.ret=size_t
+tk func.wcstombs.ret=size_t
+tk func.strncmp.args=3
+tk func.strtold.args=2
+tk func.lgamma.arg.0=arithmetic,x
+tk func.strcmp.arg.0=const char *,s1
+tk strrchr=func
+tk func.srand.arg.0=int,seed
+tk func.log1pf.ret=float
+tk atanhl=func
+tk acos=func
+tk func.strcmp.arg.1=const char *,s2
+tk func.sprintf.ret=int
+tk func.wcscpy.arg.0=wchar_t,*s1
+tk func.strerror.arg.0=int,errnum
+tk frexp=func
+tk func.wcscpy.arg.1=const wchar_t,*s2
+tk func.wcstoimax.args=3
+tk func.ungetc.arg.1=FILE,*stream
+tk func.ungetc.arg.0=int,c
+tk func.wcscat.arg.0=wchar_t,*s1
+tk strncmp=func
+tk func.xmalloc.ret= void *
+tk func.iswalpha.ret=int
+tk func.wcscat.arg.1=const wchar_t,*s2
+tk llroundf=func
+tk sqrt=func
+tk type.unsigned char=b
+tk type.unsigned int.size=32
+tk func.fwrite.ret=size_t
+tk func.wcstod.args=2
+tk func.strtoul.arg.2=int,base
+tk lrintl=func
+tk islessgreater=func
+tk func.floor.args=1
+tk modf=func
+tk func.floorl.arg.0=long double,x
+tk func.strtoul.arg.0=const char *,str
+tk func.trunc.ret=floating_point
+tk func.strtoul.arg.1=char*,*endptr
+tk func.log2.arg.0=arithmetic,x
+tk sqrtf=func
+tk func.wcstold.args=2
+tk __libc_start_main=func
+tk func.unlink.arg.0=const char *,path
+tk tmpfile=func
+tk towlower=func
+tk func.wcstof.arg.1=wchar_t*,*endptr
+tk func.wcstof.arg.0=const wchar_t,*nptr
+tk func.mktime.ret=time_t
+tk llroundl=func
+tk putchar=func
+tk func.erfl.arg.0=long double,x
+tk func.iscntrl.arg.0=int,c
+tk sqrtl=func
+tk lrintf=func
+tk func.fmaxl.arg.1=long double,y
+tk func.frexpf.arg.0=float,value
+tk func.fmaxl.arg.0=long double,x
+tk func.frexpf.arg.1=int,*exp
+tk func.strlcpy.args=3
+tk func.nan.arg.0=const char *,str
+tk func.atan2.ret=floating_point
+tk func.srand.ret=void
+tk func.log1pf.arg.0=float,x
+tk func.llround.arg.0=arithmetic,x
+tk copysign=func
+tk isgraph=func
+tk func.memset.arg.2=size_t,n
+tk rename=func
+tk func.memset.arg.0=void,*s
+tk func.memset.arg.1=int,c
+tk func.access.args=2
+tk func.vfscanf.arg.0=FILE,*stream
+tk func.mblen.arg.1=size_t,n
+tk func.vfscanf.arg.1=,const char*
+tk func.mblen.arg.0=const char *,s
+tk func.rint.ret=floating_point
+tk func.vfscanf.arg.2=,va_list
+tk func.feof.arg.0=FILE,*stream
+tk tolower=func
+tk func.strtold.ret=long double
+tk getprogname=func
+tk func.strcat.args=2
+tk func.fileno.ret=int
+tk func.swprintf.arg.2=const wchar_t,*format
+tk func.erf.arg.0=arithmetic,x
+tk fputs=func
+tk func.nearbyint.arg.0=arithmetic,x
+tk func.acoshf.arg.0=float,x
+tk func.fabsf.arg.0=float,x
+tk func.getopt.args=3
+tk func.putc.arg.1=,FILE*
+tk func.fputws.arg.0=const wchar_t,*s
+tk func.swprintf.arg.0=wchar_t,*s
+tk func.putc.arg.0=int,c
+tk func.fputws.arg.1=FILE,*stream
+tk func.swprintf.arg.1=size_t,n
+tk strftime=func
+tk func.isinf.ret=bool
+tk func.setjmp.arg.0=jmpbuf,env
+tk func.wcstoll.ret=long long
+tk func.nexttoward.ret=floating_point
+tk func.isupper.args=1
+tk func.scalbnl.ret=long double
+tk func.atanhf.arg.0=float,x
+tk func.iswctype.arg.1=wctype_t,desc
+tk strcat=func
+tk remainderl=func
+tk func.iswctype.arg.0=wint_t,wc
+tk func.acosh.arg.0=arithmetic,x
+tk func.islessequal.ret=bool
+tk func.isinf.args=1
+tk func.fabs.arg.0=arithmetic,x
+tk func.fputc.args=2
+tk func.frexpl.args=2
+tk func.scalblnf.arg.0=float,x
+tk func.atanl.args=1
+tk func.scalblnf.arg.1=long,ex
+tk func.asinf.ret=float
+tk func.vsnprintf.arg.1=,size_t
+tk func.wcsftime.ret=size_t
+tk remainderf=func
+tk func.vsnprintf.arg.0=char,*s
+tk fwscanf=func
+tk func.strncasecmp.args=3
+tk func.vsnprintf.arg.3=va_list,arg
+tk func.strlen.args=1
+tk func.vsnprintf.arg.2=,const char*
+tk func.ldiv.ret=ldiv_t
+tk func.fgetc.args=1
+tk long=type
+tk func.mblen.ret=int
+tk func.putchar.ret=int
+tk fputc=func
+tk memmove=func
+tk func.rintl.args=1
+tk func.fputwc.arg.0=wchar_t,c
+tk func.wscanf.args=1
+tk func.logbl.ret=long double
+tk func.puts.arg.0=const char *,s
+tk func.fputwc.arg.1=FILE,*stream
+tk atol=func
+tk nearbyintf=func
+tk func.feupdateenv.args=1
+tk func.getenv.ret=char *
+tk func.nl_langinfo_l.arg.1=locale_t locale
+tk func.putwc.arg.0=wchar_t,c
+tk func.nl_langinfo_l.arg.0=nl_item,item
+tk func.wcstoull.args=3
+tk func.putwc.arg.1=FILE,*stream
+tk atoi=func
+tk func.fchmod.args=2
+tk func.tmpfile.ret=file*
+tk clearerr=func
+tk func.gets.args=1
+tk atof=func
+tk nearbyintl=func
+tk func.expl.ret=long double
+tk _Exit=func
+tk func.fflush.ret=int
+tk func.mbsinit.args=1
+tk func.mktemp.arg.0=char *,template
+tk func.rewind.ret=void
+tk func.iswcntrl.arg.0=wint_t,wc
+tk wcschr=func
+tk vfwscanf=func
+tk isspace=func
+tk func.access.ret=int
+tk vwscanf=func
+tk func.nan.args=1
+tk func.strncmp.ret=int
+tk xmalloc=func
+tk func.puts.args=1
+tk func.remove.ret=int
+tk func.atan2f.arg.1=float,x
+tk func.atan2f.arg.0=float,y
+tk func.textdomain.args=1
+tk func.feraiseexcept.arg.0=int,excepts
+tk func.fclose.arg.0=FILE,*stream
+tk func.fmaxl.args=2
+tk func.hypotf.ret=float
+tk func.swscanf.ret=int
+tk func.vwprintf.arg.1=va_list,arg
+tk func.ldiv.arg.0=long,numer
+tk func.vwprintf.arg.0=const wchar_t,*format
+tk func.ldiv.arg.1=long,denom
+tk lroundl=func
+tk func.close.arg.0=int,fildes
+tk type.int16_t.size=16
+tk func.compat_mode.arg.1=const char *,mode
+tk __stack_chk_fail=func
+tk func.asinhl.ret=long double
+tk func.compat_mode.arg.0=const char *,function
+tk func.strlen.ret=size_t
+tk wctrans=func
+tk isunordered=func
+tk func.rename.args=2
+tk lroundf=func
+tk func.islessequal.arg.0=arithmetic,x
+tk func.nl_langinfo.ret=char *
+tk func.mktime.args=1
+tk fma=func
+tk func.islessequal.arg.1=arithmetic,y
+tk func.fsetpos.ret=int
+tk func.wcsrchr.args=2
+tk isxdigit=func
+tk func.wcstoimax.arg.0=const,wchar_t*
+tk func.wctob.args=1
+tk *aligned_alloc=func
+tk func.remainderf.ret=float
+tk func.wcstoimax.arg.1=wchar_t*,*endptr
+tk func.sscanf.ret=int
+tk func.wcstoimax.arg.2=int,base
+tk func.isgreater.args=2
+tk func.logl.args=1
+tk func.wcscpy.ret=wchar_t*
+tk func.strerror.ret=char*
+tk func.llroundf.arg.0=float,x
+tk func.sqrt.arg.0=arithmetic,x
+tk func.sprintf.args=3
+tk func.iswspace.arg.0=wint_t,wc
+tk func.qsort.arg.2=size_t,size
+tk func.qsort.arg.3=int(*compar)(const void,*const void *)
+tk _exit=func
+tk func.qsort.arg.0=void,*base
+tk func.fminf.arg.1=float,y
+tk cos=func
+tk func.qsort.arg.1=size_t,nmemb
+tk func.fminf.arg.0=float,x
+tk func.chmod.arg.0=const char *,path
+tk func.strncat.arg.0=char,*s1
+tk func.chmod.arg.1=int,mode
+tk func.iswgraph.args=1
+tk func.umask.args=1
+tk func.strncat.arg.1=const char *,s2
+tk func.strncat.arg.2=size_t,n
+tk lldiv=func
+tk func.fputwc.args=2
+tk func.roundl.arg.0=long double,x
+tk func.lround.arg.0=arithmetic,x
+tk func.vsnprintf.args=4
+tk func.scalbn.arg.0=arithmetic,x
+tk func.compat_mode.ret=bool
+tk nl_langinfo_l=func
+tk func.scalbn.arg.1=int,ex
+tk func.exp2l.arg.0=long double,x
+tk func.strcspn.ret=size_t
+tk func.div.ret=lldiv_t
+tk func.tgammal.args=1
+tk func.nl_langinfo.arg.0=nl_item,item
+tk func.ferror.ret=int
+tk fputwc=func
+tk func.unlink.args=1
+tk func.vwscanf.arg.1=va_list,arg
+tk func.feraiseexcept.ret=int
+tk func.fclose.ret=int
+tk func.vwscanf.arg.0=const wchar_t,*format
+tk func.truncf.arg.0=float,x
+tk func.fmax.ret=floating_point
+tk func.realloc.arg.1=size_t,size
+tk iswlower=func
+tk func.realloc.arg.0=void,*ptr
+tk func.basename.args=1
+tk wcscoll=func
+tk func.truncl.args=1
+tk sscanf=func
+tk func.erff.ret=float
+tk func.isalnum.arg.0=int,c
+tk func.wcstoull.ret=long long
+tk func.isdigit.args=1
+tk func.strcat.arg.0=char,*s1
+tk expm1f=func
+tk func.strcat.arg.1=const char *,s2
+tk func.nextafterl.args=2
+tk func.isprint.ret=int
+tk func.modfl.ret=long double
+tk fabsf=func
+tk func.__uClibc_main.noreturn=true
+tk fputws=func
+tk wcsrtombs=func
+tk func.remainder.ret=floating_point
+tk write=func
+tk func.fgetwc.args=1
+tk func.fwscanf.arg.1=const wchar_t,*format
+tk expm1l=func
+tk func.fwscanf.arg.0=FILE,*stream
+tk lstat=func
+tk func.exit.args=1
+tk wmemcpy=func
+tk func.fmal.ret=long double
+tk func.isatty.args=1
+tk fabsl=func
+tk func.mbrtowc.arg.3=mbstate_t,*ps
+tk system=func
+tk func.coshf.arg.0=float,x
+tk ceilf=func
+tk func.mbrtowc.arg.2=size_t,n
+tk powl=func
+tk func.ferror.args=1
+tk func.mbrtowc.arg.1=const char *,s
+tk func.realloc.ret=void *
+tk func.mbrtowc.arg.0=wchar_t,*pwc
+tk modff=func
+tk func.time.arg.0=time_t,*timer
+tk func.labs.ret=long
+tk func.getc.arg.0=FILE,*steam
+tk func.iswalpha.args=1
+tk func.strcoll.arg.0=const char *,s1
+tk func.*aligned_alloc.args=2
+tk func.towctrans.args=2
+tk func.strcoll.arg.1=const char *,s2
+tk func.erf.ret=floating_point
+tk modfl=func
+tk func.strcspn.arg.0=const char *,s1
+tk func.div.arg.0=long long,numer
+tk func.copysign.args=2
+tk ceill=func
+tk uint64_t=type
+tk func.strcspn.arg.1=const char *,s2
+tk func.div.arg.1=long long,denom
+tk powf=func
+tk func.wmemset.args=3
+tk func.nexttowardl.args=2
+tk func.copysignf.args=2
+tk func.scalblnl.args=2
+tk fegetenv=func
+tk fchmod=func
+tk func.tgammal.arg.0=long double,x
+tk func.nearbyintf.ret=float
+tk func.read.args=3
+tk func.expm1f.ret=float
+tk func.isless.args=2
+tk func.tanh.args=1
+tk atexit=func
+tk sin=func
+tk printf=func
+tk ldiv=func
+tk func.getpid.ret=int
+tk vwprintf=func
+tk func.gets.arg.0=char,*s
+tk func.nanl.ret=long double
+tk feraiseexcept=func
+tk func.llrintf.arg.0=float,x
+tk func.remove.arg.0=const char *,filename
+tk func.vswscanf.args=3
+tk func.perror.arg.0=const char *,s
+tk func.bsearch.arg.4=int,(*compar)(const void,*const void *)
+tk func.feclearexcept.args=1
+tk fscanf=func
+tk func.isprint.arg.0=int,c
+tk func.fetestexcept.arg.0=int,excepts
+tk func.btowc.arg.0=int,c
+tk func.bsearch.arg.1=const void,*base
+tk func.logbf.args=1
+tk func.wctype.arg.0=const char *,property
+tk func.bsearch.arg.0=const void,*key
+tk func.feclearexcept.ret=int
+tk func.bsearch.arg.3=size_t,size
+tk func.sqrtf.args=1
+tk func.sleep.arg.0=int,s
+tk func.bsearch.arg.2=size_t,nmemb
+tk func.nextafter.args=2
+tk func.vsscanf.args=3
+tk func.atof.args=1
+tk func.localeconv.args=0
+tk func.llabs.arg.0=long long,j
+tk func.erfl.args=1
+tk func.iscntrl.args=1
+tk func.wcstof.ret=float
+tk pututxline=func
+tk func.islessequal.args=2
+tk umask=func
+tk func.xmalloc.args=1
+tk func.wcscmp.args=2
+tk func.quick_exit.args=1
+tk fesetround=func
+tk isatty=func
+tk exp=func
+tk func.tgammaf.args=1
+tk signbit=func
+tk func.isxdigit.args=1
+tk func.isnan.arg.0=arithmetic,x
+tk func.scalbnf.args=2
+tk getuid=func
+tk type.int.size=32
+tk func.hypotf.arg.1=float,y
+tk func.fmaxf.ret=float
+tk func.free.ret=void
+tk func.hypotf.arg.0=float,x
+tk func.lstat.arg.1=void *,buf
+tk func.mbsrtowcs.args=4
+tk lgamma=func
+tk func.lstat.arg.0=const char *,path
+tk func.acos.arg.0=arithmetic,x
+tk uint16_t=type
+tk func.perror.ret=void
+tk func.signbit.args=1
+tk func.exit.arg.0=int,status
+tk func.iswspace.ret=int
+tk nl_langinfo=func
+tk func.feof.ret=int
+tk func.ilogbl.arg.0=long double,x
+tk scalbn=func
+tk isless=func
+tk func.fpclassify.ret=int
+tk strlcpy=func
+tk func.getchar.ret=int
+tk func.mbsinit.arg.0=const mbstate_t,*ps
+tk truncl=func
+tk func.lrintf.args=1
+tk func.ceill.ret=long double
+tk func.nextafterf.args=2
+tk func.wcstoimax.ret=intmax_t
+tk wcsncat=func
+tk func.llround.ret=long long
+tk func.imaxdiv.args=2
+tk fseek=func
+tk putwchar=func
+tk func.cbrt.args=1
+tk truncf=func
+tk func.__libc_start_main.noreturn=true
+tk iswdigit=func
+tk func.log10f.args=1
+tk func.swscanf.args=2
+tk vfprintf=func
+tk llrintf=func
+tk nan=func
+tk func.sinl.args=1
+tk func.atanf.ret=float
+tk func.tolower.args=1
+tk fmod=func
+tk func.wcstof.args=2
+tk func.nearbyint.ret=floating_point
+tk llrintl=func
+tk func.acoshf.ret=float
+tk func.fabsf.ret=float
+tk func.asinl.arg.0=long double,x
+tk imaxabs=func
+tk wctype=func
+tk func.asin.args=1
+tk func.mbsrtowcs.ret=size_t
+tk func.ctime.args=1
+tk func.sinhf.arg.0=float,x
+tk func.cosl.ret=long double
+tk func.fgetws.ret=wchar_t*
+tk func.strxfrm.ret=size_t
+tk func.scalbnl.arg.0=long double,x
+tk perror=func
+tk func.iswpunct.args=1
+tk mblen=func
+tk func.scalbnl.arg.1=int,ex
+tk func.sinh.arg.0=arithmetic,x
+tk func.ferror.arg.0=FILE,*stream
+tk feof=func
+tk func.cosh.ret=floating_point
+tk func.wcspbrk.args=2
+tk func.strstr.arg.1=const char *,s2
+tk func.strchr.args=2
+tk func.fmin.args=2
+tk tanhf=func
+tk wcstold=func
+tk func.strstr.arg.0=char,*s1
+tk func.log10f.arg.0=float,x
+tk func.lgamma.ret=floating_point
+tk func.strcmp.ret=int
+tk func.sprintf.arg.1=,const char*
+tk func.strncmp.arg.0=const char *,s1
+tk type.uint32_t.size=32
+tk func.sprintf.arg.0=char,*s
+tk func.fmal.arg.2=long double,z
+tk func.strncmp.arg.1=const char *,s2
+tk func.fmal.arg.1=long double,y
+tk func.fma.args=3
+tk func.strncmp.arg.2=size_t,n
+tk func.sprintf.arg.2=,...
+tk func.wmemchr.args=3
+tk func.wcscoll.args=2
+tk func.fmal.arg.0=long double,x
+tk type.uint64_t.size=64
+tk func.freopen.args=3
+tk wcstoll=func
+tk func.vswprintf.args=4
+tk tanhl=func
+tk func.fmodf.args=2
+tk func.fesetround.ret=int
+tk wcscmp=func
+tk func.fgetwc.ret=wint_t
+tk func.strstr.args=2
+tk islower=func
+tk func.isalnum.args=1
+tk func.lroundl.args=1
+tk func.ceill.arg.0=long double,x
+tk func.ilogbl.args=1
+tk log1p=func
+tk func.hypotf.args=2
+tk fgetwc=func
+tk func.scalbnl.args=2
+tk func.trunc.args=1
+tk func.tgamma.arg.0=arithmetic,x
+tk nanf=func
+tk func._exit.args=1
+tk mbstowcs=func
+tk func.erfcl.ret=long double
+tk func.cosh.arg.0=arithmetic,x
+tk func.realloc.args=2
+tk func.strcspn.args=2
+tk func.div.args=2
+tk func.cos.ret=floating_point
+tk func.strtoull.arg.2=int,base
+tk nanl=func
+tk func.toupper.arg.0=int,c
+tk func.strdup.args=1
+tk func.atexit.args=1
+tk func.strtoull.arg.0=const char *,str
+tk func.strtoull.arg.1=char*,*endptr
+tk func.strtoul.args=3
+tk wcscspn=func
+tk func.abs.args=1
+tk func.labs.arg.0=long,j
+tk func.frexpl.ret=long double
+tk func.strmode.ret=void
+tk func.wcstok.ret=wchar_t*
+tk func.trunc.arg.0=arithmetic,x
+tk func.bzero.arg.1=size_t,n
+tk func.wctomb.arg.1=wchar_t,wchar
+tk func.bzero.arg.0=void *,s
+tk fgetws=func
+tk fstat=func
+tk func.wctomb.arg.0=char,*s
+tk func.strtoll.args=3
+tk func.nextafter.arg.0=arithmetic,x
+tk func.fminf.ret=float
+tk func.nextafter.arg.1=arithmetic,y
+tk func.isatty.arg.0=int,fd
+tk type.long long=q
+tk func.freopen.arg.0=const char *,filename
+tk func.wcsrchr.ret=wchar_t*
+tk func.vswprintf.arg.0=wchar_t,*s
+tk func.freopen.arg.1=,const char
+tk func.vswprintf.arg.1=size_t,n
+tk acoshf=func
+tk func.log10l.args=1
+tk func.freopen.arg.2=FILE,*
+tk func.vswprintf.arg.2=const wchar_t,*format
+tk func.strtold.arg.1=char*,*endptr
+tk strtoimax=func
+tk func.vswprintf.arg.3=va_list,arg
+tk func.strtold.arg.0=const char *,str
+tk func.geteuid.args=0
+tk func.strstr.ret=char*
+tk func.vfprintf.args=3
+tk func.mbstowcs.args=3
+tk func.powl.ret=long double
+tk func.log.ret=floating_point
+tk func.strtol.args=3
+tk func.vfprintf.ret=int
+tk acoshl=func
+tk int64_t=type
+tk unsigned int=type
+tk func.humanize_number.arg.4=int,scale
+tk func.wcstoll.args=3
+tk func.vwscanf.ret=int
+tk func.truncf.ret=float
+tk func.nexttoward.args=2
+tk func.humanize_number.arg.5=int,flags
+tk func.erfcl.args=1
+tk func.bindtextdomain.ret=char *
+tk func.humanize_number.arg.0=char *,buf
+tk func.wcsftime.arg.1=size_t,maxsize
+tk func.tanhf.arg.0=float,x
+tk func.humanize_number.arg.1=size_t,len
+tk func.wcsftime.arg.0=wchar_t,*s
+tk wprintf=func
+tk func.humanize_number.arg.2=int64_t,number
+tk func.wcsftime.arg.3=const tm,*timeptr
+tk func.putwchar.ret=wint_t
+tk func.sinhf.args=1
+tk log10f=func
+tk func.isspace.ret=int
+tk fgets=func
+tk func.humanize_number.arg.3=const char *,suffix
+tk func.wcsftime.arg.2=const wchar_t,*format
+tk func.floorl.args=1
+tk strchr=func
+tk fmin=func
+tk func.vwprintf.args=2
+tk func.close.args=1
+tk func.tanl.args=1
+tk func.strtoimax.ret=intmax_t
+tk func.wcstoll.arg.1=wchar_t*,*endptr
+tk func.memmove.ret=void *
+tk func.scalbln.arg.0=arithmetic,x
+tk func.nexttoward.arg.1=long double,y
+tk log10l=func
+tk type.int16_t=w
+tk func.wcstoll.arg.0=const wchar_t,*nptr
+tk clock=func
+tk func.scalbln.arg.1=long,ex
+tk func.nexttoward.arg.0=arithmetic,x
+tk func.strncpy.args=3
+tk func._exit.arg.0=int,status
+tk qsort=func
+tk func.fmax.args=2
+tk func.wcstoll.arg.2=int,base
+tk func.__stack_chk_fail.args=0
+tk func.wmemcmp.args=3
+tk func.fwscanf.ret=int
+tk func.fmodl.args=2
+tk func.logbf.arg.0=float,x
+tk erfcf=func
+tk func.abort.ret=void
+tk func.powf.args=2
+tk func.lroundl.arg.0=long double,x
+tk func.access.arg.1=int,mode
+tk func.nextafterf.arg.0=float,x
+tk func.lroundf.args=1
+tk func.access.arg.0=const char *,path
+tk at_quick_exit=func
+tk func.nextafterf.arg.1=float,y
+tk func.fdiml.args=2
+tk fgetc=func
+tk fesetexceptflag=func
+tk func.wcstoull.arg.0=const wchar_t,*nptr
+tk func.wcstoull.arg.1=wchar_t*,*endptr
+tk func.wcstoul.args=3
+tk func.wcstoull.arg.2=int,base
+tk func.fwprintf.args=2
+tk func.isatty.ret=int
+tk erfcl=func
+tk func.__stack_chk_fail.noreturn=true
+tk scanf=func
+tk func.lgammaf.arg.0=float,x
+tk func.fmod.args=2
+tk func.imaxabs.arg.0=intmax_t,j
+tk func.wcstoul.ret=long
+tk func.llrint.args=1
+tk isinf=func
+tk func.remainderl.args=2
+tk func.fpclassify.arg.0=arithmetic,x
+tk strtok=func
+tk log10=func
+tk func.asinl.ret=long double
+tk type.short=w
+tk func.lstat.args=2
+tk func.fopen.arg.1=,const char*
+tk func.acos.args=1
+tk func.fopen.arg.0=const char *,filename
+tk func.fgetws.arg.1=int,n
+tk func.strxfrm.arg.1=const char *,s2
+tk func.fgetws.arg.0=wchar_t,*s
+tk func.strxfrm.arg.0=char,*s1
+tk func.asinh.ret=floating_point
+tk func.fscanf.ret=int
+tk func.fgetws.arg.2=FILE,*stream
+tk func.strxfrm.arg.2=size_t,n
+tk strtol=func
+tk func.mkstemp.arg.0=char *,template
+tk wctob=func
+tk wcscpy=func
+tk strerror=func
+tk func.open.args=2
+tk raise=func
+tk type.int64_t=q
+tk func.mbrtowc.ret=size_t
+tk func.hypot.arg.1=arithmetic,y
+tk func.hypot.arg.0=arithmetic,x
+tk type.char=c
+tk func.fread.ret=size_t
+tk strtof=func
+tk func.expm1.args=1
+tk func.atanf.arg.0=float,x
+tk func.objc_msgSend.arg.1=char *,selector
+tk func.acosl.args=1
+tk func.objc_msgSend.arg.0=void *,instance
+tk func.printf.ret=int
+tk wcsspn=func
+tk strtod=func
+tk func.asinf.args=1
+tk func.mbstowcs.arg.1=const char *,s
+tk func.raise.args=1
+tk func.llrint.arg.0=arithmetic,x
+tk asin=func
+tk func.mbstowcs.arg.0=wchar_t,*pwcs
+tk func.fetestexcept.ret=int
+tk func.getwc.arg.0=FILE,*stream
+tk func.mbstowcs.arg.2=size_t,n
+tk func.feclearexcept.arg.0=int,excepts
+tk func.fgetwc.arg.0=FILE,*stream
+tk func.sscanf.args=3
+tk exp2l=func
+tk func.isalpha.ret=int
+tk func.imaxdiv.arg.1=intmax_t,denom
+tk func.iswupper.ret=int
+tk func.ilogb.ret=int
+tk func.expf.args=1
+tk func.imaxdiv.arg.0=intmax_t,numer
+tk func.logbf.ret=float
+tk labs=func
+tk func.tgoto.args=3
+tk trunc=func
+tk func.bzero.args=2
+tk func.wctomb.args=2
+tk func.nanl.arg.0=const char *,str
+tk exp2f=func
+tk func.getwc.args=1
+tk func.fmodf.ret=float
+tk func.towupper.arg.0=wint_t,wc
+tk func.iswlower.arg.0=wint_t,wc
+tk func.cbrt.ret=floating_point
+tk func.sinh.args=1
+tk func.vsprintf.arg.2=,va_list
+tk func.ungetwc.ret=wint_t
+tk func.vsprintf.arg.1=,const char*
+tk func.fesetexceptflag.arg.1=int,excepts
+tk func.vsprintf.arg.0=char,*s
+tk fdim=func
+tk func.sinf.arg.0=float,x
+tk func.fesetexceptflag.arg.0=const,fexcept_t*
+tk vprintf=func
+tk func.compat_mode.args=2
+tk func.ungetwc.args=2
+tk func.strmode.arg.1=char *,bp
+tk func.printf.arg.0=const char *,format
+tk log1pf=func
+tk func.strmode.arg.0=int,mode
+tk fflush=func
+tk func.wcsncat.ret=wchar_t*
+tk func.gmtime.ret=tm*
+tk func.scalblnf.args=2
+tk func.error.arg.1=int,errname
+tk func.llabs.ret=long long
+tk func.erfcf.args=1
+tk func.error.arg.0=int,status
+tk func.log2.args=1
+tk func.acosl.ret=long double
+tk func.error.arg.2=char *,format
+tk func.log2l.arg.0=long double,x
+tk func.expm1f.args=1
+tk func.exp2l.ret=long double
+tk func.fscanf.arg.2=,...
+tk func.fstat.ret=int
+tk log1pl=func
+tk func.sinhl.args=1
+tk func.asinhl.args=1
+tk func.fscanf.arg.0=FILE,*stream
+tk tmpnam=func
+tk func.iswctype.ret=int
+tk func.acosh.ret=floating_point
+tk func.fabs.ret=floating_point
+tk func.fscanf.arg.1=,const char
+tk func.erfcl.arg.0=long double,x
+tk func.strtoimax.args=3
+tk func.fdimf.arg.1=float,y
+tk func.lrint.args=1
+tk fmaxf=func
+tk func.fdimf.arg.0=float,x
+tk func.wctrans.args=1
+tk strtoul=func
+tk func.isunordered.args=2
+tk func.sqrtf.arg.0=float,x
+tk func.strtoumax.args=3
+tk fprintf=func
+tk func.isnormal.args=1
+tk func.cbrt.arg.0=arithmetic,x
+tk func.atan2f.ret=float
+tk func.exit.ret=void
+tk func.isgreater.arg.1=arithmetic,y
+tk func.powl.args=2
+tk func.log.args=1
+tk type.long long.size=64
+tk func.iswgraph.ret=int
+tk func.umask.ret=int
+tk func.isgreater.arg.0=arithmetic,x
+tk func.logl.arg.0=long double,x
+tk func.fchmod.arg.0=int,fd
+tk func.fchmod.arg.1=int,mode
+tk func.strcat.ret=char*
+tk fmaxl=func
+tk func.fdimf.args=2
+tk func.modfl.arg.1=long double,*iptr
+tk func.freopen.ret=file*
+tk func.vswprintf.ret=int
+tk func.modfl.arg.0=long double,value
+tk func.iswupper.arg.0=wint_t,wc
+tk func.ilogb.arg.0=arithmetic,x
+tk func.error.ret=void
+tk setvbuf=func
+tk func.atanf.args=1
+tk asctime=func
+tk func.islower.ret=int
+tk func.sinhf.ret=float
+tk func.atoi.arg.0=const char *,str
+tk func.memmove.arg.1=const void,*s2
+tk cbrtf=func
+tk func.memmove.arg.0=void,*s1
+tk mbtowc=func
+tk func.longjmp.ret=void
+tk func.asinl.args=1
+tk malloc=func
+tk func.memmove.arg.2=size_t,n
+tk func.nearbyintf.arg.0=float,x
+tk func.exp2.ret=floating_point
+tk func.tanhl.ret=long double
+tk func.atanhf.args=1
+tk func.cosf.arg.0=float,x
+tk func.strncasecmp.ret=int
+tk func.asinhf.arg.0=float,x
+tk strtoumax=func
+tk func.bindtextdomain.arg.1=char *,dirname
+tk func.wcsncat.arg.2=size_t,n
+tk func.tanf.arg.0=float,x
+tk func.sin.ret=floating_point
+tk func.bindtextdomain.arg.0=char *,domainname
+tk func.tgammaf.ret=float
+tk func.isxdigit.ret=int
+tk func.wcsncat.arg.0=wchar_t,*s1
+tk func.gmtime.arg.0=const time_t,*timer
+tk cbrtl=func
+tk func.wcsncat.arg.1=const wchar_t,*s2
+tk func.isgreater.ret=bool
+tk func.logl.ret=long double
+tk strxfrm=func
+tk func.strtol.arg.2=int,base
+tk strdup=func
+tk func.strtol.arg.1=char*,*endptr
+tk func.remainderl.arg.0=long double,x
+tk func.calloc.args=2
+tk func.tmpnam.ret=char*
+tk func.strtol.arg.0=const char *,str
+tk func.remainderl.arg.1=long double,y
+tk atanl=func
+tk func.wcspbrk.ret=wchar_t*
+tk func.strchr.ret=char*
+tk func.fmin.ret=floating_point
+tk nearbyint=func
+tk func.llrintl.ret=long long
+tk func.llroundl.ret=long long
+tk strlen=func
+tk func.nextafterl.ret=long double
+tk atanh=func
+tk func.snprintf.arg.3=,...
+tk func.asctime.args=1
+tk func.fdimf.ret=float
+tk func.snprintf.arg.2=,const char*
+tk func.ceilf.args=1
+tk atanf=func
+tk func.abort.noreturn=true
+tk func.__uClibc_main.args=7
+tk func.snprintf.arg.1=,size_t
+tk func.strftime.args=4
+tk func.setlocale.arg.1=const char *,locale
+tk func.__libc_init_array.args=0
+tk func.snprintf.arg.0=char,*s
+tk strpbrk=func
+tk func.lgammal.args=1
+tk func.setlocale.arg.0=int,category
+tk func.wctob.arg.0=wint_t,c
+tk func.mbtowc.args=3
+tk func.malloc.args=1
+tk func.islessgreater.args=2
+tk fwrite=func
+tk func.__libc_init_array.ret=void
+tk func.lgammal.ret=long double
+tk func.wcstol.arg.1=wchar_t*,*endptr
+tk func.mkstemp.ret=int
+tk func.wcstol.arg.0=const wchar_t,*nptr
+tk cbrt=func
+tk func.wcsncat.args=3
+tk func.wcstol.arg.2=int,base
+tk func.gmtime.args=1
+tk func.erfc.arg.0=arithmetic,x
+tk ispunct=func
+tk func.clearerr.ret=void
+tk func.memchr.ret=void *
+tk func.fmaxf.arg.1=float,y
+tk expl=func
+tk func.fmaxf.arg.0=float,x
+tk fdimf=func
+tk func.expm1l.ret=long double
+tk func.free.arg.0=void,*ptr
+tk rewind=func
+tk func.vfwscanf.ret=int
+tk func.log2l.args=1
+tk func.erff.arg.0=float,x
+tk func.strtoull.args=3
+tk strncat=func
+tk func.setjmp.args=1
+tk func.localtime.arg.0=const time_t,*timer
+tk func.nexttowardf.arg.1=long double,y
+tk func.copysignl.arg.1=long double,y
+tk func.nl_langinfo.args=1
+tk func.setbuf.ret=void
+tk func.nexttowardf.arg.0=float,x
+tk func.copysignl.arg.0=long double,x
+tk type.uid_t.size=64
+tk func.remquol.arg.0=long double,x
+tk func.ioctl.arg.0=int,fd
+tk func.remquol.arg.1=long double,y
+tk func.ioctl.arg.1=unsigned long,request
+tk type.void *=p
+tk func.atol.ret=long
+tk func.remquol.arg.2=int,*pquo
+tk expf=func
+tk fdiml=func
+tk func.cosl.args=1
+tk func.fmod.arg.1=arithmetic,y
+tk func.fmod.arg.0=arithmetic,x
+tk func.snprintf.ret=int
+tk func.setlocale.ret=char *
+tk func.memcpy.args=3
+tk func.cbrtl.ret=long double
+tk func.signbit.ret=bool
+tk func.wcscspn.args=2
+tk log2f=func
+tk sinhl=func
+tk func.warn.args=1
+tk func.fmodf.arg.1=float,y
+tk func.fmodf.arg.0=float,x
+tk read=func
+tk func.bzero.ret=void
+tk func.wctomb.ret=int
+tk func.isgreaterequal.args=2
+tk func.setvbuf.args=4
+tk func.llrint.ret=long long
+tk func.tmpnam.arg.0=char,*s
+tk func.strtol.ret=long
+tk func.modff.args=2
+tk signal=func
+tk getwchar=func
+tk func.rintl.arg.0=long double,x
+tk error=func
+tk func.setvbuf.ret=int
+tk func.__uClibc_main.ret=int
+tk func.iswxdigit.args=1
+tk func.strftime.ret=size_t
+tk func.remainder.arg.0=arithmetic,x
+tk func.remainder.arg.1=arithmetic,y
+tk log2l=func
+tk sinhf=func
+tk func.isalpha.arg.0=int,c
+tk freopen=func
+tk func.wcsrtombs.arg.3=mbstate_t,*ps
+tk vswprintf=func
+tk func.localtime.ret=tm*
+tk func.labs.args=1
+tk func.remquo.arg.0=arithmetic,x
+tk func.wcsrtombs.arg.2=size_t,len
+tk func.scalbln.args=2
+tk func.remquo.arg.1=arithmetic,y
+tk func.objc_msgSend.args=2
+tk func.wcsrtombs.arg.1=const wchar_t*,*src
+tk func.remquo.arg.2=int,*pquo
+tk func.feholdexcept.arg.0=fenv_t,*envp
+tk func.fscanf.args=3
+tk func.wcsrtombs.arg.0=char,*dst
+tk func.atanh.arg.0=arithmetic,x
+tk func.vwscanf.args=2
+tk func.fstat.arg.1=void *,buf
+tk func.truncf.args=1
+tk func.fstat.arg.0=int,fildes
+tk func.strcoll.args=2
+tk long long=type
+tk func.wcstol.ret=long
+tk func.frexp.arg.0=arithmetic,value
+tk func.frexp.arg.1=int,*exp
+tk func.acosf.arg.0=float,x
+tk func.iswctype.args=2
+tk func.acosh.args=1
+tk func.fabs.args=1
+tk func.ldiv.args=2
+tk func.acoshl.arg.0=long double,x
+tk func.fabsl.arg.0=long double,x
+tk func.atan.arg.0=arithmetic,x
+tk func.fprintf.args=3
+tk atan2=func
+tk vswscanf=func
+tk strcmp=func
+tk func.__assert_fail.noreturn=true
+tk func.atanhl.arg.0=long double,x
+tk setlocale=func
+tk func.mbtowc.arg.1=const char *,s
+tk func.mbtowc.arg.0=wchar_t,*pwc
+tk func.llrintl.args=1
+tk func.malloc.arg.0=size_t,size
+tk tanl=func
+tk func.ceil.arg.0=arithmetic,x
+tk func.__libc_start_main.args=7
+tk func.vscanf.args=2
+tk func.mbtowc.arg.2=size_t,n
+tk iswpunct=func
+tk func.wcstoul.arg.0=const wchar_t,*nptr
+tk func.wcstoul.arg.1=wchar_t*,*endptr
+tk func.log1pl.args=1
+tk func.isdigit.ret=int
+tk func.wcstoul.arg.2=int,base
+tk tanh=func
+tk wcsstr=func
+tk func.feupdateenv.ret=int
+tk char *=type
+tk func.wmemchr.arg.2=size_t,n
+tk tanf=func
+tk func.fmod.ret=floating_point
+tk func.wmemchr.arg.0=wchar_t,*s
+tk func.wcscoll.arg.0=const wchar_t,*s1
+tk func.lroundl.ret=long
+tk func.wmemchr.arg.1=wchar_t,c
+tk func.wcscoll.arg.1=const wchar_t,*s2
+tk func.log10f.ret=float
+tk func.isgreaterequal.ret=bool
+tk func.ceilf.ret=float
+tk func.tgoto.ret=char *
+tk func.wcsncpy.args=3
+tk func.wscanf.arg.0=const wchar_t,*format
+tk func.ldexpf.args=2
+tk gets=func
+tk memset=func
+tk func.quick_exit.ret=void
+tk func.strtoull.ret=long long
+tk fmodf=func
+tk func.tanf.ret=float
+tk func.lstat.ret=void
+tk func.acos.ret=floating_point
+tk func._Exit.ret=void
+tk round=func
+tk func.isnan.args=1
+tk func.fwide.arg.0=FILE,*stream
+tk func.fwide.arg.1=int,mode
+tk func.scalbn.ret=floating_point
+tk fmodl=func
+tk type.int32_t=d
+tk func.tgamma.ret=floating_point
+tk vfscanf=func
+tk func.log2f.args=1
+tk func.asinh.arg.0=arithmetic,x
+tk func.isblank.args=1
+tk func.setbuf.args=2
+tk func.wcsncmp.ret=int
+tk humanize_number=func
+tk func.wcsncpy.arg.2=size_t,n
+tk time=func
+tk func.fmaf.args=3
+tk func.islessgreater.arg.0=arithmetic,x
+tk getc=func
+tk fread=func
+tk func.wprintf.arg.0=const wchar_t,*format
+tk func.islessgreater.arg.1=arithmetic,y
+tk func.exp.args=1
+tk wcstok=func
+tk func.wcsncpy.arg.0=wchar_t,*s1
+tk func.ldexpf.arg.0=float,value
+tk type.long.size=64
+tk func.wcsncpy.arg.1=const wchar_t,*s2
+tk func.ldexpf.arg.1=int,exp
+tk func.tgoto.arg.2=int,row
+tk func.powl.arg.1=long double,y
+tk func.pow.args=2
+tk func.wctob.ret=int
+tk wcstol=func
+tk vfwprintf=func
+tk nexttowardl=func
+tk func.powl.arg.0=long double,x
+tk func.log.arg.0=arithmetic,x
+tk func.tgoto.arg.0=const char *,cap
+tk func.tgoto.arg.1=int,col
+tk func.getpid.args=0
+tk func.mbstowcs.ret=size_t
+tk func.strtok.args=2
+tk func.isalnum.ret=int
+tk func.lrintf.arg.0=float,x
+tk exp2=func
+tk func.nextafter.ret=floating_point
+tk func.wcsrchr.arg.1=wchar_t,c
+tk func.wprintf.args=1
+tk func.asctime.ret=char*
+tk func.wcsrchr.arg.0=wchar_t,*s
+tk wcstod=func
+tk func.mbsinit.ret=int
+tk tan=func
+tk func.feupdateenv.arg.0=const,fenv_t*
+tk wcstof=func
+tk nexttowardf=func
+tk func.llroundl.arg.0=long double,x
+tk func.ceil.args=1
+tk func.asinh.args=1
+tk func.wcsstr.arg.1=const wchar_t,*s2
+tk func.putwchar.args=1
+tk func.log2l.ret=long double
+tk func.isspace.args=1
+tk func.wcsstr.arg.0=wchar_t,*s1
+tk func.memcmp.ret=int
+tk func.lldiv.ret=lldiv_t
+tk func.coshl.ret=long double
+tk func.cos.args=1
+tk func.wcsncmp.arg.2=size_t,n
+tk func.getopt.ret=int
+tk func.signal.ret=void
+tk func.wcsncmp.arg.0=const wchar_t,*s1
+tk func.wcsncmp.arg.1=const wchar_t,*s2
+tk getwc=func
+tk func.at_quick_exit.ret=int
+tk func.exp2f.arg.0=float,x
+tk func.vsprintf.ret=int
+tk func.sinf.ret=float
+tk func.fesetexceptflag.ret=int
+tk func.memchr.arg.1=int,c
+tk func.nearbyint.args=1
+tk func.acoshf.args=1
+tk func.fabsf.args=1
+tk func.clearerr.arg.0=FILE,*stream
+tk func.memchr.arg.0=void,*s
+tk func._Exit.arg.0=int,status
+tk func.isgraph.ret=int
+tk func._exit.noreturn=true
+tk func.putwchar.arg.0=wchar_t,c
+tk func.memchr.arg.2=size_t,n
+tk func.remquof.ret=float
+tk func.isspace.arg.0=int,c
+tk setjmp=func
+tk func.log1pl.ret=long double
+tk func.ungetc.args=2
+tk func.getuid.args=0
+tk func.strtok.arg.0=char,*s1
+tk func.strtok.arg.1=const char *,s2
+tk func.ldexpl.args=2
+tk func.wcsspn.args=2
+tk func.strtod.args=2
+tk fopen=func
+tk func.wprintf.ret=int
+tk func.vswscanf.arg.2=va_list,arg
+tk func.isnormal.arg.0=arithmetic,x
+tk func.atan2l.args=2
+tk func.pututxline.args=1
+tk func.vswscanf.arg.0=const wchar_t,*s
+tk func.sqrtf.ret=float
+tk func.vswscanf.arg.1=const wchar_t,*format
+tk func.rintf.args=1
+tk func.roundf.ret=float
+tk func.signbit.arg.0=arithmetic,x
+tk func.fwprintf.ret=int
+tk quick_exit=func
+tk func.rintf.ret=float
+tk atan=func
+tk func.vfwprintf.arg.1=const wchar_t,*format
+tk func.strncasecmp.arg.0=const char *,s1
+tk func.vfwprintf.arg.0=FILE,*stream
+tk func.rand.ret=int
+tk func.frexp.ret=floating_point
+tk func.strncasecmp.arg.1=const char *,s2
+tk func.signal.args=2
+tk func.strncasecmp.arg.2=size_t,n
+tk func._Exit.args=1
+tk func.vfwprintf.arg.2=va_list,arg
+tk func.scalblnf.ret=float
+tk fmal=func
+tk fegetexceptflag=func
+tk func.fread.arg.1=,size_t
+tk func.wcstok.arg.2=wchar_t*,*ptr
+tk func.localtime.args=1
+tk func.mkstemp.args=1
+tk func.fread.arg.0=void,*ptr
+tk fminl=func
+tk func.fread.arg.3=FILE,*stream
+tk func.wcstok.arg.0=wchar_t,*s1
+tk func.fread.arg.2=,size_t
+tk iswxdigit=func
+tk func.wcstok.arg.1=const wchar_t,*s2
+tk func.asinhf.args=1
+tk func.wcsftime.args=4
+tk func.memcmp.arg.2=size_t,n
+tk func.islower.arg.0=int,c
+tk func.remquo.ret=floating_point
+tk fmaf=func
+tk type.unsigned char.size=8
+tk func.strmode.args=2
+tk func.wcsstr.ret=wchar_t*
+tk func.memcmp.arg.0=const void,*s1
+tk func.lldiv.arg.0=long long,numer
+tk ilogb=func
+tk func.coshl.arg.0=long double,x
+tk func.fputws.ret=int
+tk func.swprintf.ret=int
+tk func.memcmp.arg.1=const void,*s2
+tk func.lldiv.arg.1=long long,denom
+tk func.cosh.args=1
+tk func.fputc.ret=int
+tk iswspace=func
+tk func.erf.args=1
+tk func.cos.arg.0=arithmetic,x
+tk fminf=func
+tk func.exp2l.args=1
+tk func.roundl.args=1
+tk func.lround.args=1
+tk iswalnum=func
+tk func.vfprintf.arg.2=,va_list
+tk func.raise.ret=int
+tk func.ilogbf.args=1
+tk fclose=func
+tk func.vfprintf.arg.0=FILE,*stream
+tk func.strtoll.ret=long long
+tk uid_t=type
+tk func.vfprintf.arg.1=,const char*
+tk fmax=func
+tk func.fma.arg.2=arithmetic,z
+tk __assert_fail=func
+tk func.fma.arg.1=arithmetic,y
+tk func.fegetexceptflag.args=2
+tk strcpy=func
+tk func.fputwc.ret=wint_t
+tk func.fma.arg.0=arithmetic,x
+tk func.fputs.ret=int
+tk strspn=func
+tk func.cbrtf.args=1
+tk func.pututxline.ret=void *
+tk func.logf.args=1
+tk func.bindtextdomain.args=2
+tk func.fwide.ret=int
+tk func.remquol.args=3
+tk func.ioctl.args=2
+tk func.mktime.arg.0=tm,*timeptr
+tk func.nexttowardf.ret=float
+tk func.copysignl.ret=long double
+tk func.atanhl.args=1
+tk func.strlen.arg.0=const char *,s
+tk strtold=func
+tk iswgraph=func
+tk isalnum=func
+tk wctomb=func
+tk nextafter=func
+tk func.hypotl.arg.1=long double,y
+tk func.hypot.args=2
+tk func.floorf.ret=float
+tk func.__assert_fail.ret=void
+tk func.hypotl.arg.0=long double,x
+tk func.vfwprintf.ret=int
+tk func.fwrite.arg.2=size_t,nitems
+tk func.time.args=1
+tk func.fwrite.arg.3=FILE,*stream
+tk func.getc.args=1
+tk func.erfc.ret=floating_point
+tk func.fwrite.arg.0=const void,*ptr
+tk strtoll=func
+tk func.fwrite.arg.1=size_t,size
+tk func.wcstold.ret=long double
+tk func.expm1l.arg.0=long double,x
+tk func.wcscat.args=2
+tk func.putc.args=2
+tk func.strrchr.arg.1=int,c
+tk func.strcasecmp.arg.0=const char *,s1
+tk func.strrchr.arg.0=char,*s
+tk func.strcasecmp.arg.1=const char *,s2
+tk func.cbrtf.arg.0=float,x
+tk fegetround=func
+tk func.fchmod.ret=int
+tk func.towlower.args=1
+tk func.__stack_chk_fail.ret=void
+tk func.setvbuf.arg.0=FILE*,stream
+tk func.wmemcmp.ret=int
+tk func.strtof.args=2
+tk asinhl=func
+tk func.fmodl.ret=long double
+tk func.setvbuf.arg.1=char*,buf
+tk func.asctime.arg.0=const tm,*timeptr
+tk func.setvbuf.arg.2=int,mode
+tk func.setvbuf.arg.3=size_t,size
+tk func.getenv.args=1
+tk func.fputs.args=2
+tk func.sscanf.arg.2= ,...
+tk memchr=func
+tk func.islessgreater.ret=bool
+tk localeconv=func
+tk func.sscanf.arg.1=const char *,format
+tk gmtime=func
+tk func.sscanf.arg.0=const char *,s
+tk asinhf=func
+tk func.isfinite.args=1
+tk func.fgets.args=3
+tk func.rename.arg.1=,const char*
+tk func.acosf.ret=float
+tk access=func
+tk func.rename.arg.0=const char *,old
+tk func.tanf.args=1
+tk func.toupper.ret=int
+tk func.fgetc.arg.0=FILE,*steam
+tk type.int64_t.size=64
+tk remove=func
+tk func.asinhf.ret=float
+tk func.error.args=3
+tk func.iswprint.ret=int
+tk func.sin.arg.0=arithmetic,x
+tk func.toupper.args=1
+tk int8_t=type
+tk func.objc_msgSend.ret=void *
+tk func.nexttowardf.args=2
+tk func.copysignl.args=2
+tk func.isgraph.arg.0=int,c
+tk btowc=func
+tk func.strspn.arg.1=const char *,s2
+tk func.strspn.arg.0=const char *,s1
+tk bsearch=func
+tk func.putc.ret=int
+tk func.atoi.ret=int
+tk getchar=func
+tk func.__assert_fail.arg.2=unsigned int,line
+tk func.feraiseexcept.args=1
+tk func.fclose.args=1
+tk func.__assert_fail.arg.3=const char *,function
+tk func.__assert_fail.arg.0=const char *,assertion
+tk func.signal.arg.1=void *,func
+tk func.mbrtowc.args=4
+tk func.__assert_fail.arg.1=const char *,file
+tk func.signal.arg.0=int,sig
+tk func.ftell.ret=long
+tk func.fputws.args=2
+tk func.swprintf.args=3
+tk func.fegetround.ret=int
+tk fetestexcept=func
+tk func.fgets.arg.2=FILE,*stream
+tk uint8_t=type
+tk floorl=func
+tk func.mktemp.ret=char *
+tk func.iswcntrl.ret=int
+tk remquof=func
+tk erff=func
+tk func.isfinite.arg.0=arithmetic,x
+tk func.fgets.arg.0=char,*s
+tk type.uint16_t.size=16
+tk func.iswxdigit.arg.0=wint_t,wc
+tk func.fgets.arg.1=int,size
+tk expm1=func
+tk coshf=func
+tk func.ceilf.arg.0=float,x
+tk func.remainderf.args=2
+tk func.towupper.ret=wint_t
+tk func.iswlower.ret=int
+tk func.fwprintf.arg.1=const wchar_t,*format
+tk func.logbl.args=1
+tk func.fwprintf.arg.0=FILE,*stream
+tk erfc=func
+tk func.mbtowc.ret=int
+tk func.roundf.args=1
+tk remquol=func
+tk erfl=func
+tk func.log10l.arg.0=long double,x
+tk func.malloc.ret= void *
+tk ioctl=func
+tk nexttoward=func
+tk func.log10.args=1
+tk func.puts.ret=int
+tk func.expf.arg.0=float,x
+tk func.remainderl.ret=long double
+tk func.nanf.args=1
+tk floorf=func
+tk func.wcspbrk.arg.1=const wchar_t,*s2
+tk func.strchr.arg.1=int,c
+tk func.fmin.arg.1=arithmetic,y
+tk func.atan2l.ret=long double
+tk func.isdigit.arg.0=int,c
+tk func.wcspbrk.arg.0=wchar_t,*s1
+tk localtime=func
+tk func.strtok.ret=char*
+tk func.strchr.arg.0=char,*s
+tk func.fmin.arg.0=arithmetic,x
+tk floor=func
+tk func.round.args=1
+tk coshl=func
+tk func.imaxdiv.ret=imaxdiv_t
+tk func.iswpunct.arg.0=wint_t,wc
+tk putwc=func
+tk func.strspn.ret=size_t
+tk func.strlcpy.arg.2=size_t, n
+tk func.wcrtomb.arg.2=mbstate_t,*ps
+tk func.wcrtomb.arg.1=wchar_t,wc
+tk func.vfwscanf.args=3
+tk fileno=func
+tk func.strlcpy.arg.0=char,*dest
+tk func.wcrtomb.arg.0=char,*s
+tk mbsinit=func
+tk func.exp2.args=1
+tk func.tanhl.args=1
+tk func.strlcpy.arg.1=const char *,src
+tk func.fputc.arg.1=,FILE*
+tk rint=func
+tk func.acosf.args=1
+tk func.fesetenv.ret=int
+tk exit=func
+tk func.fputc.arg.0=int,c
+tk func.fwide.args=2
+tk func.erfl.ret=long double
+tk func.iscntrl.ret=int
+tk func.ftell.arg.0=FILE,*stream
+tk puts=func
+tk func.memcmp.args=3
+tk func.lldiv.args=2
+tk func.atol.arg.0=const char *,str
+tk func.coshl.args=1
+tk func.rename.ret=int
+tk func.fgetws.args=3
+tk func.strxfrm.args=3
+tk func.expm1.ret=floating_point
+tk func.nearbyintf.args=1
+tk func.erff.args=1
+tk func.llabs.args=1
+tk func.vfwscanf.arg.2=va_list,arg
+tk func.iswalnum.ret=int
+tk func.vfwscanf.arg.1=const wchar_t,*format
+tk func.vfwscanf.arg.0=FILE,*stream
+tk func.exit.noreturn=true
+tk func.__uClibc_main.arg.6=void *,stack_end
+tk func.chmod.args=2
+tk func.strncat.args=3
+tk func.__uClibc_main.arg.5=func,rtld_fini
+tk func.__uClibc_main.arg.4=func,app_fini
+tk hypotl=func
+tk fabs=func
+tk func.sleep.args=1
+tk func.geteuid.ret=uid_t
+tk func.__uClibc_main.arg.3=func,app_init
+tk func.fsetpos.args=2
+tk func.fputs.arg.1=,FILE*
+tk func.strftime.arg.3=const tm,*timeptr
+tk scalblnl=func
+tk func.fmaf.ret=float
+tk func.log10.arg.0=arithmetic,x
+tk func.__uClibc_main.arg.2=char **,argv
+tk func.putchar.args=1
+tk func.fputs.arg.0=const char *,s
+tk func.strftime.arg.2=const char *,format
+tk abs=func
+tk func.__uClibc_main.arg.1=int,argc
+tk func.strftime.arg.1=size_t,maxsize
+tk func.srand.args=1
+tk func.__uClibc_main.arg.0=func,main
+tk putc=func
+tk func.strftime.arg.0=char,*s
+tk short=type
+tk fgetpos=func
+tk iswprint=func
+tk hypotf=func
+tk strcasecmp=func
+tk objc_msgSend=func
+tk func.symlink.args=2
+tk rand=func
+tk func.lrint.arg.0=arithmetic,x
+tk func.raise.arg.0=int,sig
+tk scalblnf=func
+tk func.modff.ret=float
+tk unsigned short=type
+tk func.wmemmove.args=3
+tk func.symlink.ret=int
+tk type.char.size=8
+tk roundf=func
+tk func.expm1l.args=1
+tk tgoto=func
+tk fwprintf=func
+tk func.isnan.ret=bool
+tk func.nearbyintl.ret=long double
+tk func.frexpl.arg.0=long double,value
+tk wcstoimax=func
+tk func.write.ret=ssize_t
+tk wcslen=func
+tk strstr=func
+tk wcstombs=func
+tk func.rand.args=0
+tk func.frexpl.arg.1=int,*exp
+tk func.frexp.args=2
+tk func.fseek.ret=int
+tk func.wcschr.ret=wchar_t*
+tk wcsncpy=func
+tk type.uint8_t=b
+tk chmod=func
+tk func.difftime.arg.1=time_t,time0
+tk func.fmaxf.args=2
+tk isdigit=func
+tk func.free.args=1
+tk func.difftime.arg.0=time_t,time1
+tk vscanf=func
+tk func.wcrtomb.ret=size_t
+tk feupdateenv=func
+tk func.strndup.arg.1=int,n
+tk roundl=func
+tk lround=func
+tk func.strndup.arg.0=const char,*src
+tk func.towctrans.ret=wint_t
+tk isgreater=func
+tk func.vsprintf.args=3
+tk func.exp2.arg.0=arithmetic,x
+tk func.tanhl.arg.0=long double,x
+tk func.sinf.args=1
+tk func.fesetexceptflag.args=2
+tk warn=func
+tk func.tgamma.args=1
+tk func.floorf.arg.0=float,x
+tk func.wctype.args=1
+tk func.bsearch.args=5
+tk func.round.arg.0=arithmetic,x
+tk func.mblen.args=2
+tk func.isgreaterequal.arg.1=arithmetic,y
+tk func.isgreaterequal.arg.0=arithmetic,x
+tk func.lgammal.arg.0=long double,x
+tk func.fminf.args=2
+tk func.calloc.ret=void *
+tk vsprintf=func
+tk func.lgamma.args=1
+tk sinf=func
+tk func.strcmp.args=2
+tk func.log1pl.arg.0=long double,x
+tk func.lroundf.arg.0=float,x
+tk func.log1p.args=1
+tk func.cbrtf.ret=float
+tk sinh=func
+tk func.wcsxfrm.args=3
+tk func.logb.args=1
+tk func.ispunct.args=1
+tk func.iswblank.args=1
+tk func.ilogbl.ret=int
+tk void *=type
+tk int32_t=type
+tk func.log1p.ret=floating_point
+tk sinl=func
+tk func.nextafterl.arg.0=long double,x
+tk func.nextafterl.arg.1=long double,y
+tk func.clearerr.args=1
+tk func.mbsrtowcs.arg.3=mbstate_t,*ps
+tk func.difftime.ret=double
+tk func.memchr.args=3
+tk func.scalblnl.arg.0=long double,x
+tk type.int=d
+tk func.mbsrtowcs.arg.2=size_t,len
+tk func.scalblnl.arg.1=long,ex
+tk func.mbsrtowcs.arg.1=const char*,*src
+tk func.strrchr.args=2
+tk __uClibc_main=func
+tk func.__assert_fail.args=4
+tk func.mbsrtowcs.arg.0=wchar_t,*dst
+tk bzero=func
+tk func.acoshl.args=1
+tk func.fabsl.args=1
+tk func.atan.args=1
+tk func.atanl.arg.0=long double,x
+tk func.strcpy.ret=char *
+tk func.humanize_number.args=1
+tk func.tanhf.args=1
+tk func.printf.args=1
+tk ungetc=func
+tk func.*aligned_alloc.ret=void
+tk func.iswprint.arg.0=wint_t,wc
+tk func.coshf.args=1
+tk func.strpbrk.arg.1=const char *,s2
+tk func.strpbrk.arg.0=char,*s1
+tk func.lroundf.ret=long
+tk func.log10l.ret=long double
+tk open=func
+tk func.fma.ret=floating_point
+tk func.atan2f.args=2
+tk func.tmpfile.args=0
+tk func.lrintf.ret=long
+tk func.atan2l.arg.1=long double,x
+tk func.atan2.args=2
+tk func.atan2l.arg.0=long double,y
+tk func.wctrans.ret=wctrans_t
+tk func.nanf.arg.0=const char *,str
+tk func.isunordered.ret=bool
+tk basename=func
+tk textdomain=func
+tk func.wcscspn.arg.0=const wchar_t,*s1
+tk bindtextdomain=func
+tk vsscanf=func
+tk func.wcscspn.arg.1=const wchar_t,*s2
+tk type.long=x
+tk func.wcsncpy.ret=wchar_t*
+tk func.ldexpf.ret=float
+tk ungetwc=func
+tk func.strtoumax.arg.2=int,base
+tk char=type
+tk func.strtoumax.arg.0=const char *,str
+tk atoll=func
+tk func.strtoumax.arg.1=char*,*endptr
+tk func.cosf.ret=float
+tk type.int32_t.size=32
+tk __libc_init_array=func
+tk symlink=func
+tk lgammal=func
+tk func.floorf.args=1
+tk func.strcasecmp.args=2
+tk func.fgetpos.ret=int
+tk func.cosf.args=1
+tk func.atanhl.ret=long double
+tk func.iswalnum.arg.0=wint_t,wc
+tk func.scanf.arg.0=const char *,format
+tk lgammaf=func
+tk remainder=func
+tk func.scalbn.args=2
+tk isprint=func
+tk func.strcpy.arg.0=char *,dest
+tk geteuid=func
+tk func.strcpy.arg.1=const char *,src
+tk tgammaf=func
+tk func.fminl.arg.1=long double,y
+tk func.wcscpy.args=2
+tk func.strerror.args=1
+tk func.fminl.arg.0=long double,x
+tk free=func
+tk func.vswscanf.ret=int
+tk func.logf.arg.0=float,x
+tk type.int8_t=b
+tk func.clock.args=0
+tk func.sqrtl.args=1
+tk func.fegetenv.args=1
+tk strncasecmp=func
+tk wmemset=func
+tk func.roundf.arg.0=float,x
+tk func.lrint.ret=long
+tk copysignf=func
+tk func.feof.args=1
+tk func.wscanf.ret=int
+tk func.modff.arg.1=float,*iptr
+tk mbrtowc=func
+tk func.cbrtl.args=1
+tk func.modff.arg.0=float,value
+tk func.pow.arg.1=arithmetic,y
+tk getopt=func
+tk func.pow.arg.0=arithmetic,x
+tk tgammal=func
+tk func.fdiml.arg.1=long double,y
+tk func.fdim.args=2
+tk func.fdiml.arg.0=long double,x
+tk func.fileno.args=1
+tk func.fminl.args=2
+tk difftime=func
+tk func.log10.ret=floating_point
+tk memcmp=func
+tk div=func
+tk copysignl=func
+tk func.iswprint.args=1
+tk wcstoul=func
+tk func.asinhl.arg.0=long double,x
+tk func.wcscmp.ret=int
+tk atan2l=func
+tk func.isless.arg.0=arithmetic,x
+tk func.tanh.arg.0=arithmetic,x
+tk func.basename.arg.0=char *,path
+tk func.truncl.arg.0=long double,x
+tk func.isless.arg.1=arithmetic,y
+tk func.asin.arg.0=arithmetic,x
+tk ilogbl=func
+tk func.frexpf.ret=float
+tk func.fstat.args=2
+tk func.fprintf.ret=int
+tk func.isupper.arg.0=int,c
+tk type.unsigned int=i
+tk func.iswdigit.arg.0=wint_t,wc
+tk func.wcstok.args=3
+tk wscanf=func
+tk atan2f=func
+tk ilogbf=func
+tk func.erfcf.ret=float
+tk func.time.ret=time_t
+tk func.nearbyintl.arg.0=long double,x
+tk func.getc.ret=int
+tk getpid=func
+tk func.strtoul.ret=long
+tk func.pow.ret=floating_point
+tk acosh=func
+tk func.iswspace.args=1
+tk func.btowc.ret=wint_t
+tk setbuf=func
+tk func.powf.ret=float
+tk int=type
+tk func.pututxline.arg.0=void *,utx
+tk acosl=func
+tk func.isprint.args=1
+tk func.strtof.arg.1=char*,*endptr
+tk func.remainderf.arg.0=float,x
+tk func.fminl.ret=long double
+tk func.vprintf.ret=int
+tk func.system.args=1
+tk func.strtof.arg.0=const char *,str
+tk func.remainderf.arg.1=float,y
+tk func.iswxdigit.ret=int
+tk func.wmemmove.ret=wchar_t*
+tk func.memset.args=3
+tk func.exp.arg.0=arithmetic,x
+tk maskrune=func
+tk func.gets.ret=char*
+tk func.strtoll.arg.2=int,base
+tk func.lrintl.args=1
+tk acosf=func
+tk func.strtoll.arg.1=char*,*endptr
+tk func.fegetexceptflag.ret=int
+tk func.memset.ret=void *
+tk func.strtoll.arg.0=const char *,str
+tk hypot=func
+tk type.uint32_t=d
+tk func.wmemset.arg.1=wchar_t,c
+tk func.nexttowardl.arg.1=long double,y
+tk func.expm1.arg.0=arithmetic,x
+tk func.copysignf.arg.1=float,y
+tk sprintf=func
+tk func.wmemset.arg.0=wchar_t,*s
+tk func.nexttowardl.arg.0=long double,x
+tk func.copysignf.arg.0=float,x
+tk log=func
+tk func.iswdigit.ret=int
+tk func.wmemset.arg.2=size_t,n
+tk logb=func
+tk func.wcstold.arg.1=wchar_t*,*endptr
+tk func.difftime.args=2
+tk func.tgammaf.arg.0=float,x
+tk func.remquof.arg.2=int,*pquo
+tk func.isxdigit.arg.0=int,c
+tk func.wcstold.arg.0=const wchar_t,*nptr
+tk func.remquof.arg.0=float,x
+tk ldexpf=func
+tk func.remquof.arg.1=float,y
+tk logf=func
+tk func.strcasecmp.ret=int
+tk func.fread.args=4
+tk wcsrchr=func
+tk func.scalblnl.ret=long double
+tk func.basename.ret=char *
+tk func.truncl.ret=long double
+tk func.isgraph.args=1
+tk func.wcsncmp.args=3
+tk func.wcstol.args=3
+tk func.longjmp.arg.0=jmp_buf,env
+tk ldexpl=func
+tk func.open.ret=int
+tk func.longjmp.arg.1=int,val
+tk pow=func
+tk logl=func
+tk type.uint8_t.size=8
+tk func._Exit.noreturn=true
+tk func.atoi.args=1
+tk func.wmemmove.arg.2=size_t,n
+tk func.__libc_init.noreturn=true
+tk func.wcscspn.ret=size_t
+tk func.wmemmove.arg.0=wchar_t,*s1
+tk scalbnf=func
+tk strmode=func
+tk func.wmemmove.arg.1=const wchar_t,*s2
+tk close=func
+tk func.perror.args=1
+tk isblank=func
+tk func.rintf.arg.0=float,x
+tk asinf=func
+tk func.ungetc.ret=int
+tk func.getuid.ret=uid_t
+tk scalbnl=func
+tk asinh=func
+tk wcstoumax=func
+tk fesetenv=func
+tk islessequal=func
+tk ferror=func
+tk func.wmemcmp.arg.1=const wchar_t,*s2
+tk fwide=func
+tk func.llrintl.arg.0=long double,x
+tk func.fmodl.arg.1=long double,y
+tk asinl=func
+tk func.__libc_init.args=3
+tk func.wmemcmp.arg.0=wchar_t,*s1
+tk func.fmodl.arg.0=long double,x
+tk func.isunordered.arg.1=arithmetic,y
+tk func.wctrans.arg.0=const char *,property
+tk func.wmemcmp.arg.2=size_t,n
+tk func.isunordered.arg.0=arithmetic,x
+tk ldexp=func
+tk func.strtoimax.arg.2=int,base
+tk func.strncpy.arg.0=char,*dest
+tk func.scanf.ret=int
+tk func.getwchar.ret=wint_t
+tk func.abs.arg.0=long long,j
+tk func.strncpy.arg.1=const char *,src
+tk iswblank=func
+tk func.strpbrk.args=2
+tk func.strtoimax.arg.0=const char *,str
+tk func.strncpy.arg.2=size_t, n
+tk func.strndup.ret=char *
+tk func.acosl.arg.0=long double,x
+tk func.strtoimax.arg.1=char*,*endptr
+tk func.getprogname.ret=const char *
+tk func.strcpy.args=2
+tk func.towctrans.arg.0=wint_t,wc
+tk func.towctrans.arg.1=wctrans_t,desc
+tk func.islower.args=1
+tk func.wcstoumax.ret=uintmax_t
+tk func.getprogname.args=0
+tk func.maskrune.arg.1=unsigned long,f
+tk func.wmemset.ret=wchar_t*
+tk func.wmemcpy.arg.1=const wchar_t,*s2
+tk func.memmove.args=3
+tk func.nexttowardl.ret=long double
+tk lrint=func
+tk func.copysignf.ret=float
+tk func.maskrune.arg.0=uint32_t,c
+tk func.wmemcpy.arg.0=wchar_t,*s1
+tk memcpy=func
+tk func.wmemcpy.arg.2=size_t,n
+tk func.fgetc.ret=int
+tk calloc=func
+tk func.write.arg.0=int,fd
+tk func.fgetpos.arg.1=,fpos_t*
+tk isnormal=func
+tk func.floorl.ret=long double
+tk func.atexit.ret=int
+tk func.write.arg.1=void,*ptr
+tk func.fgetpos.arg.0=FILE,*stream
+tk func.write.arg.2=size_t,nbytes
+tk func.fopen.args=2
+tk func.ctime.ret=char*
+tk abort=func
+tk snprintf=func
+tk srand=func
+tk func.scalbnf.ret=float
+tk func.__libc_init.arg.0=int,argc
+tk func.__libc_init.arg.1=char **,argv
+tk func.btowc.args=1
+tk func.__libc_init.arg.2=char **,envp
+tk wcsncmp=func
+tk func.expf.ret=float
+tk func.ceill.args=1
+tk func.log1p.arg.0=arithmetic,x
+tk func.vfscanf.args=3
+tk func.mktemp.args=1
+tk func.iswcntrl.args=1
+tk func.fileno.arg.0=FILE,*stream
+tk func.__libc_start_main.ret=int
+tk func.vscanf.ret=int
+tk func.qsort.args=4
+tk func.ilogbf.arg.0=float,x
+tk type.uint16_t=w
+tk func.round.ret=floating_point
+tk func.isfinite.ret=bool
+tk func.fgets.ret=char *
+tk func.system.ret=int
+tk func.fdim.ret=floating_point
+tk func.rewind.args=1
+tk mbrlen=func
+tk nextafterf=func
+tk func.exp2f.ret=float
+tk func.sinhl.arg.0=long double,x
+tk func.read.arg.2=size_t,nbyte
+tk rintf=func
+tk func.hypot.ret=floating_point
+tk func.asinf.arg.0=float,x
+tk func.read.arg.1=void,*buf
+tk func.read.arg.0=int,fildes
+tk func.strspn.args=2
+tk func.exp2f.args=1
+tk func.strrchr.ret=char*
+tk func.scalbnf.arg.0=float,x
+tk func.strndup.args=2
+tk func.scalbnf.arg.1=int,ex
+tk llround=func
+tk func.fwrite.args=4
+tk rintl=func
+tk func.fopen.ret=file*
+tk nextafterl=func
+tk func.isinf.arg.0=arithmetic,x
+tk type.short.size=16
+tk func.strlcpy.ret=char *
+tk wcstoull=func
+tk func.strdup.ret=char *
+tk func.asin.ret=floating_point
+tk func.fesetenv.arg.0=const,fenv_t*
+tk func.hypotl.ret=long double
+tk func.erfc.args=1
+tk func.lrintl.arg.0=long double,x
+tk func.modf.arg.1=floating_point,*iptr
+tk wcsftime=func
+tk func.isnormal.ret=bool
+tk func.modf.arg.0=floating_point,value
+tk func.rewind.arg.0=FILE,*stream
+tk func.fpclassify.args=1
+tk func.getchar.args=0
+tk log2=func
+tk wcscat=func
+tk func.exp.ret=floating_point
+tk func.fetestexcept.args=1
+tk func.fegetexceptflag.arg.1=int,excepts
+tk func.memcpy.ret=void *
+tk func.fegetexceptflag.arg.0=fexcept_t,*flagp
+tk func.__libc_start_main.arg.6=void *,stack_end
+tk func.ldexpl.arg.0=long double,value
+tk func.ldexpl.arg.1=int,exp
+tk func.ldexp.args=2
+tk func.__libc_start_main.arg.4=func,fini
+tk func.getwc.ret=wint_t
+tk func.getenv.arg.0=const char *,name
+tk int16_t=type
+tk func.__libc_start_main.arg.5=func,rtld_fini
+tk func.warn.arg.0=const char *,format
+tk func.__libc_start_main.arg.2=char **,ubp_av
+tk strcoll=func
+tk func.fmaf.arg.1=float,y
+tk func.modf.args=2
+tk func.__libc_start_main.arg.3=func,init
+tk func.fmaf.arg.0=float,x
+tk func.__libc_start_main.arg.0=func,main
+tk func.vscanf.arg.0=const char *,format
+tk func.fflush.args=1
+tk func.powf.arg.1=float,y
+tk func.__libc_start_main.arg.1=int,argc
+tk func.vscanf.arg.1=,va_list
+tk func.iswblank.ret=int
+tk func.fmaf.arg.2=float,z
+tk func.powf.arg.0=float,x
+tk func.fgetpos.args=2
+tk feclearexcept=func
+tk func.fseek.args=3
+tk func.wcschr.args=2
+tk func.tan.ret=floating_point
+tk type.unsigned short.size=16
+tk __libc_init=func
+tk func.open.arg.1=int,oflag
+tk func.scanf.args=1
+tk func.getwchar.args=0
+tk func.scalbln.ret=floating_point
+tk func.open.arg.0=const char *,path
+tk func.iswdigit.args=1
+tk func.tgammal.ret=long double
+tk func.sinhl.ret=long double
+tk type.unsigned short=w
+tk func.mbrlen.arg.2=mbstate_t,*ps
+tk func.wcscat.ret=wchar_t*
+tk func.xmalloc.arg.0=size_t,size
+tk func.mbrlen.arg.1=size_t,n
+tk func.atol.args=1
+tk towupper=func
+tk func.mbrlen.arg.0=const char *,s
+tk func.atoll.arg.0=const char *,str
+tk func.textdomain.arg.0=char *,domainname
+tk func.humanize_number.ret=int
+tk func.fseek.arg.2=,int
+tk func.tanhf.ret=float
+tk func.fseek.arg.1=,long
+tk wmemchr=func
+tk func.wcsstr.args=2
+tk func.wcschr.arg.1=wchar_t,c
+tk func.copysign.ret=floating_point
+tk mktemp=func
+tk func.fseek.arg.0=FILE,*stream
+tk iswcntrl=func
+tk func.wcschr.arg.0=wchar_t,*s
+tk towctrans=func
+tk func.vfscanf.ret=int
+tk func.fdiml.ret=long double
+tk iswctype=func
+tk func.remainder.args=2
+tk remquo=func
+tk erf=func
+tk func.ldexp.arg.0=arithmetic,value
+tk strncpy=func
+tk func.lgammaf.ret=float
+tk func.ldexp.arg.1=int,exp
+tk func.imaxabs.ret=intmax_t
+tk func.abort.args=0
+tk func.iswblank.arg.0=wint_t,wc
+tk swprintf=func
+tk mktime=func
+tk mbsrtowcs=func
+tk func.sleep.ret=int
+tk func.nl_langinfo_l.args=2
+tk func.modf.ret=floating_point
+tk func.atan2.arg.1=arithmetic,x
+tk type.int8_t.size=8
+tk vsnprintf=func
+tk func.nan.ret=double
+tk func.atan2.arg.0=arithmetic,y
+tk func.wcsspn.arg.1=const wchar_t,*s2
+tk func.strtod.arg.1=char*,*endptr
+tk func.logf.ret=float
+tk func.wcsspn.arg.0=const wchar_t,*s1
+tk func.strtod.arg.0=const char *,str
+tk func.llrintf.args=1
+tk mkstemp=func
+tk iswalpha=func
+tk func.memcpy.arg.2=size_t,n
+tk func.llroundf.ret=long long
+tk func.sqrt.ret=floating_point
+tk func.nextafterf.ret=float
+tk func.expl.args=1
+tk func.wcsxfrm.ret=size_t
+tk func.memcpy.arg.0=void,*s1
+tk func.logb.ret=floating_point
+tk isnan=func
+tk func.ispunct.ret=int
+tk func.calloc.arg.1=size_t,size
+tk func.memcpy.arg.1=const void,*s2
+tk func.log1pf.args=1
+tk func.llrintf.ret=long long
+tk func.calloc.arg.0=size_t,nmeb
+tk func.fprintf.arg.0=FILE,*stream
+tk func.isupper.ret=int
+tk func.write.args=3
+tk func.fprintf.arg.1=const char *,format
+tk func.fprintf.arg.2= ,...
+tk func.mbrlen.ret=size_t
+tk func.atoll.ret=long long
+tk wcsxfrm=func
+tk func.vsscanf.ret=int
+tk func.*aligned_alloc.arg.1=size_t,size
+tk func.atof.ret=double
+tk func.localeconv.ret=lconv*
+tk func.*aligned_alloc.arg.0=size_t,alignment
+tk isfinite=func
+tk func.ctime.arg.0=const time_t,*timer
+tk func.wcscmp.arg.0=const wchar_t,*s1
+tk func.wcstod.arg.1=wchar_t*,*endptr
+tk wcspbrk=func
+tk func.wcscmp.arg.1=const wchar_t,*s2
+tk func.wcstod.arg.0=const wchar_t,*nptr
+tk func.floor.arg.0=arithmetic,x
+tk func.strncpy.ret=char *
+tk iswupper=func
+tk func.iswalnum.args=1
+tk func.tan.arg.0=arithmetic,x
+tk func.ftell.args=1
+tk func.feholdexcept.ret=int
+tk func.fegetround.args=0
+tk func.vfwprintf.args=3
+tk func.getopt.arg.0=int,argc
+tk func.setjmp.ret=int
+tk func.remquo.args=3
+tk func.getopt.arg.1=const char *,*argv
+tk func.getopt.arg.2=const char *,optstring
+tk getenv=func
+tk func.vprintf.arg.0=const char *,format
+tk func.strtof.ret=float
+tk func.vprintf.arg.1=,va_list
+tk func.nanl.args=1
+tk func.ilogbf.ret=int
+tk func.wcsspn.ret=size_t
+tk func.strtod.ret=double
+tk func.llroundl.args=1
+tk func.fflush.arg.0=FILE,*stream
+tk func.wmemchr.ret=wchar_t*
+tk func.wcscoll.ret=int
+tk func.symlink.arg.0=const char *,path1
+tk func.fdim.arg.1=arithmetic,y
+tk func.symlink.arg.1=const char *,path2
+tk func.fdim.arg.0=arithmetic,x
+tk func.strtoumax.ret=uintmax_t
+tk func.__libc_init.ret=void
+tk func.putwc.args=2
+tk func.fmal.args=3
+tk func.logbl.arg.0=long double,x
+tk func.ceil.ret=floating_point
+tk type.uint64_t=q
+tk func.putwc.ret=wint_t
+tk func.rint.args=1
+tk compat_mode=func
+tk func.nanf.ret=float
+tk func.fesetround.args=1
+tk func.wcstod.ret=double
+tk func.nearbyintl.args=1
+tk func.floor.ret=floating_point
+tk func.longjmp.args=2
+tk type.char *=z
+tk func.setbuf.arg.0=FILE,*stream
+tk func.setbuf.arg.1=,char*
+tk func.strdup.arg.0=const char,*src
+tk func.fmaxl.ret=long double
+tk func.expm1f.arg.0=float,x
+tk func.iswalpha.arg.0=wint_t,wc
+tk func.hypotl.args=2
+tk func.quick_exit.arg.0=int,status
+tk func.wcsrtombs.args=4
+tk func.log2.ret=floating_point
+tk func.atanh.args=1
+tk func.rint.arg.0=arithmetic,x
+tk func.lgammaf.args=1
+tk func.ldexpl.ret=long double
+tk func.imaxabs.args=1
+tk ftell=func
+tk func.towupper.args=1
+tk func.iswlower.args=1
+tk cosh=func
+tk func.iswupper.args=1
+tk func.ilogb.args=1
+tk func.wctype.ret=wctype_t
+tk func.fwscanf.args=2
+tk func.chmod.ret=int
+tk func.strncat.ret=char*
+tk tgamma=func
+tk cosl=func
+tk func.towlower.ret=wint_t
+tk wcrtomb=func
+tk func.fsetpos.arg.1=,const fpos_t*
+tk swscanf=func
+tk func.fsetpos.arg.0=FILE,*stream
+tk func.lrintl.ret=long
+tk func.cbrtl.arg.0=long double,x
+tk cosf=func
+tk toupper=func
+tk func.vprintf.args=2
+tk isupper=func
+tk strtoull=func
+tk realloc=func
+tk func.maskrune.ret=int
+tk func.wmemcpy.ret=wchar_t*
+tk func.fesetenv.args=1
+tk type.uid_t=i
+tk func.log2f.arg.0=float,x
+tk isgreaterequal=func
+tk func.isblank.arg.0=int,c
+tk func.fmax.arg.1=arithmetic,y
+tk func.acoshl.ret=long double
+tk func.fabsl.ret=long double
+tk func.atan.ret=floating_point
+tk func.fmax.arg.0=arithmetic,x
+tk func.atexit.arg.0=func,function
+tk func.vsnprintf.ret=int
+tk func.textdomain.ret=char *
+tk logbf=func
+tk func.erfcf.arg.0=float,x
+tk wmemmove=func
+tk func.strpbrk.ret=char*
+tk func.copysign.arg.1=arithmetic,y
+tk func.copysign.arg.0=arithmetic,x
+tk func.sin.args=1
+tk func.abs.ret=long long
+tk func.iswpunct.ret=int
+tk wmemcmp=func
+tk func.sinl.arg.0=long double,x
+tk func.tolower.arg.0=int,c
+tk func.wcsrtombs.ret=size_t
+tk func.atanh.ret=floating_point
+tk sleep=func
+tk func.isless.ret=bool
+tk fpclassify=func
+tk func.tanh.ret=floating_point
+tk isalpha=func
+tk func.at_quick_exit.args=0
+tk func.atanhf.ret=float
+tk func.wcstoumax.arg.0=const,wchar_t*
+tk func.wcstoumax.arg.1=wchar_t*,*endptr
+tk func.atanl.ret=long double
+tk func.wcstoumax.arg.2=int,base
+tk logbl=func
+tk func.tanl.ret=long double
+tk func.feholdexcept.args=1
+tk func.wcstombs.arg.1=const wchar_t,*pwcs
+tk func.modfl.args=2
+tk frexpl=func
+tk func.expl.arg.0=long double,x
+tk func.wcslen.arg.0=const wchar_t,*s
+tk func.wcstombs.arg.0=char,*s
+tk func.isalpha.args=1
+tk ctime=func
+tk func.wcstombs.arg.2=size_t,n
+tk func.system.arg.0=const char *,string
+tk unsigned char=type
+tk func.wcsxfrm.arg.2=size_t,n
+tk func.wcsxfrm.arg.1=const wchar_t,*s2
+tk func.wcsxfrm.arg.0=wchar_t,*s1
+tk func.logb.arg.0=arithmetic,x
+tk func.ispunct.arg.0=int,c
+tk func.putchar.arg.0=int,c
+tk longjmp=func
+tk scalbln=func
+tk func.llroundf.args=1
+tk func.sqrt.args=1
+tk iscntrl=func
+tk func.sqrtl.arg.0=long double,x
+tk func.fegetenv.arg.0=fenv_t,*envp
+tk func.remove.args=1
+tk frexpf=func
+tk func.nl_langinfo_l.ret=char *
+tk func.wcslen.args=1
+tk func.wcstombs.args=3
+tk func.ldexp.ret=floating_point
+tk unlink=func
+tk func.towlower.arg.0=wint_t,wc
+tk strcspn=func
+tk func.llround.args=1
+tk strndup=func
+# macros
+# seek
+s 0x00009333
