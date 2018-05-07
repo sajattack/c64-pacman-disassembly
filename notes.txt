@@ -1,8 +1,17 @@
 # Binary information
 
+blksz    0x0
+block    0x100
+fd       3
+file     /home/paul/c64/pac-man.crt
+format   any
+iorw     false
+mode     r-x
+size     0x2050
+humansz  8K
 
 [Entrypoints]
-0x8394
 
+0 entrypoints
 
 

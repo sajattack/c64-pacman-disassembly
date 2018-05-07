@@ -734,7 +734,7 @@ f fcn.copy_some_rom_data_to_0x87_x 18 0x00008e72
 "e scr.atport = false"
 "e scr.breaklines = false"
 "e scr.breakword = "
-"e scr.color = 1"
+"e scr.color = 3"
 "e scr.color.bytes = true"
 "e scr.color.grep = false"
 "e scr.color.ops = true"
@@ -4504,4 +4504,4 @@ tk unlink=func
 tk strndup=func
 # macros
 # seek
-s 0x00009333
+s 0x000086a5
